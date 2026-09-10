@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "resume rejected before Pi",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "new job active",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:55.094Z",
+  "competencies": {
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.62,
+      "baseConfidence": 0.05309830694821527,
+      "freshness": 0.9999999987966195,
+      "effectiveConfidence": 0.0530983068843178,
+      "status": "unknown",
+      "evidenceMass": 0.1364,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.067Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.7962376237623762,
+      "baseConfidence": 0.2961163933955554,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.29611639338235757,
+      "status": "current",
+      "evidenceMass": 0.8888,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:55.093Z",
+      "strengths": [
+        "Explains happens-before and visibility correctly",
+        "Diagnoses bounded thread-pool saturation and backpressure tradeoffs"
+      ],
+      "weaknesses": [
+        "Cancellation/interruption edge cases are less precise"
+      ],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

@@ -1,0 +1,60 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_67fd350e-050b-420b-97d5-1509462dd626",
+      "evaluationId": "eval_046f9766-616f-4ddf-a790-b2604a9460ac",
+      "timestamp": "2026-09-10T02:37:55.264Z",
+      "source": "tutor",
+      "evidenceStrength": 0.6,
+      "confidence": 0.86,
+      "taskId": "task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2",
+      "summary": "After instruction, the learner independently restated the rule and solved a new visibility scenario.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:mysql.mvcc",
+      "target": {
+        "type": "competency",
+        "competencyId": "mysql.mvcc"
+      },
+      "masterySignal": 0.76,
+      "strengths": [
+        "Correctly contrasts RC and RR Read View lifetime",
+        "Correctly reasons about snapshot visibility after another transaction commits"
+      ],
+      "weaknesses": [],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2-turn-2",
+        "task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2-turn-4",
+        "task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2-turn-6"
+      ]
+    }
+  ],
+  "evaluation": {
+    "observations": [
+      {
+        "competencyId": "mysql.mvcc",
+        "masterySignal": 0.76,
+        "evidenceStrength": 0.6,
+        "confidence": 0.86,
+        "strengths": [
+          "Correctly contrasts RC and RR Read View lifetime",
+          "Correctly reasons about snapshot visibility after another transaction commits"
+        ],
+        "weaknesses": [],
+        "misconceptions": [],
+        "summary": "After instruction, the learner independently restated the rule and solved a new visibility scenario."
+      }
+    ],
+    "learningSummary": "Focused on Read View creation timing, active transaction boundaries, undo version chains, and snapshot visibility.",
+    "reviewQuestions": [
+      "When is a Read View created under RC versus RR?",
+      "Why can a committed version remain invisible to an RR snapshot read?"
+    ]
+  },
+  "learningArtifact": "artifacts/learning/task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2.md"
+}

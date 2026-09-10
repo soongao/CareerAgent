@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "zero observations from rejection",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "job rejected",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "active job cleared",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "competency evidence unchanged",
+      "ok": true,
+      "details": {
+        "note": "freshness may change by elapsed wall-clock time during deterministic rebuild"
+      }
+    }
+  ]
+}

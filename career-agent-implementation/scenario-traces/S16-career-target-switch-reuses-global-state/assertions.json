@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "active mode career",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "old backend state retained",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "ai self-report retained",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "same global model not reset",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "readiness lens is ai target",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

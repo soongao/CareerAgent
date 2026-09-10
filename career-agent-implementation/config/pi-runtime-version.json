@@ -1,0 +1,6 @@
+{
+  "package": "@earendil-works/pi-coding-agent",
+  "testedVersion": "0.85.1",
+  "repository": "https://github.com/earendil-works/pi.git",
+  "strategy": "adapter + built-in-tool-first + extension-first"
+}

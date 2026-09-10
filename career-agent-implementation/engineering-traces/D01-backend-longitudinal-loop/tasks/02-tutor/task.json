@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "task_cf8c855d-4635-4e5f-8022-52276fd1f732",
+  "type": "tutor",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:40.509Z",
+  "updatedAt": "2026-09-10T02:37:40.516Z",
+  "input": {
+    "competencyIds": [
+      "java.concurrency"
+    ],
+    "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a",
+    "learningGoal": "Improve the specific memory-model and executor reasoning gaps identified by assessment.",
+    "review": false
+  },
+  "localState": {
+    "objectives": [
+      "java.concurrency"
+    ],
+    "coveredTopics": []
+  },
+  "transcriptPath": "tasks/task_cf8c855d-4635-4e5f-8022-52276fd1f732/transcript.jsonl",
+  "contextSnapshotPath": "tasks/task_cf8c855d-4635-4e5f-8022-52276fd1f732/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_18284724-b379-4224-90dd-ae943f9ee593",
+    "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a",
+    "resumeVersion": "resumev_5413acfd-7a41-4989-8fef-dde1ebd33115"
+  },
+  "resultPath": "tasks/task_cf8c855d-4635-4e5f-8022-52276fd1f732/result.json"
+}

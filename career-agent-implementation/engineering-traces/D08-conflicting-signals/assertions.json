@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "mvcc stays strong",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "competencyId": "mysql.mvcc",
+        "mastery": 0.831372334609076,
+        "baseConfidence": 0.44200061479266856,
+        "freshness": 0.9999999999554303,
+        "effectiveConfidence": 0.4420006147729687,
+        "status": "current",
+        "evidenceMass": 1.4632,
+        "observationCount": 2,
+        "lastObservedAt": "2026-09-10T02:37:41.215Z",
+        "strengths": [
+          "Precise MVCC visibility reasoning",
+          "Technically correct"
+        ],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      }
+    },
+    {
+      "name": "clarity weak separately",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "dimension": "clarity",
+        "value": 0.38,
+        "baseConfidence": 0.2659073263802496,
+        "freshness": 0.9999999999554303,
+        "effectiveConfidence": 0.2659073263683982,
+        "status": "current",
+        "evidenceMass": 0.7728,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:41.215Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "decision_090f1c04-0d7f-427e-969b-a78e223e0688",
+  "action": "MOCK_INTERVIEW",
+  "target": {
+    "targetJobId": "job_9d36d778-d821-468e-b53c-5d9a23cc1c0f"
+  },
+  "reason": "The interview is imminent and multiple important areas remain uncertain; a full mock provides broad, time-efficient signal and rehearsal.",
+  "expectedOutcome": "Expose the highest-value technical and delivery blockers before the real interview.",
+  "priority": "high",
+  "alternative": {
+    "action": "ASSESS",
+    "reason": "If time permits, assess Java concurrency separately."
+  },
+  "generatedAt": "2026-09-10T02:37:55.035Z",
+  "model": "GPT-5.6 Sol",
+  "promptVersion": "next-action-v1"
+}

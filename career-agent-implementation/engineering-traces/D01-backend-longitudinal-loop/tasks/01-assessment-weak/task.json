@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "task_f85910ce-f52d-44c0-b1e9-4c23745e51c7",
+  "type": "assessment",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:40.478Z",
+  "updatedAt": "2026-09-10T02:37:40.486Z",
+  "input": {
+    "competencyId": "java.concurrency",
+    "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+  },
+  "localState": {
+    "coveredAreas": [],
+    "probeCount": 0,
+    "measurementStatus": "clean"
+  },
+  "transcriptPath": "tasks/task_f85910ce-f52d-44c0-b1e9-4c23745e51c7/transcript.jsonl",
+  "contextSnapshotPath": "tasks/task_f85910ce-f52d-44c0-b1e9-4c23745e51c7/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_18284724-b379-4224-90dd-ae943f9ee593",
+    "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a",
+    "resumeVersion": "resumev_5413acfd-7a41-4989-8fef-dde1ebd33115"
+  },
+  "resultPath": "tasks/task_f85910ce-f52d-44c0-b1e9-4c23745e51c7/result.json"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "career_6455be03-730d-4016-8e8c-05c6b1dc8e72",
+    "name": "Backend Engineer",
+    "createdAt": "2026-09-10T02:37:55.701Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "career_661541db-3926-4573-883c-3995b7be4862",
+    "name": "AI Agent Engineer",
+    "description": "Transition toward agent engineering.",
+    "createdAt": "2026-09-10T02:37:55.710Z"
+  }
+]

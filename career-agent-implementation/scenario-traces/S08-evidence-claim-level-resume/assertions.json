@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "metric claim exists",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "evidence entity supported",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "metric claim only partial",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "draft removes 40 percent",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

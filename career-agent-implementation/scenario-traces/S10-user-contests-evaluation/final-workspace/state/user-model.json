@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:55.515Z",
+  "competencies": {
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.62,
+      "baseConfidence": 0.05309830694821527,
+      "freshness": 0.9999999988857587,
+      "effectiveConfidence": 0.05309830688905094,
+      "status": "unknown",
+      "evidenceMass": 0.1364,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.490Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.58,
+      "baseConfidence": 0.03458768551486413,
+      "freshness": 0.9999999988857587,
+      "effectiveConfidence": 0.034587685476325104,
+      "status": "unknown",
+      "evidenceMass": 0.08800000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.490Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

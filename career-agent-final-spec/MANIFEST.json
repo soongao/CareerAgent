@@ -1,0 +1,30 @@
+{
+  "name": "career-agent-final-spec",
+  "status": "final-canonical-baseline",
+  "documents": [
+    "00-master-spec.md",
+    "01-product-domain-spec.md",
+    "02-system-architecture.md",
+    "03-state-data-model.md",
+    "04-readiness-workflow-decision.md",
+    "05-task-agents-evaluators.md",
+    "06-memory-context-persistence.md",
+    "07-competency-role-retrieval.md",
+    "08-evidence-resume-outcome.md",
+    "09-product-experience.md",
+    "10-pi-runtime-tooling.md",
+    "11-implementation-architecture.md",
+    "12-contracts-events-file-layout.md",
+    "13-prompt-model-governance.md",
+    "14-security-trust-privacy.md",
+    "15-eval-testing-observability.md",
+    "16-golden-journeys-acceptance.md",
+    "17-operations-recovery-migrations.md",
+    "18-roadmap-scope-release.md",
+    "19-adr-invariants.md",
+    "20-sources.md",
+    "ARCHITECTURE.md",
+    "README.md"
+  ],
+  "supersedes": "career-agent-design incremental documents 00-18"
+}

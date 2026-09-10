@@ -1,0 +1,60 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_74f28753-6551-492c-86ff-a1f20f9bddfc",
+      "evaluationId": "eval_13472852-1dea-4b25-a8bd-b413e15c4333",
+      "timestamp": "2026-09-10T02:37:40.495Z",
+      "source": "assessment",
+      "evidenceStrength": 0.9,
+      "confidence": 0.91,
+      "taskId": "task_f85910ce-f52d-44c0-b1e9-4c23745e51c7",
+      "summary": "Multiple non-trivial probes consistently expose concurrency-model gaps; the transcript is clean and diagnostic.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.43,
+      "strengths": [
+        "Recognizes thread-pool saturation symptoms"
+      ],
+      "weaknesses": [
+        "Cannot reason cleanly about happens-before and visibility",
+        "Confuses queueing with execution concurrency"
+      ],
+      "misconceptions": [
+        "Treats volatile as making compound updates atomic"
+      ],
+      "evidenceRefs": [
+        "msg_4a599bd0-122c-4395-bb71-4ff730980042",
+        "msg_f8f3030b-006f-4899-b222-19bb6e2fec8b",
+        "msg_7fed67c2-cffa-4a1b-9065-a458c9e52000"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "java.concurrency",
+    "masterySignal": 0.43,
+    "evidenceStrength": 0.9,
+    "confidence": 0.91,
+    "strengths": [
+      "Recognizes thread-pool saturation symptoms"
+    ],
+    "weaknesses": [
+      "Cannot reason cleanly about happens-before and visibility",
+      "Confuses queueing with execution concurrency"
+    ],
+    "misconceptions": [
+      "Treats volatile as making compound updates atomic"
+    ],
+    "rationale": "Multiple non-trivial probes consistently expose concurrency-model gaps; the transcript is clean and diagnostic."
+  }
+}

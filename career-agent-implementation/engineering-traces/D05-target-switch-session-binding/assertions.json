@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "resume rejected after target switch",
+      "ok": true,
+      "details": {
+        "error": "Paused task is no longer eligible because active target changed; create a new task."
+      }
+    },
+    {
+      "name": "global user model retained",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

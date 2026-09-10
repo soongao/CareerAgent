@@ -1,0 +1,13 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+    "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+    "title": "AI Agent Engineer",
+    "company": "AgentWorks",
+    "jdText": "AI Agent Engineer. Build production agent workflows, tool calling, context engineering, evaluation, reliability, and human-in-the-loop systems. Strong software engineering required.",
+    "status": "preparing",
+    "createdAt": "2026-09-10T02:37:40.635Z",
+    "updatedAt": "2026-09-10T02:37:40.635Z"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "version": "v1",
+  "maxRepeatedNoProgress": 2,
+  "interactiveActions": ["ASSESS", "LEARN", "REVIEW", "MOCK_INTERVIEW"],
+  "resumeMutationRequiresConfirmation": true
+}

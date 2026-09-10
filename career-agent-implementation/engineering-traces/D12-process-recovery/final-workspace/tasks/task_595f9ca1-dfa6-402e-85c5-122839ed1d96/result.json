@@ -1,0 +1,57 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_3aefcbb6-6bc1-4ae2-8466-80ce990dac4f",
+      "evaluationId": "eval_37830015-13d3-4839-a326-47d5b0abfd43",
+      "timestamp": "2026-09-10T02:37:41.483Z",
+      "source": "tutor",
+      "evidenceStrength": 0.62,
+      "confidence": 0.87,
+      "taskId": "task_595f9ca1-dfa6-402e-85c5-122839ed1d96",
+      "summary": "Learner demonstrates continuity and applies cache consistency reasoning after session reconstruction.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:redis.cache-consistency",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.72,
+      "strengths": [
+        "Can reason about DB-success/cache-delete-failure after reconstruction"
+      ],
+      "weaknesses": [],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_da0fc161-f83e-43b8-b67e-d6dc25c4ca75",
+        "msg_55715166-fdf7-43bc-948b-d9fb21e7c318",
+        "msg_469780e4-978c-4b17-bae6-65cf457bc507"
+      ]
+    }
+  ],
+  "evaluation": {
+    "observations": [
+      {
+        "competencyId": "redis.cache-consistency",
+        "masterySignal": 0.72,
+        "evidenceStrength": 0.62,
+        "confidence": 0.87,
+        "strengths": [
+          "Can reason about DB-success/cache-delete-failure after reconstruction"
+        ],
+        "weaknesses": [],
+        "misconceptions": [],
+        "summary": "Learner demonstrates continuity and applies cache consistency reasoning after session reconstruction."
+      }
+    ],
+    "learningSummary": "Recovered Tutor session and continued Redis consistency practice from persisted transcript.",
+    "reviewQuestions": [
+      "Why is TTL a safety net rather than the primary consistency mechanism?"
+    ]
+  },
+  "learningArtifact": "artifacts/learning/task_595f9ca1-dfa6-402e-85c5-122839ed1d96.md"
+}

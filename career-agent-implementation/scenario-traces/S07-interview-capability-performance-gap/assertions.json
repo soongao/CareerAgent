@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "java remains strong",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "clarity weak",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "readiness has interview blocker",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "next action interview",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "interview produced separate dimensions",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

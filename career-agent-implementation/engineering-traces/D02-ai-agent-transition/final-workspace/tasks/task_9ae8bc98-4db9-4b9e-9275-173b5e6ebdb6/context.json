@@ -1,0 +1,69 @@
+{
+  "type": "assessment",
+  "input": {
+    "competencyId": "ai-agent.evaluation",
+    "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+  },
+  "target": {
+    "career": {
+      "schemaVersion": 1,
+      "id": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "name": "AI Agent Engineer",
+      "description": "Transition from backend engineering to production Agent/AI application engineering.",
+      "createdAt": "2026-09-10T02:37:40.634Z"
+    },
+    "job": {
+      "schemaVersion": 1,
+      "id": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "title": "AI Agent Engineer",
+      "company": "AgentWorks",
+      "jdText": "AI Agent Engineer. Build production agent workflows, tool calling, context engineering, evaluation, reliability, and human-in-the-loop systems. Strong software engineering required.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.635Z",
+      "updatedAt": "2026-09-10T02:37:40.635Z"
+    }
+  },
+  "competencyState": {
+    "ai-agent.evaluation": {
+      "schemaVersion": 1,
+      "competencyId": "ai-agent.evaluation",
+      "mastery": 0.3,
+      "baseConfidence": 0.061995000469270534,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.06199500046098125,
+      "status": "unknown",
+      "evidenceMass": 0.16000000000000003,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.638Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "recentObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_a641c867-6fc7-4809-87ba-57bb5668bed7",
+      "evaluationId": "eval_32864ae4-4ff1-430b-9c48-14defa98d5bb",
+      "semanticKey": "competency:ai-agent.evaluation",
+      "timestamp": "2026-09-10T02:37:40.638Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.3,
+      "evidenceStrength": 0.2,
+      "confidence": 0.8,
+      "summary": "The resume explicitly states no formal agent evaluation suite has been built.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    }
+  ],
+  "preferences": {}
+}

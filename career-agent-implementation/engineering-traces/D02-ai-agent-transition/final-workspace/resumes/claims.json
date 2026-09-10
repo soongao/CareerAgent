@@ -1,0 +1,26 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "claim_3099b730-c6cd-49cd-9ef1-8751a55461b1",
+    "text": "Built schema-driven LLM tool calls",
+    "section": "Projects",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:40.637Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "claim_29969a29-abf0-4db6-afd2-6f43c5f873ff",
+    "text": "Used local conversation memory",
+    "section": "Projects",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:40.637Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "claim_77417038-357a-45b1-83a5-7d62a39f8aa8",
+    "text": "No formal agent evaluation suite yet",
+    "section": "Projects",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:40.637Z"
+  }
+]

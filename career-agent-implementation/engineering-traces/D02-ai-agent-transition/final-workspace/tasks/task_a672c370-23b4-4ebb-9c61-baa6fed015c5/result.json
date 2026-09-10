@@ -1,0 +1,160 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_4728d571-9e88-4ded-bb12-f0102b932c98",
+      "evaluationId": "eval_ef067655-0599-4925-b436-8e21a176db89",
+      "timestamp": "2026-09-10T02:37:40.734Z",
+      "source": "interview",
+      "evidenceStrength": 0.78,
+      "confidence": 0.91,
+      "taskId": "task_a672c370-23b4-4ebb-9c61-baa6fed015c5",
+      "summary": "Explains layered evals, independent judging, replay and invariants with concrete failure modes.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "competency:ai-agent.evaluation",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.8,
+      "strengths": [
+        "Names self-consistent failure risk",
+        "Separates semantic and deterministic validation"
+      ],
+      "weaknesses": [
+        "Could discuss statistical calibration more"
+      ],
+      "misconceptions": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_5571fe7e-c8e8-416a-bc19-b386c31e9d27",
+      "evaluationId": "eval_ef067655-0599-4925-b436-8e21a176db89",
+      "timestamp": "2026-09-10T02:37:40.734Z",
+      "source": "interview",
+      "evidenceStrength": 0.67,
+      "confidence": 0.86,
+      "taskId": "task_a672c370-23b4-4ebb-9c61-baa6fed015c5",
+      "summary": "Good reasoning on curated context plus on-demand retrieval.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "competency:ai-agent.context-engineering",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.context-engineering"
+      },
+      "masterySignal": 0.7,
+      "strengths": [
+        "Avoids loading entire long-term memory"
+      ],
+      "weaknesses": [
+        "Compaction policy remains heuristic"
+      ],
+      "misconceptions": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_ebbc79ee-2dcd-44ef-ab99-fe43b7efe9f9",
+      "evaluationId": "eval_ef067655-0599-4925-b436-8e21a176db89",
+      "timestamp": "2026-09-10T02:37:40.734Z",
+      "source": "interview",
+      "evidenceStrength": 0.73,
+      "confidence": 0.88,
+      "taskId": "task_a672c370-23b4-4ebb-9c61-baa6fed015c5",
+      "summary": "Generally structured explanations.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:clarity",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "clarity"
+      },
+      "signal": 0.77
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_73b1c45c-dca8-43f7-8b48-0f0759d44f37",
+      "evaluationId": "eval_ef067655-0599-4925-b436-8e21a176db89",
+      "timestamp": "2026-09-10T02:37:40.734Z",
+      "source": "interview",
+      "evidenceStrength": 0.74,
+      "confidence": 0.89,
+      "taskId": "task_a672c370-23b4-4ebb-9c61-baa6fed015c5",
+      "summary": "Can defend architectural trade-offs with failure examples.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:depth",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "depth"
+      },
+      "signal": 0.79
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "competencyObservations": [
+      {
+        "competencyId": "ai-agent.evaluation",
+        "masterySignal": 0.8,
+        "evidenceStrength": 0.78,
+        "confidence": 0.91,
+        "summary": "Explains layered evals, independent judging, replay and invariants with concrete failure modes.",
+        "strengths": [
+          "Names self-consistent failure risk",
+          "Separates semantic and deterministic validation"
+        ],
+        "weaknesses": [
+          "Could discuss statistical calibration more"
+        ],
+        "misconceptions": []
+      },
+      {
+        "competencyId": "ai-agent.context-engineering",
+        "masterySignal": 0.7,
+        "evidenceStrength": 0.67,
+        "confidence": 0.86,
+        "summary": "Good reasoning on curated context plus on-demand retrieval.",
+        "strengths": [
+          "Avoids loading entire long-term memory"
+        ],
+        "weaknesses": [
+          "Compaction policy remains heuristic"
+        ],
+        "misconceptions": []
+      }
+    ],
+    "interviewObservations": [
+      {
+        "dimension": "clarity",
+        "signal": 0.77,
+        "evidenceStrength": 0.73,
+        "confidence": 0.88,
+        "summary": "Generally structured explanations."
+      },
+      {
+        "dimension": "depth",
+        "signal": 0.79,
+        "evidenceStrength": 0.74,
+        "confidence": 0.89,
+        "summary": "Can defend architectural trade-offs with failure examples."
+      }
+    ],
+    "claimFindings": [],
+    "overallFeedback": "Strong transition narrative; evaluation and context design are credible, with remaining depth around statistical calibration and production metrics."
+  },
+  "claimSupport": []
+}

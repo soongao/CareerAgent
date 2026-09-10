@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "task_a672c370-23b4-4ebb-9c61-baa6fed015c5",
+  "type": "interview",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:40.718Z",
+  "updatedAt": "2026-09-10T02:37:40.726Z",
+  "input": {
+    "mode": "full_mock",
+    "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+  },
+  "localState": {
+    "coveredTopics": [],
+    "mode": "full_mock",
+    "feedbackRequested": false,
+    "measurementStatus": "clean"
+  },
+  "transcriptPath": "tasks/task_a672c370-23b4-4ebb-9c61-baa6fed015c5/transcript.jsonl",
+  "contextSnapshotPath": "tasks/task_a672c370-23b4-4ebb-9c61-baa6fed015c5/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+    "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+    "resumeVersion": "resumev_44b6aa7a-51a5-4ae6-ba64-cc7ec9c9e6d3"
+  },
+  "resultPath": "tasks/task_a672c370-23b4-4ebb-9c61-baa6fed015c5/result.json"
+}

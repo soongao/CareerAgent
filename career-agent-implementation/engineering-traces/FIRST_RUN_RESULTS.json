@@ -1,0 +1,13 @@
+{
+  "campaign": "engineering-long-form-v1",
+  "firstRun": {
+    "passed": 9,
+    "failed": 3,
+    "failures": [
+      {"scenario":"D03-evidence-resume-truthfulness","category":"trace_harness","summary":"workspace root was read from a non-public/undefined property"},
+      {"scenario":"D06-real-interview-outcome-loop","category":"scenario_domain_model","summary":"test attempted illegal target transition preparing -> rejected"},
+      {"scenario":"D12-process-recovery","category":"agent_runtime_trace_model","summary":"reconstruction consumed hidden provider turns not counted by visible transcript"}
+    ]
+  },
+  "finalRun": {"passed":12,"failed":0}
+}

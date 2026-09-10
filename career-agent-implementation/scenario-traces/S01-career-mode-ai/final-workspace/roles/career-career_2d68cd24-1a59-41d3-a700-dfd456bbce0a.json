@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "role_7a20fe94-9bda-4cc0-b41f-f63d010efd37",
+  "scope": "career",
+  "scopeId": "career_2d68cd24-1a59-41d3-a700-dfd456bbce0a",
+  "catalogVersion": "v1",
+  "generatedAt": "2026-09-10T02:37:54.972Z",
+  "requirements": [
+    {
+      "competencyId": "ai-agent.tool-calling",
+      "importance": 0.9,
+      "requiredMastery": 0.78,
+      "authority": "canonical",
+      "rationale": "Core capability for an AI Agent Engineer."
+    },
+    {
+      "competencyId": "ai-agent.context-engineering",
+      "importance": 0.88,
+      "requiredMastery": 0.76,
+      "authority": "canonical",
+      "rationale": "Persistent/context-aware agent work requires context engineering."
+    },
+    {
+      "competencyId": "ai-agent.evaluation",
+      "importance": 0.84,
+      "requiredMastery": 0.72,
+      "authority": "canonical",
+      "rationale": "Agent eval and trajectory verification are expected engineering capabilities."
+    }
+  ]
+}

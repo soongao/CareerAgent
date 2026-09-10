@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "mvcc now current",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "mvcc mastery weak",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "misconception preserved",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "learning selected",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

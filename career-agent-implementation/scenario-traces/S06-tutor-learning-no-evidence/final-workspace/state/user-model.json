@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:55.266Z",
+  "competencies": {
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.62,
+      "baseConfidence": 0.05309830694821527,
+      "freshness": 0.9999999993314552,
+      "effectiveConfidence": 0.05309830691271667,
+      "status": "unknown",
+      "evidenceMass": 0.1364,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.250Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.58,
+      "baseConfidence": 0.03458768551486413,
+      "freshness": 0.9999999992868857,
+      "effectiveConfidence": 0.03458768549019916,
+      "status": "unknown",
+      "evidenceMass": 0.08800000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.250Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "mysql.mvcc": {
+      "schemaVersion": 1,
+      "competencyId": "mysql.mvcc",
+      "mastery": 0.76,
+      "baseConfidence": 0.1864923918496264,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.18649239183300262,
+      "status": "current",
+      "evidenceMass": 0.516,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.264Z",
+      "strengths": [
+        "Correctly contrasts RC and RR Read View lifetime",
+        "Correctly reasons about snapshot visibility after another transaction commits"
+      ],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

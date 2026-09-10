@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "task_3d0f9ef4-6b50-43cd-8dee-70c892bb9174",
+  "type": "assessment",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:40.874Z",
+  "updatedAt": "2026-09-10T02:37:40.888Z",
+  "input": {
+    "competencyId": "mysql.mvcc",
+    "targetJobId": "job_a9bb9d8c-26c6-4a48-b3e2-07bb0f5bc4fc"
+  },
+  "localState": {
+    "coveredAreas": [],
+    "probeCount": 0,
+    "measurementStatus": "contaminated"
+  },
+  "transcriptPath": "tasks/task_3d0f9ef4-6b50-43cd-8dee-70c892bb9174/transcript.jsonl",
+  "contextSnapshotPath": "tasks/task_3d0f9ef4-6b50-43cd-8dee-70c892bb9174/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_75b42b51-9c47-4963-9ce8-dea69414bd5f",
+    "targetJobId": "job_a9bb9d8c-26c6-4a48-b3e2-07bb0f5bc4fc",
+    "resumeVersion": "resumev_8d97415d-90d8-4bee-9cef-78a96ad34bf8"
+  },
+  "resultPath": "tasks/task_3d0f9ef4-6b50-43cd-8dee-70c892bb9174/result.json"
+}

@@ -1,0 +1,48 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_c9c1c16e-928f-4bfe-98b2-da381bbecaf4",
+      "evaluationId": "eval_d285954d-5372-4df4-a673-b08c1143d288",
+      "timestamp": "2026-09-10T02:37:55.312Z",
+      "source": "assessment",
+      "evidenceStrength": 0.9,
+      "confidence": 0.92,
+      "taskId": "task_99578873-5697-4668-a326-04d6395a34be",
+      "summary": "Strong independent assessment evidence.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.84,
+      "strengths": [
+        "Strong concurrency reasoning"
+      ],
+      "weaknesses": [],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "task_99578873-5697-4668-a326-04d6395a34be-turn-2"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "java.concurrency",
+    "masterySignal": 0.84,
+    "evidenceStrength": 0.9,
+    "confidence": 0.92,
+    "strengths": [
+      "Strong concurrency reasoning"
+    ],
+    "weaknesses": [],
+    "misconceptions": [],
+    "rationale": "Strong independent assessment evidence."
+  }
+}

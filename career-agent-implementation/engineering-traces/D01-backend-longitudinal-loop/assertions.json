@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "final decision focuses redis",
+      "ok": true,
+      "details": {
+        "decision": {
+          "schemaVersion": 1,
+          "id": "decision_286a1895-fe21-4d71-af3e-e8d6f178db2e",
+          "action": "LEARN",
+          "target": {
+            "competencyIds": [
+              "redis.cache-consistency"
+            ],
+            "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+          },
+          "reason": "The mock interview surfaced an attributable Redis consistency gap while Java concurrency stayed strong.",
+          "expectedOutcome": "Close the concrete consistency/failure-mode gap before spending more cycles on already-validated Java.",
+          "priority": "high",
+          "generatedAt": "2026-09-10T02:37:40.596Z",
+          "model": "GPT-5.6 Sol",
+          "promptVersion": "next-action-v1"
+        }
+      }
+    },
+    {
+      "name": "java improved above initial",
+      "ok": true,
+      "details": {
+        "state": {
+          "schemaVersion": 1,
+          "competencyId": "java.concurrency",
+          "mastery": 0.6995223218784642,
+          "baseConfidence": 0.654414021236654,
+          "freshness": 0.9999999998662911,
+          "effectiveConfidence": 0.654414021149153,
+          "status": "current",
+          "evidenceMass": 2.9769,
+          "observationCount": 5,
+          "lastObservedAt": "2026-09-10T02:37:40.583Z",
+          "strengths": [
+            "Recognizes thread-pool saturation symptoms",
+            "Correctly separates visibility from atomicity",
+            "Can explain happens-before with volatile publication",
+            "Can reason about bounded queues and rejection",
+            "Explains happens-before precisely",
+            "Separates atomicity, visibility and ordering",
+            "Diagnoses executor saturation using queue and worker signals",
+            "Explains bounded-queue tradeoffs"
+          ],
+          "weaknesses": [
+            "Cannot reason cleanly about happens-before and visibility",
+            "Confuses queueing with execution concurrency",
+            "Still slower on compound interleavings",
+            "Minor hesitation on lock-free ABA edge cases"
+          ],
+          "misconceptions": [
+            "Treats volatile as making compound updates atomic"
+          ],
+          "aggregatorVersion": "v1"
+        }
+      }
+    },
+    {
+      "name": "interview clarity tracked separately",
+      "ok": true,
+      "details": {
+        "clarity": {
+          "schemaVersion": 1,
+          "dimension": "clarity",
+          "value": 0.58,
+          "baseConfidence": 0.23386738684302566,
+          "freshness": 0.9999999998662911,
+          "effectiveConfidence": 0.2338673868117555,
+          "status": "current",
+          "evidenceMass": 0.666,
+          "observationCount": 1,
+          "lastObservedAt": "2026-09-10T02:37:40.583Z"
+        }
+      }
+    }
+  ]
+}

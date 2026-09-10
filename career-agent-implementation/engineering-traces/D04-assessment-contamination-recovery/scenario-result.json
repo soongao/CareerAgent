@@ -1,0 +1,8 @@
+{
+  "id": "D04-assessment-contamination-recovery",
+  "title": "Assessment contamination is contained and recovered",
+  "description": "Tests failure containment and correct recovery path.",
+  "completedAt": "2026-09-10T02:37:40.951Z",
+  "model": "GPT-5.6 Sol",
+  "provenance": "Authored by GPT-5.6 Sol in the 2026-09-10 engineering trace campaign as the actual model response for this scenario, then replayed deterministically through application/runtime boundaries. Not a production fallback and not an expected-value fake."
+}

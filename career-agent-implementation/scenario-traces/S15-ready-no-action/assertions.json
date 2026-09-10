@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "readiness ready",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "no blockers",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "no action",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

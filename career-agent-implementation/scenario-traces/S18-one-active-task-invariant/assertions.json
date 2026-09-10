@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "blocked before Pi",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

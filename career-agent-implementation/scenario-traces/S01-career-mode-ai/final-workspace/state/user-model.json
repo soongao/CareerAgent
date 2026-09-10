@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:54.976Z",
+  "competencies": {
+    "ai-agent.tool-calling": {
+      "schemaVersion": 1,
+      "competencyId": "ai-agent.tool-calling",
+      "mastery": 0.66,
+      "baseConfidence": 0.062295114048386724,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.06229511404005731,
+      "status": "unknown",
+      "evidenceMass": 0.1608,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:54.973Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "ai-agent.context-engineering": {
+      "schemaVersion": 1,
+      "competencyId": "ai-agent.context-engineering",
+      "mastery": 0.52,
+      "baseConfidence": 0.038672368081841824,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.03867236807667098,
+      "status": "unknown",
+      "evidenceMass": 0.09860000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:54.973Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

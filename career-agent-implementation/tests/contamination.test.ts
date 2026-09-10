@@ -1,0 +1,9 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { createApp } from "../src/app.js";
+import { RecordedStructuredLLM } from "../src/infrastructure/llm/recorded-structured-llm.js";
+import { tempWorkspace } from "./helpers.js";
+import { newId, nowIso } from "../src/shared/utils.js";
+import type { TaskSession } from "../src/domain/types.js";
+
+test("independent evaluator blocks contaminated assessment even if task metadata says clean",async()=>{const entry:any={name:"assessment.evaluate",model:"GPT-5.6 Sol",provenance:"Current implementation session",capturedAt:nowIso(),output:{contaminated:true,useful:false,competencyId:"java.concurrency",masterySignal:0.9,evidenceStrength:0.9,confidence:0.9,strengths:[],weaknesses:[],misconceptions:[],rationale:"The agent disclosed the correct answer before a later probe, so the measurement is contaminated."}};const llm=new RecordedStructuredLLM([entry]);const root=await tempWorkspace();const app=await createApp({workspaceRoot:root,userId:"u",projectRoot:process.cwd(),llm});const id=newId("task");const task:TaskSession={schemaVersion:1,id,type:"assessment",status:"completed",createdAt:nowIso(),updatedAt:nowIso(),input:{competencyId:"java.concurrency"},localState:{coveredAreas:[],probeCount:2,measurementStatus:"clean"},transcriptPath:`tasks/${id}/transcript.jsonl`,contextSnapshotPath:`tasks/${id}/context.json`,contextBinding:{}};await app.ws.createTask(task,{});await app.ws.appendTranscript({schemaVersion:1,id:newId("msg"),ts:nowIso(),role:"assistant",content:"The correct answer is X. Now try a similar question.",taskId:id});await app.ws.appendTranscript({schemaVersion:1,id:newId("msg"),ts:nowIso(),role:"user",content:"X",taskId:id});await app.taskEvaluation.evaluate(id);assert.equal((await app.ws.getObservations()).length,0);});

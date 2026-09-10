@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "target job mode",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "time constraint exists",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "mock interview selected",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

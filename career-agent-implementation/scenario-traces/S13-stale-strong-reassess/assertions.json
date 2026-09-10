@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "mastery remains strong",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "state stale",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "readiness uncertainty blocker",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "not competency weak blocker",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "reassess recommended",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

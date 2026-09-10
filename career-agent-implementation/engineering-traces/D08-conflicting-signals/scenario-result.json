@@ -1,0 +1,8 @@
+{
+  "id": "D08-conflicting-signals",
+  "title": "Conflicting observations do not collapse distinct state",
+  "description": "Knowledge vs interview delivery separation.",
+  "completedAt": "2026-09-10T02:37:41.228Z",
+  "model": "GPT-5.6 Sol",
+  "provenance": "Authored by GPT-5.6 Sol in the 2026-09-10 engineering trace campaign as the actual model response for this scenario, then replayed deterministically through application/runtime boundaries. Not a production fallback and not an expected-value fake."
+}

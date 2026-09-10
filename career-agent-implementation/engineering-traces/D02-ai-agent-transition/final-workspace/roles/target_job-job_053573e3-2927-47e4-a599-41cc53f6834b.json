@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "role_239ef80e-6231-4529-947c-003553c7f787",
+  "scope": "target_job",
+  "scopeId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+  "catalogVersion": "v1",
+  "generatedAt": "2026-09-10T02:37:40.637Z",
+  "requirements": [
+    {
+      "competencyId": "ai-agent.tool-calling",
+      "importance": 0.94,
+      "requiredMastery": 0.8,
+      "authority": "jd_explicit",
+      "sourceText": "tool calling",
+      "rationale": "Explicit agent engineering requirement."
+    },
+    {
+      "competencyId": "ai-agent.context-engineering",
+      "importance": 0.92,
+      "requiredMastery": 0.78,
+      "authority": "jd_explicit",
+      "sourceText": "context engineering",
+      "rationale": "Explicit requirement."
+    },
+    {
+      "competencyId": "ai-agent.evaluation",
+      "importance": 0.91,
+      "requiredMastery": 0.76,
+      "authority": "jd_explicit",
+      "sourceText": "evaluation and reliability",
+      "rationale": "Explicit requirement and current resume gap."
+    }
+  ]
+}

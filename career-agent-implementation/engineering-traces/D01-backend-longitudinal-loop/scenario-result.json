@@ -1,0 +1,25 @@
+{
+  "id": "D01-backend-longitudinal-loop",
+  "title": "Backend candidate: diagnose → learn → reassess → interview",
+  "description": "Longitudinal state evolution through four interactive tasks.",
+  "completedAt": "2026-09-10T02:37:40.598Z",
+  "model": "GPT-5.6 Sol",
+  "provenance": "Authored by GPT-5.6 Sol in the 2026-09-10 engineering trace campaign as the actual model response for this scenario, then replayed deterministically through application/runtime boundaries. Not a production fallback and not an expected-value fake.",
+  "finalDecision": {
+    "schemaVersion": 1,
+    "id": "decision_286a1895-fe21-4d71-af3e-e8d6f178db2e",
+    "action": "LEARN",
+    "target": {
+      "competencyIds": [
+        "redis.cache-consistency"
+      ],
+      "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+    },
+    "reason": "The mock interview surfaced an attributable Redis consistency gap while Java concurrency stayed strong.",
+    "expectedOutcome": "Close the concrete consistency/failure-mode gap before spending more cycles on already-validated Java.",
+    "priority": "high",
+    "generatedAt": "2026-09-10T02:37:40.596Z",
+    "model": "GPT-5.6 Sol",
+    "promptVersion": "next-action-v1"
+  }
+}

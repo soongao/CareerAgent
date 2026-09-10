@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:40.818Z",
+  "competencies": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.58,
+      "baseConfidence": 0.03520535172186534,
+      "freshness": 0.9999999986629106,
+      "effectiveConfidence": 0.035205351674792634,
+      "status": "unknown",
+      "evidenceMass": 0.08960000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.788Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.7100288184438039,
+      "baseConfidence": 0.2621956933760008,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.2621956933643148,
+      "status": "current",
+      "evidenceMass": 0.7634000000000001,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:40.817Z",
+      "strengths": [
+        "Distinguishes cache use from consistency guarantees"
+      ],
+      "weaknesses": [
+        "No quantitative performance evidence"
+      ],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {
+    "clarity": {
+      "schemaVersion": 1,
+      "dimension": "clarity",
+      "value": 0.76,
+      "baseConfidence": 0.2024414260013604,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.20244142599233764,
+      "status": "current",
+      "evidenceMass": 0.5655,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.817Z"
+    }
+  },
+  "preferences": {}
+}

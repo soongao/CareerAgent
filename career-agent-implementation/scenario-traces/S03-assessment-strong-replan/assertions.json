@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "assessment observation emitted",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "java state current",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "java mastery strong",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "next target changed",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "task_4032bc07-d693-48cf-b1f4-5fe5735c6594",
+  "type": "tutor",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:40.902Z",
+  "updatedAt": "2026-09-10T02:37:40.908Z",
+  "input": {
+    "competencyIds": [
+      "mysql.mvcc"
+    ],
+    "targetJobId": "job_a9bb9d8c-26c6-4a48-b3e2-07bb0f5bc4fc",
+    "learningGoal": "Teach MVCC/Read View in a Tutor context without pretending the interaction was diagnostic.",
+    "review": false
+  },
+  "localState": {
+    "objectives": [
+      "mysql.mvcc"
+    ],
+    "coveredTopics": []
+  },
+  "transcriptPath": "tasks/task_4032bc07-d693-48cf-b1f4-5fe5735c6594/transcript.jsonl",
+  "contextSnapshotPath": "tasks/task_4032bc07-d693-48cf-b1f4-5fe5735c6594/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_75b42b51-9c47-4963-9ce8-dea69414bd5f",
+    "targetJobId": "job_a9bb9d8c-26c6-4a48-b3e2-07bb0f5bc4fc",
+    "resumeVersion": "resumev_8d97415d-90d8-4bee-9cef-78a96ad34bf8"
+  },
+  "resultPath": "tasks/task_4032bc07-d693-48cf-b1f4-5fe5735c6594/result.json"
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "next uncertainty is context",
+      "ok": true,
+      "details": {
+        "final": {
+          "schemaVersion": 1,
+          "id": "decision_5cb798ac-87e1-4f9f-ad81-0d518c6c74a1",
+          "action": "ASSESS",
+          "target": {
+            "competencyIds": [
+              "ai-agent.context-engineering"
+            ],
+            "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+          },
+          "reason": "Evaluation is now reasonably supported; context engineering remains important but comparatively uncertain.",
+          "expectedOutcome": "Reduce the next highest uncertainty rather than over-practicing the improved area.",
+          "priority": "high",
+          "generatedAt": "2026-09-10T02:37:40.748Z",
+          "model": "GPT-5.6 Sol",
+          "promptVersion": "next-action-v1"
+        }
+      }
+    }
+  ]
+}

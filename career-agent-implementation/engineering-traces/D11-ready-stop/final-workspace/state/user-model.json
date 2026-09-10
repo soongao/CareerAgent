@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:41.422Z",
+  "competencies": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.8414382785956964,
+      "baseConfidence": 0.6739259123391954,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6739259119787557,
+      "status": "current",
+      "evidenceMass": 2.8255999999999997,
+      "observationCount": 4,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.8389104571070756,
+      "baseConfidence": 0.679908206903013,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6799082065393738,
+      "status": "current",
+      "evidenceMass": 2.8746,
+      "observationCount": 4,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "mysql.mvcc": {
+      "schemaVersion": 1,
+      "competencyId": "mysql.mvcc",
+      "mastery": 0.85,
+      "baseConfidence": 0.665170907776841,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6651709074210838,
+      "status": "current",
+      "evidenceMass": 2.7359999999999998,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "system-design.scalability": {
+      "schemaVersion": 1,
+      "competencyId": "system-design.scalability",
+      "mastery": 0.85,
+      "baseConfidence": 0.665170907776841,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6651709074210838,
+      "status": "current",
+      "evidenceMass": 2.7359999999999998,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {
+    "technical_accuracy": {
+      "schemaVersion": 1,
+      "dimension": "technical_accuracy",
+      "value": 0.8300000000000001,
+      "baseConfidence": 0.649639519193524,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6496395188460735,
+      "status": "current",
+      "evidenceMass": 2.6226,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z"
+    },
+    "depth": {
+      "schemaVersion": 1,
+      "dimension": "depth",
+      "value": 0.8300000000000001,
+      "baseConfidence": 0.649639519193524,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6496395188460735,
+      "status": "current",
+      "evidenceMass": 2.6226,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z"
+    },
+    "clarity": {
+      "schemaVersion": 1,
+      "dimension": "clarity",
+      "value": 0.8300000000000001,
+      "baseConfidence": 0.649639519193524,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6496395188460735,
+      "status": "current",
+      "evidenceMass": 2.6226,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z"
+    },
+    "structure": {
+      "schemaVersion": 1,
+      "dimension": "structure",
+      "value": 0.8300000000000001,
+      "baseConfidence": 0.649639519193524,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6496395188460735,
+      "status": "current",
+      "evidenceMass": 2.6226,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z"
+    },
+    "follow_up_stability": {
+      "schemaVersion": 1,
+      "dimension": "follow_up_stability",
+      "value": 0.8300000000000001,
+      "baseConfidence": 0.649639519193524,
+      "freshness": 0.9999999994651642,
+      "effectiveConfidence": 0.6496395188460735,
+      "status": "current",
+      "evidenceMass": 2.6226,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.410Z"
+    }
+  },
+  "preferences": {}
+}

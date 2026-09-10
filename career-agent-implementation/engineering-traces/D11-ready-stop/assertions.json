@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "readiness ready",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "mode": "target_job",
+        "scopeId": "job_d7d95f65-000e-4bb5-b7a4-82175fe00b9c",
+        "generatedAt": "2026-09-10T02:37:41.424Z",
+        "gaps": [
+          {
+            "competencyId": "java.concurrency",
+            "importance": 0.94,
+            "requiredMastery": 0.78,
+            "mastery": 0.8414382785956964,
+            "effectiveConfidence": 0.6739259119787557,
+            "status": "current",
+            "gap": 0
+          },
+          {
+            "competencyId": "redis.cache-consistency",
+            "importance": 0.9,
+            "requiredMastery": 0.74,
+            "mastery": 0.8389104571070756,
+            "effectiveConfidence": 0.6799082065393738,
+            "status": "current",
+            "gap": 0
+          },
+          {
+            "competencyId": "system-design.scalability",
+            "importance": 0.84,
+            "requiredMastery": 0.72,
+            "mastery": 0.85,
+            "effectiveConfidence": 0.6651709074210838,
+            "status": "current",
+            "gap": 0
+          },
+          {
+            "competencyId": "mysql.mvcc",
+            "importance": 0.82,
+            "requiredMastery": 0.7,
+            "mastery": 0.85,
+            "effectiveConfidence": 0.6651709074210838,
+            "status": "current",
+            "gap": 0
+          }
+        ],
+        "blockers": [],
+        "ready": true
+      }
+    },
+    {
+      "name": "no action returned",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "id": "decision_e81a8eb2-843c-4b93-bd63-2fc613481005",
+        "action": "NO_ACTION",
+        "target": {
+          "targetJobId": "job_d7d95f65-000e-4bb5-b7a4-82175fe00b9c"
+        },
+        "reason": "No material high-importance competency, interview, or evidence/resume blocker remains.",
+        "expectedOutcome": "Preserve readiness and proceed to the real process rather than manufacturing work.",
+        "priority": "low",
+        "generatedAt": "2026-09-10T02:37:41.427Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      }
+    }
+  ]
+}

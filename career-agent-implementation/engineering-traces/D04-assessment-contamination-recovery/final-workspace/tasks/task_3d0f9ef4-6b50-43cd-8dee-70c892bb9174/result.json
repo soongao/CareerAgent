@@ -1,0 +1,15 @@
+{
+  "observations": [],
+  "evaluation": {
+    "contaminated": true,
+    "useful": false,
+    "competencyId": "mysql.mvcc",
+    "masterySignal": 0.55,
+    "evidenceStrength": 0,
+    "confidence": 0.98,
+    "strengths": [],
+    "weaknesses": [],
+    "misconceptions": [],
+    "rationale": "The agent disclosed the definition and mechanics of Read View before measurement ended; post-teaching responses are invalid for long-term capability evidence."
+  }
+}

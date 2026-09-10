@@ -1,0 +1,69 @@
+{
+  "type": "assessment",
+  "input": {
+    "competencyId": "java.concurrency",
+    "targetJobId": "job_725f5b9b-02de-4c3c-8de7-5a293a964ef7"
+  },
+  "target": {
+    "career": {
+      "schemaVersion": 1,
+      "id": "career_46bf9820-b034-4ef3-895b-e1e74e36246d",
+      "name": "Backend Engineer",
+      "description": "Prepare for backend roles with durable capability and interview readiness.",
+      "createdAt": "2026-09-10T02:37:40.985Z"
+    },
+    "job": {
+      "schemaVersion": 1,
+      "id": "job_725f5b9b-02de-4c3c-8de7-5a293a964ef7",
+      "careerTargetId": "career_46bf9820-b034-4ef3-895b-e1e74e36246d",
+      "title": "Backend Engineer",
+      "company": "CompanyA",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred. Interview includes project deep-dive and system design.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.986Z",
+      "updatedAt": "2026-09-10T02:37:40.986Z"
+    }
+  },
+  "competencyState": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.58,
+      "baseConfidence": 0.03520535172186534,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.03520535171715807,
+      "status": "unknown",
+      "evidenceMass": 0.08960000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.988Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "recentObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_92b552a9-7c5e-457a-8c10-6f13acb1ab63",
+      "evaluationId": "eval_4fd42bc4-18e0-412b-abe6-41d90a86897e",
+      "semanticKey": "competency:java.concurrency",
+      "timestamp": "2026-09-10T02:37:40.988Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.58,
+      "evidenceStrength": 0.16,
+      "confidence": 0.56,
+      "summary": "Java experience is present but concurrency reasoning is not demonstrated in the resume.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    }
+  ],
+  "preferences": {}
+}

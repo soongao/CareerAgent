@@ -1,0 +1,277 @@
+{
+  "provenance": {
+    "generatedBy": "GPT-5.6 Sol",
+    "purpose": "Recorded real-model output replay for regression; not used in production runtime",
+    "capturedAt": "2026-09-10T01:00:00Z"
+  },
+  "entries": [
+    {
+      "name": "bootstrap.resume_parse",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "profileSummary": "Backend engineer candidate with Java, MySQL and Redis project experience.",
+        "claims": [
+          {
+            "text": "Used Redis cache in an e-commerce service",
+            "section": "Projects",
+            "competencyHints": [
+              "redis"
+            ]
+          },
+          {
+            "text": "Improved API latency by 40%",
+            "section": "Projects",
+            "competencyHints": [
+              "performance"
+            ]
+          }
+        ],
+        "evidenceCandidates": [
+          {
+            "title": "E-commerce backend project",
+            "type": "project",
+            "description": "Resume states Redis caching was used in the project.",
+            "competencyHints": [
+              "redis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "bootstrap.role_map",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "requirements": [
+          {
+            "competencyId": "java.concurrency",
+            "importance": 0.9,
+            "requiredMastery": 0.75,
+            "authority": "jd_explicit",
+            "sourceText": "Java concurrency",
+            "rationale": "Explicit JD requirement"
+          },
+          {
+            "competencyId": "mysql.mvcc",
+            "importance": 0.82,
+            "requiredMastery": 0.7,
+            "authority": "canonical",
+            "rationale": "Common transaction-depth expectation for the stated backend role"
+          },
+          {
+            "competencyId": "redis.cache-consistency",
+            "importance": 0.85,
+            "requiredMastery": 0.72,
+            "authority": "jd_explicit",
+            "sourceText": "Redis caching and consistency",
+            "rationale": "Explicit cache requirement"
+          }
+        ]
+      }
+    },
+    {
+      "name": "bootstrap.resume_competencies",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "observations": [
+          {
+            "competencyId": "redis.cache-consistency",
+            "masterySignal": 0.62,
+            "evidenceStrength": 0.22,
+            "confidence": 0.62,
+            "summary": "The resume weakly suggests practical Redis cache exposure but does not demonstrate detailed consistency reasoning."
+          },
+          {
+            "competencyId": "java.concurrency",
+            "masterySignal": 0.58,
+            "evidenceStrength": 0.16,
+            "confidence": 0.55,
+            "summary": "Java experience is claimed, but concurrency depth is not demonstrated by the resume alone."
+          }
+        ]
+      }
+    },
+    {
+      "name": "workflow.next_action",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "action": "ASSESS",
+        "target": {
+          "competencyIds": [
+            "java.concurrency"
+          ]
+        },
+        "reason": "Java concurrency is highly important to the target role but current evidence is resume-derived and uncertain; diagnose before prescribing learning.",
+        "expectedOutcome": "Reduce uncertainty and determine whether a learning gap actually exists.",
+        "priority": "high",
+        "alternative": {
+          "action": "ASSESS",
+          "reason": "Redis cache consistency is another high-value uncertainty."
+        }
+      }
+    },
+    {
+      "name": "assessment.evaluate",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "contaminated": false,
+        "useful": true,
+        "competencyId": "java.concurrency",
+        "masterySignal": 0.78,
+        "evidenceStrength": 0.82,
+        "confidence": 0.88,
+        "strengths": [
+          "Explains happens-before and visibility correctly",
+          "Handles thread-pool saturation scenario"
+        ],
+        "weaknesses": [
+          "Fencing around cancellation semantics is incomplete"
+        ],
+        "misconceptions": [],
+        "rationale": "The user answered multiple non-trivial conceptual and scenario probes consistently, providing substantial evidence of current concurrency competence."
+      }
+    },
+    {
+      "name": "tutor.evaluate",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "observations": [
+          {
+            "competencyId": "mysql.mvcc",
+            "masterySignal": 0.76,
+            "evidenceStrength": 0.58,
+            "confidence": 0.84,
+            "strengths": [
+              "Correctly contrasts RC and RR Read View timing"
+            ],
+            "weaknesses": [],
+            "misconceptions": [],
+            "summary": "After instruction, the learner independently explained the RC/RR visibility difference and solved a follow-up scenario."
+          }
+        ],
+        "learningSummary": "Focused on Read View creation timing, undo version chains, and snapshot visibility.",
+        "reviewQuestions": [
+          "When is a Read View created under RC versus RR?",
+          "How does an undo-log version chain affect snapshot visibility?"
+        ]
+      }
+    },
+    {
+      "name": "interview.evaluate",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "contaminated": false,
+        "competencyObservations": [
+          {
+            "competencyId": "java.concurrency",
+            "masterySignal": 0.77,
+            "evidenceStrength": 0.65,
+            "confidence": 0.84,
+            "summary": "Technical content remained mostly correct under follow-up."
+          }
+        ],
+        "interviewObservations": [
+          {
+            "dimension": "clarity",
+            "signal": 0.42,
+            "evidenceStrength": 0.7,
+            "confidence": 0.86,
+            "summary": "Answers were technically sound but meandering."
+          },
+          {
+            "dimension": "follow_up_stability",
+            "signal": 0.44,
+            "evidenceStrength": 0.72,
+            "confidence": 0.84,
+            "summary": "Structure deteriorated under repeated follow-up."
+          }
+        ],
+        "claimFindings": [],
+        "overallFeedback": "Technical knowledge is stronger than interview delivery; prioritize concise structure and stable follow-up reasoning."
+      }
+    },
+    {
+      "name": "evidence.analyze",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "evidence": [
+          {
+            "title": "Redis cache README",
+            "type": "document",
+            "description": "README documents a Redis cache-aside implementation.",
+            "confidence": "supported",
+            "competencyIds": [
+              "redis.cache-consistency"
+            ]
+          }
+        ],
+        "claimSupport": [
+          {
+            "claimId": "CLAIM_PLACEHOLDER_USED_BY_TEST_REWRITE",
+            "level": "partial",
+            "rationale": "The artifact supports use of Redis but contains no benchmark supporting a 40% latency improvement.",
+            "evidenceIndexes": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "outcome.analyze",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "observations": [
+          {
+            "targetType": "competency",
+            "competencyId": "system-design.scalability",
+            "masterySignal": 0.43,
+            "evidenceStrength": 0.72,
+            "confidence": 0.8,
+            "summary": "Concrete interviewer feedback says the scaling/failure-isolation answer lacked depth."
+          }
+        ],
+        "experienceSummary": "This real interview emphasized system-design depth more strongly than previous preparation did."
+      }
+    },
+    {
+      "name": "resume.target",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "markdown": "# Candidate\n\n## Projects\n- Implemented Redis caching in an e-commerce backend and documented cache invalidation behavior.",
+        "notes": [
+          "Removed the unsupported 40% latency metric because no evidence supports it."
+        ]
+      }
+    },
+    {
+      "name": "memory.compact",
+      "model": "GPT-5.6 Sol",
+      "provenance": "Current implementation session",
+      "capturedAt": "2026-09-10T01:00:00Z",
+      "output": {
+        "markdown": "# Career State Summary\n\nCurrent strengths and weaknesses are derived from active observations. Recent assessment evidence is stronger than resume self-claims. Preserve interview-delivery issues separately from technical competency."
+      }
+    }
+  ]
+}

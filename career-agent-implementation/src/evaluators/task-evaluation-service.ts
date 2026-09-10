@@ -1,0 +1,9 @@
+import { FileWorkspace } from "../infrastructure/filesystem/file-workspace.js";
+import { StateUpdater } from "../application/state-update/state-updater.js";
+import { TaskEvaluators } from "./evaluators.js";
+import { newId, nowIso } from "../shared/utils.js";
+
+export class TaskEvaluationService {
+  constructor(private readonly ws:FileWorkspace,private readonly evaluators:TaskEvaluators,private readonly updater:StateUpdater){}
+  async evaluate(taskId:string):Promise<unknown>{const task=await this.ws.getTask(taskId);if(!task)throw new Error("Unknown task");const transcript=await this.ws.getTranscript(taskId),context=await this.ws.getTaskContext(taskId);let result:any;if(task.type==="assessment")result=await this.evaluators.assessment(task,transcript,context);else if(task.type==="tutor")result=await this.evaluators.tutor(task,transcript,context);else result=await this.evaluators.interview(task,transcript,context);if((task.type==="assessment"||task.type==="interview")&&result.evaluation?.contaminated){const localState={...(task.localState as any),measurementStatus:"contaminated"};await this.ws.saveTask({...task,localState,updatedAt:nowIso()});}await this.updater.apply(result.observations,newId("trace"));if(task.type==="interview"&&result.claimSupport?.length){const current=await this.ws.getClaimSupport();const map=new Map(current.map(x=>[x.claimId,x]));for(const x of result.claimSupport)map.set(x.claimId,x);await this.ws.saveClaimSupport([...map.values()]);}if(task.type==="tutor"){const e=result.evaluation;const path=`artifacts/learning/${task.id}.md`;const note=`# Learning Note\n\nGenerated: ${nowIso()}\n\n## Summary\n\n${e.learningSummary||""}\n\n## Review Questions\n\n${(e.reviewQuestions??[]).map((q:string)=>`- ${q}`).join("\n")}\n`;await this.ws.writeText(path,note);result.learningArtifact=path;}await this.ws.saveTaskResult(taskId,result);return result;}
+}

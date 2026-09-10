@@ -1,0 +1,22 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "evidence_509933e0-8702-4b32-b10c-167fe2889079",
+    "title": "E-commerce backend project",
+    "type": "project",
+    "description": "Resume describes an e-commerce service using Redis cache-aside.",
+    "confidence": "claimed",
+    "competencyIds": [],
+    "artifactRefs": [],
+    "sourceRefs": [
+      {
+        "id": "src_d3b6e488-d425-4e37-9c87-6a13b11f501b",
+        "kind": "file",
+        "locator": "sources/resume/normalized.md",
+        "capturedAt": "2026-09-10T02:37:40.461Z"
+      }
+    ],
+    "createdAt": "2026-09-10T02:37:40.461Z",
+    "updatedAt": "2026-09-10T02:37:40.461Z"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_365ae74f-d522-49ff-9abe-e422490fc584",
+      "evaluationId": "eval_93f82e5d-9cf7-4d2e-a856-9cb6959b614e",
+      "timestamp": "2026-09-10T02:37:55.349Z",
+      "source": "interview",
+      "evidenceStrength": 0.7,
+      "confidence": 0.88,
+      "taskId": "task_1e0423b7-41d6-45c8-a8ef-e41f636a46ee",
+      "summary": "A second mock again shows correct technical reasoning under pressure.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.81,
+      "strengths": [
+        "Correctly reasons about bounded overload and visibility"
+      ],
+      "weaknesses": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_8bdbf706-2658-4c8e-ae3d-075b25eb99ca",
+      "evaluationId": "eval_93f82e5d-9cf7-4d2e-a856-9cb6959b614e",
+      "timestamp": "2026-09-10T02:37:55.349Z",
+      "source": "interview",
+      "evidenceStrength": 0.92,
+      "confidence": 0.94,
+      "taskId": "task_1e0423b7-41d6-45c8-a8ef-e41f636a46ee",
+      "summary": "A second mock again shows excessive preamble and weak prioritization before the answer.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:clarity",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "clarity"
+      },
+      "signal": 0.39
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_749222d5-1aa8-4e5b-9378-50f2ade9ba5b",
+      "evaluationId": "eval_93f82e5d-9cf7-4d2e-a856-9cb6959b614e",
+      "timestamp": "2026-09-10T02:37:55.349Z",
+      "source": "interview",
+      "evidenceStrength": 0.92,
+      "confidence": 0.93,
+      "taskId": "task_1e0423b7-41d6-45c8-a8ef-e41f636a46ee",
+      "summary": "Repeated follow-ups again cause the response structure to drift.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:follow_up_stability",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "follow_up_stability"
+      },
+      "signal": 0.41
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_9ec96219-ff60-4d8b-b8e6-681bc56de6be",
+      "evaluationId": "eval_93f82e5d-9cf7-4d2e-a856-9cb6959b614e",
+      "timestamp": "2026-09-10T02:37:55.349Z",
+      "source": "interview",
+      "evidenceStrength": 0.9,
+      "confidence": 0.92,
+      "taskId": "task_1e0423b7-41d6-45c8-a8ef-e41f636a46ee",
+      "summary": "The response still lacks a stable top-down structure across follow-ups.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:structure",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "structure"
+      },
+      "signal": 0.44
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "competencyObservations": [
+      {
+        "competencyId": "java.concurrency",
+        "masterySignal": 0.81,
+        "evidenceStrength": 0.7,
+        "confidence": 0.88,
+        "summary": "A second mock again shows correct technical reasoning under pressure.",
+        "strengths": [
+          "Correctly reasons about bounded overload and visibility"
+        ],
+        "weaknesses": []
+      }
+    ],
+    "interviewObservations": [
+      {
+        "dimension": "clarity",
+        "signal": 0.39,
+        "evidenceStrength": 0.92,
+        "confidence": 0.94,
+        "summary": "A second mock again shows excessive preamble and weak prioritization before the answer."
+      },
+      {
+        "dimension": "follow_up_stability",
+        "signal": 0.41,
+        "evidenceStrength": 0.92,
+        "confidence": 0.93,
+        "summary": "Repeated follow-ups again cause the response structure to drift."
+      },
+      {
+        "dimension": "structure",
+        "signal": 0.44,
+        "evidenceStrength": 0.9,
+        "confidence": 0.92,
+        "summary": "The response still lacks a stable top-down structure across follow-ups."
+      }
+    ],
+    "claimFindings": [],
+    "overallFeedback": "The delivery pattern repeated across two mocks, increasing confidence that interview execution—not technical knowledge—is the blocker."
+  },
+  "claimSupport": []
+}

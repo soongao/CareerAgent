@@ -1,0 +1,202 @@
+{
+  "decision": {
+    "schemaVersion": 1,
+    "id": "decision_7b0b5620-ad98-4fc6-818c-71793003dc96",
+    "action": "LEARN",
+    "target": {
+      "competencyIds": [
+        "ai-agent.evaluation"
+      ],
+      "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+    },
+    "reason": "Assessment converted uncertainty into a specific evaluation-design weakness.",
+    "expectedOutcome": "Build a layered eval mental model covering invariants, semantic judging, trajectory replay, and failure campaigns.",
+    "priority": "high",
+    "generatedAt": "2026-09-10T02:37:40.672Z",
+    "model": "GPT-5.6 Sol",
+    "promptVersion": "next-action-v1"
+  },
+  "context": {
+    "mode": "target_job",
+    "target": {
+      "schemaVersion": 1,
+      "id": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "title": "AI Agent Engineer",
+      "company": "AgentWorks",
+      "jdText": "AI Agent Engineer. Build production agent workflows, tool calling, context engineering, evaluation, reliability, and human-in-the-loop systems. Strong software engineering required.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.635Z",
+      "updatedAt": "2026-09-10T02:37:40.635Z"
+    },
+    "readiness": {
+      "schemaVersion": 1,
+      "mode": "target_job",
+      "scopeId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "generatedAt": "2026-09-10T02:37:40.671Z",
+      "gaps": [
+        {
+          "competencyId": "ai-agent.tool-calling",
+          "importance": 0.94,
+          "requiredMastery": 0.8,
+          "mastery": 0.68,
+          "effectiveConfidence": 0.06573952634953677,
+          "status": "unknown",
+          "gap": 0.12
+        },
+        {
+          "competencyId": "ai-agent.context-engineering",
+          "importance": 0.92,
+          "requiredMastery": 0.78,
+          "mastery": 0.52,
+          "effectiveConfidence": 0.041590366431721544,
+          "status": "unknown",
+          "gap": 0.26
+        },
+        {
+          "competencyId": "ai-agent.evaluation",
+          "importance": 0.91,
+          "requiredMastery": 0.76,
+          "mastery": 0.4511191335740072,
+          "effectiveConfidence": 0.3260575875389076,
+          "status": "current",
+          "gap": 0.30888086642599283
+        }
+      ],
+      "blockers": [
+        {
+          "id": "block_bf86ff6d-5412-46a7-9793-c93c3c9d71aa",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: ai-agent.tool-calling",
+          "rationale": "Important requirement (0.94) lacks fresh, confident evidence.",
+          "competencyId": "ai-agent.tool-calling"
+        },
+        {
+          "id": "block_abaa811a-6ec7-4d3a-905e-0cea25f98e88",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: ai-agent.context-engineering",
+          "rationale": "Important requirement (0.92) lacks fresh, confident evidence.",
+          "competencyId": "ai-agent.context-engineering"
+        },
+        {
+          "id": "block_31d9b8fe-0664-45d9-839f-b78bd4b1d63f",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: ai-agent.evaluation",
+          "rationale": "Important requirement (0.91) lacks fresh, confident evidence.",
+          "competencyId": "ai-agent.evaluation"
+        }
+      ],
+      "ready": false
+    },
+    "topCompetencyGaps": [
+      {
+        "competencyId": "ai-agent.tool-calling",
+        "importance": 0.94,
+        "requiredMastery": 0.8,
+        "mastery": 0.68,
+        "effectiveConfidence": 0.06573952634953677,
+        "status": "unknown",
+        "gap": 0.12
+      },
+      {
+        "competencyId": "ai-agent.context-engineering",
+        "importance": 0.92,
+        "requiredMastery": 0.78,
+        "mastery": 0.52,
+        "effectiveConfidence": 0.041590366431721544,
+        "status": "unknown",
+        "gap": 0.26
+      },
+      {
+        "competencyId": "ai-agent.evaluation",
+        "importance": 0.91,
+        "requiredMastery": 0.76,
+        "mastery": 0.4511191335740072,
+        "effectiveConfidence": 0.3260575875389076,
+        "status": "current",
+        "gap": 0.30888086642599283
+      }
+    ],
+    "interview": [],
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "id": "evidence_89adbbe5-fc41-4205-98a3-cb9ae6664316",
+        "title": "LLM tool-calling prototype",
+        "type": "project",
+        "description": "Prototype described in resume with structured tools and local memory.",
+        "confidence": "claimed",
+        "competencyIds": [],
+        "artifactRefs": [],
+        "sourceRefs": [
+          {
+            "id": "src_95834b1f-4e83-4999-9a96-901a7d9d6c6c",
+            "kind": "file",
+            "locator": "sources/resume/normalized.md",
+            "capturedAt": "2026-09-10T02:37:40.638Z"
+          }
+        ],
+        "createdAt": "2026-09-10T02:37:40.638Z",
+        "updatedAt": "2026-09-10T02:37:40.638Z"
+      }
+    ],
+    "claimSupport": [],
+    "recentActions": [],
+    "candidates": [
+      {
+        "action": "ANALYZE_ROLE",
+        "allowed": true
+      },
+      {
+        "action": "ASSESS",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "LEARN",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "REVIEW",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "MOCK_INTERVIEW",
+        "allowed": true
+      },
+      {
+        "action": "ANALYZE_EVIDENCE",
+        "allowed": true
+      },
+      {
+        "action": "UPDATE_RESUME",
+        "allowed": true
+      },
+      {
+        "action": "REFRESH_PROFILE",
+        "allowed": true
+      },
+      {
+        "action": "NO_ACTION",
+        "allowed": true
+      }
+    ]
+  }
+}

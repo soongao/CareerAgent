@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:41.118Z",
+  "competencies": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.8614444262205457,
+      "baseConfidence": 0.5140305874568564,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.514030587411036,
+      "status": "current",
+      "evidenceMass": 1.8291,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.116Z",
+      "strengths": [
+        "Retains strong concurrency model",
+        "Applies overload/backpressure reasoning"
+      ],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.62,
+      "baseConfidence": 0.05393121390528943,
+      "freshness": 0.9999999986183409,
+      "effectiveConfidence": 0.05393121383077488,
+      "status": "unknown",
+      "evidenceMass": 0.1386,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:41.087Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

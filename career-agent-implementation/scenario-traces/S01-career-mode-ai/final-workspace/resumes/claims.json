@@ -1,0 +1,18 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "claim_4000be40-f83c-4c3e-97b7-149e86d92eb6",
+    "text": "Built structured LLM tool calls",
+    "section": "Projects",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:54.972Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "claim_3e0ffebb-5090-49db-8b30-93547f43b8d1",
+    "text": "Used local conversation memory",
+    "section": "Projects",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:54.972Z"
+  }
+]

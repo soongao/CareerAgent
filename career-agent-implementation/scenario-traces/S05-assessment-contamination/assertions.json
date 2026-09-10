@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "no new observation",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "evaluation contaminated",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "task marked contaminated",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

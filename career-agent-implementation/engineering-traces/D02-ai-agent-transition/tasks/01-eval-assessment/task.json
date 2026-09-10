@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6",
+  "type": "assessment",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:40.647Z",
+  "updatedAt": "2026-09-10T02:37:40.653Z",
+  "input": {
+    "competencyId": "ai-agent.evaluation",
+    "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+  },
+  "localState": {
+    "coveredAreas": [],
+    "probeCount": 0,
+    "measurementStatus": "clean"
+  },
+  "transcriptPath": "tasks/task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6/transcript.jsonl",
+  "contextSnapshotPath": "tasks/task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+    "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+    "resumeVersion": "resumev_44b6aa7a-51a5-4ae6-ba64-cc7ec9c9e6d3"
+  },
+  "resultPath": "tasks/task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6/result.json"
+}

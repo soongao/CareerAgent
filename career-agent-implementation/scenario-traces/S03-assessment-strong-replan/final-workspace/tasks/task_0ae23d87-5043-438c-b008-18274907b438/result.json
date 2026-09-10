@@ -1,0 +1,56 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_9d171b20-71b1-40f5-b947-e0a93a59dfc3",
+      "evaluationId": "eval_11f3140b-0a36-41d9-9afd-54868abf5150",
+      "timestamp": "2026-09-10T02:37:55.093Z",
+      "source": "assessment",
+      "evidenceStrength": 0.88,
+      "confidence": 0.91,
+      "taskId": "task_0ae23d87-5043-438c-b008-18274907b438",
+      "summary": "Multiple conceptual and scenario probes were answered consistently without coaching.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.82,
+      "strengths": [
+        "Explains happens-before and visibility correctly",
+        "Diagnoses bounded thread-pool saturation and backpressure tradeoffs"
+      ],
+      "weaknesses": [
+        "Cancellation/interruption edge cases are less precise"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "task_0ae23d87-5043-438c-b008-18274907b438-turn-2",
+        "task_0ae23d87-5043-438c-b008-18274907b438-turn-4",
+        "task_0ae23d87-5043-438c-b008-18274907b438-turn-6"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "java.concurrency",
+    "masterySignal": 0.82,
+    "evidenceStrength": 0.88,
+    "confidence": 0.91,
+    "strengths": [
+      "Explains happens-before and visibility correctly",
+      "Diagnoses bounded thread-pool saturation and backpressure tradeoffs"
+    ],
+    "weaknesses": [
+      "Cancellation/interruption edge cases are less precise"
+    ],
+    "misconceptions": [],
+    "rationale": "Multiple conceptual and scenario probes were answered consistently without coaching."
+  }
+}

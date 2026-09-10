@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "one attributable observation",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "system design state created",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "career experience retained",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

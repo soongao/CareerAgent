@@ -1,0 +1,219 @@
+{
+  "decision": {
+    "schemaVersion": 1,
+    "id": "decision_5cb798ac-87e1-4f9f-ad81-0d518c6c74a1",
+    "action": "ASSESS",
+    "target": {
+      "competencyIds": [
+        "ai-agent.context-engineering"
+      ],
+      "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+    },
+    "reason": "Evaluation is now reasonably supported; context engineering remains important but comparatively uncertain.",
+    "expectedOutcome": "Reduce the next highest uncertainty rather than over-practicing the improved area.",
+    "priority": "high",
+    "generatedAt": "2026-09-10T02:37:40.748Z",
+    "model": "GPT-5.6 Sol",
+    "promptVersion": "next-action-v1"
+  },
+  "context": {
+    "mode": "target_job",
+    "target": {
+      "schemaVersion": 1,
+      "id": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "title": "AI Agent Engineer",
+      "company": "AgentWorks",
+      "jdText": "AI Agent Engineer. Build production agent workflows, tool calling, context engineering, evaluation, reliability, and human-in-the-loop systems. Strong software engineering required.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.635Z",
+      "updatedAt": "2026-09-10T02:37:40.635Z"
+    },
+    "readiness": {
+      "schemaVersion": 1,
+      "mode": "target_job",
+      "scopeId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "generatedAt": "2026-09-10T02:37:40.747Z",
+      "gaps": [
+        {
+          "competencyId": "ai-agent.tool-calling",
+          "importance": 0.94,
+          "requiredMastery": 0.8,
+          "mastery": 0.68,
+          "effectiveConfidence": 0.06573952613564768,
+          "status": "unknown",
+          "gap": 0.12
+        },
+        {
+          "competencyId": "ai-agent.context-engineering",
+          "importance": 0.92,
+          "requiredMastery": 0.78,
+          "mastery": 0.6719871043376319,
+          "effectiveConfidence": 0.2368426851017796,
+          "status": "current",
+          "gap": 0.10801289566236816
+        },
+        {
+          "competencyId": "ai-agent.evaluation",
+          "importance": 0.91,
+          "requiredMastery": 0.76,
+          "mastery": 0.6457406931964056,
+          "effectiveConfidence": 0.5707602410619623,
+          "status": "current",
+          "gap": 0.11425930680359442
+        }
+      ],
+      "blockers": [
+        {
+          "id": "block_8ab1d67d-9ff2-4116-805d-e4c90380c12d",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: ai-agent.tool-calling",
+          "rationale": "Important requirement (0.94) lacks fresh, confident evidence.",
+          "competencyId": "ai-agent.tool-calling"
+        },
+        {
+          "id": "block_562287d5-79e4-40a2-9c62-6ef367d8b76c",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: ai-agent.context-engineering",
+          "rationale": "Important requirement (0.92) lacks fresh, confident evidence.",
+          "competencyId": "ai-agent.context-engineering"
+        }
+      ],
+      "ready": false
+    },
+    "topCompetencyGaps": [
+      {
+        "competencyId": "ai-agent.tool-calling",
+        "importance": 0.94,
+        "requiredMastery": 0.8,
+        "mastery": 0.68,
+        "effectiveConfidence": 0.06573952613564768,
+        "status": "unknown",
+        "gap": 0.12
+      },
+      {
+        "competencyId": "ai-agent.context-engineering",
+        "importance": 0.92,
+        "requiredMastery": 0.78,
+        "mastery": 0.6719871043376319,
+        "effectiveConfidence": 0.2368426851017796,
+        "status": "current",
+        "gap": 0.10801289566236816
+      },
+      {
+        "competencyId": "ai-agent.evaluation",
+        "importance": 0.91,
+        "requiredMastery": 0.76,
+        "mastery": 0.6457406931964056,
+        "effectiveConfidence": 0.5707602410619623,
+        "status": "current",
+        "gap": 0.11425930680359442
+      }
+    ],
+    "interview": [
+      {
+        "schemaVersion": 1,
+        "dimension": "clarity",
+        "value": 0.77,
+        "baseConfidence": 0.22660085088729742,
+        "freshness": 0.9999999999108607,
+        "effectiveConfidence": 0.22660085086709839,
+        "status": "current",
+        "evidenceMass": 0.6424,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:40.734Z"
+      },
+      {
+        "schemaVersion": 1,
+        "dimension": "depth",
+        "value": 0.7900000000000001,
+        "baseConfidence": 0.23159627472035382,
+        "freshness": 0.9999999999108607,
+        "effectiveConfidence": 0.2315962746997095,
+        "status": "current",
+        "evidenceMass": 0.6586,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:40.734Z"
+      }
+    ],
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "id": "evidence_89adbbe5-fc41-4205-98a3-cb9ae6664316",
+        "title": "LLM tool-calling prototype",
+        "type": "project",
+        "description": "Prototype described in resume with structured tools and local memory.",
+        "confidence": "claimed",
+        "competencyIds": [],
+        "artifactRefs": [],
+        "sourceRefs": [
+          {
+            "id": "src_95834b1f-4e83-4999-9a96-901a7d9d6c6c",
+            "kind": "file",
+            "locator": "sources/resume/normalized.md",
+            "capturedAt": "2026-09-10T02:37:40.638Z"
+          }
+        ],
+        "createdAt": "2026-09-10T02:37:40.638Z",
+        "updatedAt": "2026-09-10T02:37:40.638Z"
+      }
+    ],
+    "claimSupport": [],
+    "recentActions": [],
+    "candidates": [
+      {
+        "action": "ANALYZE_ROLE",
+        "allowed": true
+      },
+      {
+        "action": "ASSESS",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "LEARN",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "REVIEW",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "MOCK_INTERVIEW",
+        "allowed": true
+      },
+      {
+        "action": "ANALYZE_EVIDENCE",
+        "allowed": true
+      },
+      {
+        "action": "UPDATE_RESUME",
+        "allowed": true
+      },
+      {
+        "action": "REFRESH_PROFILE",
+        "allowed": true
+      },
+      {
+        "action": "NO_ACTION",
+        "allowed": true
+      }
+    ]
+  }
+}

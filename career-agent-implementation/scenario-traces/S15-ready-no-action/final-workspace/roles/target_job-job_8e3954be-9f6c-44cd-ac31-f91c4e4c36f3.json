@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "role_8b8f616a-6d6a-4ad0-9010-8f83f7e3ab3e",
+  "scope": "target_job",
+  "scopeId": "job_8e3954be-9f6c-44cd-ac31-f91c4e4c36f3",
+  "catalogVersion": "v1",
+  "generatedAt": "2026-09-10T02:37:55.673Z",
+  "requirements": [
+    {
+      "competencyId": "java.concurrency",
+      "importance": 0.9,
+      "requiredMastery": 0.72,
+      "authority": "jd_explicit"
+    },
+    {
+      "competencyId": "redis.cache-consistency",
+      "importance": 0.85,
+      "requiredMastery": 0.7,
+      "authority": "jd_explicit"
+    }
+  ]
+}

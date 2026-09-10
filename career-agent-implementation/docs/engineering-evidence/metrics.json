@@ -1,0 +1,133 @@
+{
+  "scenarios": [
+    {
+      "scenario": "D01-backend-longitudinal-loop",
+      "timeline_events": 110,
+      "structured_llm_records": 24,
+      "pi_session_records": 27,
+      "tasks": 4,
+      "observations": 11,
+      "runtime_events": 25,
+      "snapshots": 9
+    },
+    {
+      "scenario": "D02-ai-agent-transition",
+      "timeline_events": 87,
+      "structured_llm_records": 20,
+      "pi_session_records": 21,
+      "tasks": 3,
+      "observations": 9,
+      "runtime_events": 20,
+      "snapshots": 6
+    },
+    {
+      "scenario": "D03-evidence-resume-truthfulness",
+      "timeline_events": 34,
+      "structured_llm_records": 12,
+      "pi_session_records": 6,
+      "tasks": 1,
+      "observations": 4,
+      "runtime_events": 7,
+      "snapshots": 2
+    },
+    {
+      "scenario": "D04-assessment-contamination-recovery",
+      "timeline_events": 72,
+      "structured_llm_records": 18,
+      "pi_session_records": 17,
+      "tasks": 3,
+      "observations": 4,
+      "runtime_events": 18,
+      "snapshots": 6
+    },
+    {
+      "scenario": "D05-target-switch-session-binding",
+      "timeline_events": 16,
+      "structured_llm_records": 6,
+      "pi_session_records": 3,
+      "tasks": 1,
+      "observations": 2,
+      "runtime_events": 4,
+      "snapshots": 0
+    },
+    {
+      "scenario": "D06-real-interview-outcome-loop",
+      "timeline_events": 14,
+      "structured_llm_records": 8,
+      "pi_session_records": 0,
+      "tasks": 0,
+      "observations": 4,
+      "runtime_events": 4,
+      "snapshots": 2
+    },
+    {
+      "scenario": "D07-stale-return-refresh",
+      "timeline_events": 30,
+      "structured_llm_records": 10,
+      "pi_session_records": 5,
+      "tasks": 1,
+      "observations": 4,
+      "runtime_events": 9,
+      "snapshots": 4
+    },
+    {
+      "scenario": "D08-conflicting-signals",
+      "timeline_events": 39,
+      "structured_llm_records": 10,
+      "pi_session_records": 10,
+      "tasks": 2,
+      "observations": 6,
+      "runtime_events": 9,
+      "snapshots": 4
+    },
+    {
+      "scenario": "D09-self-report-calibration",
+      "timeline_events": 28,
+      "structured_llm_records": 8,
+      "pi_session_records": 6,
+      "tasks": 1,
+      "observations": 4,
+      "runtime_events": 7,
+      "snapshots": 3
+    },
+    {
+      "scenario": "D10-no-progress-loop",
+      "timeline_events": 34,
+      "structured_llm_records": 10,
+      "pi_session_records": 8,
+      "tasks": 2,
+      "observations": 2,
+      "runtime_events": 9,
+      "snapshots": 4
+    },
+    {
+      "scenario": "D11-ready-stop",
+      "timeline_events": 13,
+      "structured_llm_records": 8,
+      "pi_session_records": 0,
+      "tasks": 0,
+      "observations": 29,
+      "runtime_events": 6,
+      "snapshots": 0
+    },
+    {
+      "scenario": "D12-process-recovery",
+      "timeline_events": 33,
+      "structured_llm_records": 8,
+      "pi_session_records": 10,
+      "tasks": 1,
+      "observations": 3,
+      "runtime_events": 6,
+      "snapshots": 2
+    }
+  ],
+  "totals": {
+    "timeline_events": 510,
+    "structured_llm_records": 142,
+    "pi_session_records": 113,
+    "tasks": 19,
+    "observations": 82,
+    "runtime_events": 124,
+    "snapshots": 42
+  }
+}

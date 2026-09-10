@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:40.736Z",
+  "competencies": {
+    "ai-agent.tool-calling": {
+      "schemaVersion": 1,
+      "competencyId": "ai-agent.tool-calling",
+      "mastery": 0.68,
+      "baseConfidence": 0.06573952642278647,
+      "freshness": 0.9999999956321745,
+      "effectiveConfidence": 0.06573952613564768,
+      "status": "unknown",
+      "evidenceMass": 0.17,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.638Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "ai-agent.context-engineering": {
+      "schemaVersion": 1,
+      "competencyId": "ai-agent.context-engineering",
+      "mastery": 0.6719871043376319,
+      "baseConfidence": 0.23684268512289158,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.2368426851017796,
+      "status": "current",
+      "evidenceMass": 0.6824,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:40.734Z",
+      "strengths": [
+        "Avoids loading entire long-term memory"
+      ],
+      "weaknesses": [
+        "Compaction policy remains heuristic"
+      ],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "ai-agent.evaluation": {
+      "schemaVersion": 1,
+      "competencyId": "ai-agent.evaluation",
+      "mastery": 0.6457406931964056,
+      "baseConfidence": 0.5707602411128395,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.5707602410619623,
+      "status": "current",
+      "evidenceMass": 2.337,
+      "observationCount": 4,
+      "lastObservedAt": "2026-09-10T02:37:40.734Z",
+      "strengths": [
+        "Understands deterministic unit tests and basic golden cases",
+        "Separates deterministic invariants from semantic model grading",
+        "Understands replay fixtures and self-consistent failure risk",
+        "Can define forbidden side effects",
+        "Names self-consistent failure risk",
+        "Separates semantic and deterministic validation"
+      ],
+      "weaknesses": [
+        "Initially conflates exact-output tests with semantic evals",
+        "No clear separation of actor vs judge evaluation",
+        "Limited thinking about longitudinal replay",
+        "Needs more experience calibrating judge disagreement",
+        "Could discuss statistical calibration more"
+      ],
+      "misconceptions": [
+        "Treats pass/fail tests as sufficient for stochastic agent quality"
+      ],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {
+    "clarity": {
+      "schemaVersion": 1,
+      "dimension": "clarity",
+      "value": 0.77,
+      "baseConfidence": 0.22660085088729742,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.22660085086709839,
+      "status": "current",
+      "evidenceMass": 0.6424,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.734Z"
+    },
+    "depth": {
+      "schemaVersion": 1,
+      "dimension": "depth",
+      "value": 0.7900000000000001,
+      "baseConfidence": 0.23159627472035382,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.2315962746997095,
+      "status": "current",
+      "evidenceMass": 0.6586,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.734Z"
+    }
+  },
+  "preferences": {}
+}

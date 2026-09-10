@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "role_7cce44f9-1787-4ce0-8964-965112cd8c78",
+  "scope": "target_job",
+  "scopeId": "job_581a088f-8819-4c5b-9dd9-76ad67a2ce7d",
+  "catalogVersion": "v1",
+  "generatedAt": "2026-09-10T02:37:55.066Z",
+  "requirements": [
+    {
+      "competencyId": "java.concurrency",
+      "importance": 0.92,
+      "requiredMastery": 0.75,
+      "authority": "jd_explicit",
+      "sourceText": "Strong Java concurrency required",
+      "rationale": "Explicit JD requirement."
+    },
+    {
+      "competencyId": "mysql.mvcc",
+      "importance": 0.82,
+      "requiredMastery": 0.7,
+      "authority": "canonical",
+      "rationale": "Transaction-depth expectation supplements the JD."
+    },
+    {
+      "competencyId": "redis.cache-consistency",
+      "importance": 0.86,
+      "requiredMastery": 0.72,
+      "authority": "jd_explicit",
+      "sourceText": "Redis caching and consistency required",
+      "rationale": "Explicit JD requirement."
+    }
+  ]
+}

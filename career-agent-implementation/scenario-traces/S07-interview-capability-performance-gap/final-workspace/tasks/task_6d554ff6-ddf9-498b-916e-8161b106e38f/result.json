@@ -1,0 +1,138 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_b9f79e4a-12c8-4d5c-9b3e-41b80cda29ef",
+      "evaluationId": "eval_55f03cbc-9574-42eb-a62e-3c0b3c5bcff0",
+      "timestamp": "2026-09-10T02:37:55.330Z",
+      "source": "interview",
+      "evidenceStrength": 0.68,
+      "confidence": 0.87,
+      "taskId": "task_6d554ff6-ddf9-498b-916e-8161b106e38f",
+      "summary": "Technical concurrency content remained mostly correct under follow-up.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.79,
+      "strengths": [
+        "Correctly identifies queue saturation and memory-visibility concerns"
+      ],
+      "weaknesses": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_bfe06ba6-4052-4e43-ba49-794f0b3bfa3a",
+      "evaluationId": "eval_55f03cbc-9574-42eb-a62e-3c0b3c5bcff0",
+      "timestamp": "2026-09-10T02:37:55.330Z",
+      "source": "interview",
+      "evidenceStrength": 0.92,
+      "confidence": 0.94,
+      "taskId": "task_6d554ff6-ddf9-498b-916e-8161b106e38f",
+      "summary": "Answers contain the right points but are long and poorly prioritized.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:clarity",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "clarity"
+      },
+      "signal": 0.37
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_e4b32112-6827-4d44-a123-bc60587a5259",
+      "evaluationId": "eval_55f03cbc-9574-42eb-a62e-3c0b3c5bcff0",
+      "timestamp": "2026-09-10T02:37:55.330Z",
+      "source": "interview",
+      "evidenceStrength": 0.92,
+      "confidence": 0.93,
+      "taskId": "task_6d554ff6-ddf9-498b-916e-8161b106e38f",
+      "summary": "Under repeated follow-up, the answer structure deteriorates and earlier assumptions are not restated clearly.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:follow_up_stability",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "follow_up_stability"
+      },
+      "signal": 0.4
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_26391110-1c42-4d77-b067-2b30826c49ec",
+      "evaluationId": "eval_55f03cbc-9574-42eb-a62e-3c0b3c5bcff0",
+      "timestamp": "2026-09-10T02:37:55.330Z",
+      "source": "interview",
+      "evidenceStrength": 0.9,
+      "confidence": 0.92,
+      "taskId": "task_6d554ff6-ddf9-498b-916e-8161b106e38f",
+      "summary": "The user jumps between implementation details and conclusions without a stable top-down structure.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:structure",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "structure"
+      },
+      "signal": 0.43
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "competencyObservations": [
+      {
+        "competencyId": "java.concurrency",
+        "masterySignal": 0.79,
+        "evidenceStrength": 0.68,
+        "confidence": 0.87,
+        "summary": "Technical concurrency content remained mostly correct under follow-up.",
+        "strengths": [
+          "Correctly identifies queue saturation and memory-visibility concerns"
+        ],
+        "weaknesses": []
+      }
+    ],
+    "interviewObservations": [
+      {
+        "dimension": "clarity",
+        "signal": 0.37,
+        "evidenceStrength": 0.92,
+        "confidence": 0.94,
+        "summary": "Answers contain the right points but are long and poorly prioritized."
+      },
+      {
+        "dimension": "follow_up_stability",
+        "signal": 0.4,
+        "evidenceStrength": 0.92,
+        "confidence": 0.93,
+        "summary": "Under repeated follow-up, the answer structure deteriorates and earlier assumptions are not restated clearly."
+      },
+      {
+        "dimension": "structure",
+        "signal": 0.43,
+        "evidenceStrength": 0.9,
+        "confidence": 0.92,
+        "summary": "The user jumps between implementation details and conclusions without a stable top-down structure."
+      }
+    ],
+    "claimFindings": [],
+    "overallFeedback": "Technical knowledge is stronger than delivery. Prioritize concise structure and stable follow-up reasoning."
+  },
+  "claimSupport": []
+}

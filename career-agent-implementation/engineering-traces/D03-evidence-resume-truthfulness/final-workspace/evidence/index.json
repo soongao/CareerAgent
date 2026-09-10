@@ -1,0 +1,44 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "evidence_189f3e53-fa66-4bd5-bca0-e82babddc998",
+    "title": "E-commerce backend project",
+    "type": "project",
+    "description": "Resume describes an e-commerce service using Redis cache-aside.",
+    "confidence": "claimed",
+    "competencyIds": [],
+    "artifactRefs": [],
+    "sourceRefs": [
+      {
+        "id": "src_74ae4f0d-185d-49ab-ba25-da939978d9b8",
+        "kind": "file",
+        "locator": "sources/resume/normalized.md",
+        "capturedAt": "2026-09-10T02:37:40.788Z"
+      }
+    ],
+    "createdAt": "2026-09-10T02:37:40.788Z",
+    "updatedAt": "2026-09-10T02:37:40.788Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "evidence_8213f60e-0306-45b6-852d-045d054e1d15",
+    "title": "Cache design README",
+    "type": "document",
+    "description": "README documents Redis cache-aside implementation and invalidation flow.",
+    "confidence": "supported",
+    "competencyIds": [
+      "redis.cache-consistency"
+    ],
+    "artifactRefs": [],
+    "sourceRefs": [
+      {
+        "id": "src_02bbae46-fe35-45c8-ab17-6c9e2373aff7",
+        "kind": "file",
+        "locator": "/mnt/data/career-agent-implementation/engineering-traces/D03-evidence-resume-truthfulness/fixture-cache-design.md",
+        "capturedAt": "2026-09-10T02:37:40.799Z"
+      }
+    ],
+    "createdAt": "2026-09-10T02:37:40.799Z",
+    "updatedAt": "2026-09-10T02:37:40.799Z"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "role_07876f96-32e5-44cc-8ee0-995811e0793c",
+  "scope": "target_job",
+  "scopeId": "job_5b52d847-f0f7-4154-93e5-88566a83af31",
+  "catalogVersion": "v1",
+  "generatedAt": "2026-09-10T02:37:55.746Z",
+  "requirements": [
+    {
+      "competencyId": "java.concurrency",
+      "importance": 0.93,
+      "requiredMastery": 0.76,
+      "authority": "jd_explicit",
+      "sourceText": "Strong Java concurrency required",
+      "rationale": "Explicit JD requirement remains authoritative."
+    },
+    {
+      "competencyId": "redis.cache-consistency",
+      "importance": 0.74,
+      "requiredMastery": 0.68,
+      "authority": "market",
+      "sourceText": "Comparable current backend roles frequently probe cache consistency",
+      "rationale": "Supplementary market evidence; it does not replace the explicit JD."
+    },
+    {
+      "competencyId": "mysql.mvcc",
+      "importance": 0.7,
+      "requiredMastery": 0.66,
+      "authority": "canonical",
+      "rationale": "Canonical backend transaction depth."
+    }
+  ]
+}

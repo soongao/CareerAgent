@@ -1,0 +1,108 @@
+{
+  "type": "interview",
+  "input": {
+    "mode": "technical_focus",
+    "targetJobId": "job_fbe9505a-1aa3-402f-9f4e-4b2854125cce"
+  },
+  "target": {
+    "career": {
+      "schemaVersion": 1,
+      "id": "career_edb925c7-9bf9-413c-ba90-ba720cb877da",
+      "name": "Backend Engineer",
+      "createdAt": "2026-09-10T02:37:55.297Z"
+    },
+    "job": {
+      "schemaVersion": 1,
+      "id": "job_fbe9505a-1aa3-402f-9f4e-4b2854125cce",
+      "careerTargetId": "career_edb925c7-9bf9-413c-ba90-ba720cb877da",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:55.299Z",
+      "updatedAt": "2026-09-10T02:37:55.299Z"
+    }
+  },
+  "competencyState": {},
+  "recentObservations": [],
+  "preferences": {},
+  "interview": [
+    {
+      "schemaVersion": 1,
+      "dimension": "clarity",
+      "value": 0.37,
+      "baseConfidence": 0.2924309096304294,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.2924309096043623,
+      "status": "current",
+      "evidenceMass": 0.8648,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.330Z"
+    },
+    {
+      "schemaVersion": 1,
+      "dimension": "follow_up_stability",
+      "value": 0.4,
+      "baseConfidence": 0.28982225840356124,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.2898222583777267,
+      "status": "current",
+      "evidenceMass": 0.8556,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.330Z"
+    },
+    {
+      "schemaVersion": 1,
+      "dimension": "structure",
+      "value": 0.43,
+      "baseConfidence": 0.28193845763009207,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.2819384576049603,
+      "status": "current",
+      "evidenceMass": 0.8280000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.330Z"
+    }
+  ],
+  "evidence": [
+    {
+      "schemaVersion": 1,
+      "id": "evidence_f382b4ec-224c-49d3-b249-187b8f5f3c2e",
+      "title": "E-commerce backend project",
+      "type": "project",
+      "description": "Resume states Redis cache-aside was used in the project.",
+      "confidence": "claimed",
+      "competencyIds": [],
+      "artifactRefs": [],
+      "sourceRefs": [
+        {
+          "id": "src_b1e93b24-60a9-41e2-86e8-b9fa5d017043",
+          "kind": "file",
+          "locator": "sources/resume/normalized.md",
+          "capturedAt": "2026-09-10T02:37:55.301Z"
+        }
+      ],
+      "createdAt": "2026-09-10T02:37:55.301Z",
+      "updatedAt": "2026-09-10T02:37:55.301Z"
+    }
+  ],
+  "claims": [
+    {
+      "schemaVersion": 1,
+      "id": "claim_558b2e9b-340c-472b-ba3f-54a5c0abd4aa",
+      "text": "Used Redis cache-aside in an e-commerce service",
+      "section": "Projects",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:55.301Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_33775a87-9f3e-4c46-a1f2-82c1b79eca17",
+      "text": "Improved API latency by 40%",
+      "section": "Projects",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:55.301Z"
+    }
+  ],
+  "targetResume": "# Candidate\n\nBackend engineer using Java, MySQL and Redis.\n\n## Project\nUsed Redis cache-aside in an e-commerce service. Improved API latency by 40%."
+}

@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-09-10T02:37:41.507Z",
+  "model": "GPT-5.6 Sol",
+  "provenance": "Authored by GPT-5.6 Sol in the 2026-09-10 engineering trace campaign as the actual model response for this scenario, then replayed deterministically through application/runtime boundaries. Not a production fallback and not an expected-value fake.",
+  "total": 12,
+  "pass": 12,
+  "scenarios": [
+    {
+      "id": "D01-backend-longitudinal-loop",
+      "title": "Backend candidate: diagnose → learn → reassess → interview",
+      "description": "A long, realistic preparation loop demonstrating that the system changes strategy as evidence accumulates rather than following a fixed plan.",
+      "status": "PASS"
+    },
+    {
+      "id": "D02-ai-agent-transition",
+      "title": "Backend → AI Agent Engineer transition",
+      "description": "Tests career/target-job reasoning for agent-engineering competencies, including evaluation as a real gap rather than resume keyword matching.",
+      "status": "PASS"
+    },
+    {
+      "id": "D03-evidence-resume-truthfulness",
+      "title": "Evidence provenance prevents resume inflation",
+      "description": "Existing project material supports Redis usage but not the claimed 40% latency improvement or sole ownership; target resume must become more truthful rather than more impressive.",
+      "status": "PASS"
+    },
+    {
+      "id": "D04-assessment-contamination-recovery",
+      "title": "Assessment contamination is contained and recovered",
+      "description": "The AssessmentAgent accidentally teaches after a user asks for an explanation. Independent evaluation rejects the measurement; the system switches to Tutor and later creates a fresh assessment instead of reusing contaminated evidence.",
+      "status": "PASS"
+    },
+    {
+      "id": "D05-target-switch-session-binding",
+      "title": "Paused task cannot leak across Target Jobs",
+      "description": "A paused assessment is bound to one Target Job. Switching the active job invalidates resume, while global competency state remains reusable.",
+      "status": "PASS"
+    },
+    {
+      "id": "D06-real-interview-outcome-loop",
+      "title": "Real interview rejection feeds attributable evidence only",
+      "description": "A rejection itself does not lower competency. Specific interviewer feedback about system-design depth creates a real_feedback observation, the terminal job deactivates, and the system returns to Career Mode.",
+      "status": "PASS"
+    },
+    {
+      "id": "D07-stale-return-refresh",
+      "title": "Strong old knowledge becomes stale, then refreshes",
+      "description": "An old high-mastery observation loses freshness rather than mastery. A clean reassessment refreshes confidence without inventing forgetting.",
+      "status": "PASS"
+    },
+    {
+      "id": "D08-conflicting-signals",
+      "title": "Conflicting observations do not collapse distinct state",
+      "description": "A clean assessment shows strong technical knowledge while mock interviews show weak clarity. The system should preserve competency and surface interview performance separately.",
+      "status": "PASS"
+    },
+    {
+      "id": "D09-self-report-calibration",
+      "title": "Strong self-report stays weak evidence until assessed",
+      "description": "The user confidently self-reports Java concurrency expertise. Runtime caps the signal strength; assessment can still overturn the optimistic claim.",
+      "status": "PASS"
+    },
+    {
+      "id": "D10-no-progress-loop",
+      "title": "Repeated non-diagnostic assessment is suppressed",
+      "description": "Two assessments produce no useful evidence because the user cannot engage. CandidateBuilder suppresses a third identical ASSESS rather than looping forever.",
+      "status": "PASS"
+    },
+    {
+      "id": "D11-ready-stop",
+      "title": "System can stop when no material blocker remains",
+      "description": "Fresh strong competency and interview evidence plus truthful resume support should produce Ready/NO_ACTION rather than endless optimization.",
+      "status": "PASS"
+    },
+    {
+      "id": "D12-process-recovery",
+      "title": "Paused Tutor reconstructs from persisted transcript after process restart",
+      "description": "Simulates a process restart by constructing a second app over the same workspace. The task is reconstructed from persisted input/context/transcript, then continues without losing global state.",
+      "status": "PASS"
+    }
+  ]
+}

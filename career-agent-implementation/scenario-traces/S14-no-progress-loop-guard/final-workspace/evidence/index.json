@@ -1,0 +1,22 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "evidence_4745ffa0-1c89-48fc-8830-21b65060c065",
+    "title": "E-commerce backend project",
+    "type": "project",
+    "description": "Resume states Redis cache-aside was used in the project.",
+    "confidence": "claimed",
+    "competencyIds": [],
+    "artifactRefs": [],
+    "sourceRefs": [
+      {
+        "id": "src_59ef1804-e5f9-4968-abad-3068cdf56208",
+        "kind": "file",
+        "locator": "sources/resume/normalized.md",
+        "capturedAt": "2026-09-10T02:37:55.644Z"
+      }
+    ],
+    "createdAt": "2026-09-10T02:37:55.644Z",
+    "updatedAt": "2026-09-10T02:37:55.644Z"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "raw observation retained",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "observation inactive",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "amendment recorded",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "contested-only mvcc state removed",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

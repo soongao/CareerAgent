@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "self report evidence mass remains limited",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "competencyId": "java.concurrency",
+        "mastery": 0.8270326409495549,
+        "baseConfidence": 0.09601797479524082,
+        "freshness": 0.9999999999554303,
+        "effectiveConfidence": 0.09601797479096133,
+        "status": "unknown",
+        "evidenceMass": 0.2696,
+        "observationCount": 2,
+        "lastObservedAt": "2026-09-10T02:37:41.268Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      }
+    },
+    {
+      "name": "measured evidence pulls mastery down",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "competencyId": "java.concurrency",
+        "mastery": 0.49645464401879297,
+        "baseConfidence": 0.3272423166025724,
+        "freshness": 0.9999999999554303,
+        "effectiveConfidence": 0.3272423165879873,
+        "status": "current",
+        "evidenceMass": 1.1068,
+        "observationCount": 3,
+        "lastObservedAt": "2026-09-10T02:37:41.287Z",
+        "strengths": [
+          "Knows API-level synchronized usage"
+        ],
+        "weaknesses": [
+          "Confuses safe publication and atomicity",
+          "Cannot diagnose executor queueing"
+        ],
+        "misconceptions": [
+          "Believes volatile compound updates are atomic"
+        ],
+        "aggregatorVersion": "v1"
+      }
+    }
+  ]
+}

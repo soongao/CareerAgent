@@ -1,0 +1,8 @@
+import { FileWorkspace } from "../infrastructure/filesystem/file-workspace.js";
+import type { StructuredLLM } from "../infrastructure/llm/structured-llm.js";
+import { newId, nowIso } from "../shared/utils.js";
+const SYSTEM=`Rewrite/select a target resume using only supplied profile facts, existing resume text, Evidence entities, and claim-level support. Improve relevance and clarity but never add unsupported technologies, ownership, metrics, projects, responsibilities or results. If a strong statement lacks support, weaken or remove it. Return JSON {markdown,notes:[string]}.`;
+export class ResumeService {
+  constructor(private readonly ws:FileWorkspace,private readonly llm:StructuredLLM){}
+  async draftTarget(targetJobId:string,confirmWrite=false):Promise<{markdown:string;notes:string[];written:boolean}>{const job=(await this.ws.getTargetJobs()).find(x=>x.id===targetJobId);if(!job)throw new Error("Unknown target job");const master=await this.ws.readText("resumes/master.md"),claims=await this.ws.getResumeClaims(),support=await this.ws.getClaimSupport(),evidence=await this.ws.getEvidence();const res=await this.llm.complete<any>({name:"resume.target",system:SYSTEM,input:{job,masterResume:master,claims,claimSupport:support,evidence},promptVersion:"resume-target-v1"});const out={markdown:String(res.output.markdown||""),notes:Array.isArray(res.output.notes)?res.output.notes.map(String):[]};if(confirmWrite){await this.ws.writeText(`resumes/targets/${targetJobId}.md`,out.markdown);await this.ws.writeText(`resumes/targets/${targetJobId}.version`,newId("resumev"));await this.ws.runtimeEvent("resume.updated",newId("trace"),{targetJobId,at:nowIso()});}return{...out,written:confirmWrite};}
+}

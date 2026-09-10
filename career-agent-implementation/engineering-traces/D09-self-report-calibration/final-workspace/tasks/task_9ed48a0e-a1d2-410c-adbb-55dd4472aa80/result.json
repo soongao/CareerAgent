@@ -1,0 +1,60 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_5eb99e73-c65f-4bf0-bde7-8a8f03b62cdd",
+      "evaluationId": "eval_39958e6f-0932-43d5-9e1e-36b8f4ff7a7f",
+      "timestamp": "2026-09-10T02:37:41.287Z",
+      "source": "assessment",
+      "evidenceStrength": 0.91,
+      "confidence": 0.92,
+      "taskId": "task_9ed48a0e-a1d2-410c-adbb-55dd4472aa80",
+      "summary": "Clean non-trivial assessment contradicts the self-report with much stronger evidence.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.39,
+      "strengths": [
+        "Knows API-level synchronized usage"
+      ],
+      "weaknesses": [
+        "Confuses safe publication and atomicity",
+        "Cannot diagnose executor queueing"
+      ],
+      "misconceptions": [
+        "Believes volatile compound updates are atomic"
+      ],
+      "evidenceRefs": [
+        "msg_f8fee4f4-937c-4c5e-8a62-62663359489e",
+        "msg_32962cc1-07fa-4f87-86d1-35c48e4d3360",
+        "msg_92c76f7e-0044-4609-a812-17e5ffc039e7"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "java.concurrency",
+    "masterySignal": 0.39,
+    "evidenceStrength": 0.91,
+    "confidence": 0.92,
+    "strengths": [
+      "Knows API-level synchronized usage"
+    ],
+    "weaknesses": [
+      "Confuses safe publication and atomicity",
+      "Cannot diagnose executor queueing"
+    ],
+    "misconceptions": [
+      "Believes volatile compound updates are atomic"
+    ],
+    "rationale": "Clean non-trivial assessment contradicts the self-report with much stronger evidence."
+  }
+}

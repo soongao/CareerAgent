@@ -1,0 +1,111 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_ac4980c7-7663-44a3-861d-73d38fcf29aa",
+      "evaluationId": "eval_22170a42-ded8-4ca6-b948-512fbd5e2c7d",
+      "timestamp": "2026-09-10T02:37:41.215Z",
+      "source": "interview",
+      "evidenceStrength": 0.68,
+      "confidence": 0.88,
+      "taskId": "task_f6d26d3f-00c2-4661-bd70-4924e7766d58",
+      "summary": "Core MVCC content remains correct despite meandering delivery.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "competency:mysql.mvcc",
+      "target": {
+        "type": "competency",
+        "competencyId": "mysql.mvcc"
+      },
+      "masterySignal": 0.79,
+      "strengths": [
+        "Technically correct"
+      ],
+      "weaknesses": [],
+      "misconceptions": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_e4b6f551-c30a-4dac-80d6-f1d483d8cd8e",
+      "evaluationId": "eval_22170a42-ded8-4ca6-b948-512fbd5e2c7d",
+      "timestamp": "2026-09-10T02:37:41.215Z",
+      "source": "interview",
+      "evidenceStrength": 0.84,
+      "confidence": 0.92,
+      "taskId": "task_f6d26d3f-00c2-4661-bd70-4924e7766d58",
+      "summary": "Answer is technically correct but hard to follow, with frequent backtracking.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:clarity",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "clarity"
+      },
+      "signal": 0.38
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_e82cb97b-3420-443d-81f6-c75a5a620090",
+      "evaluationId": "eval_22170a42-ded8-4ca6-b948-512fbd5e2c7d",
+      "timestamp": "2026-09-10T02:37:41.215Z",
+      "source": "interview",
+      "evidenceStrength": 0.82,
+      "confidence": 0.91,
+      "taskId": "task_f6d26d3f-00c2-4661-bd70-4924e7766d58",
+      "summary": "Does not establish a frame before details.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:structure",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "structure"
+      },
+      "signal": 0.35
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "competencyObservations": [
+      {
+        "competencyId": "mysql.mvcc",
+        "masterySignal": 0.79,
+        "evidenceStrength": 0.68,
+        "confidence": 0.88,
+        "summary": "Core MVCC content remains correct despite meandering delivery.",
+        "strengths": [
+          "Technically correct"
+        ],
+        "weaknesses": [],
+        "misconceptions": []
+      }
+    ],
+    "interviewObservations": [
+      {
+        "dimension": "clarity",
+        "signal": 0.38,
+        "evidenceStrength": 0.84,
+        "confidence": 0.92,
+        "summary": "Answer is technically correct but hard to follow, with frequent backtracking."
+      },
+      {
+        "dimension": "structure",
+        "signal": 0.35,
+        "evidenceStrength": 0.82,
+        "confidence": 0.91,
+        "summary": "Does not establish a frame before details."
+      }
+    ],
+    "claimFindings": [],
+    "overallFeedback": "Knowledge is stronger than interview delivery."
+  },
+  "claimSupport": []
+}

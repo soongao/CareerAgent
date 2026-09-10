@@ -1,0 +1,49 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_20775e8b-f15c-401b-b3d1-350c53e55d80",
+      "evaluationId": "eval_e0a6c1b7-1b18-4017-9ff7-9db2e2ebac57",
+      "timestamp": "2026-09-10T02:37:41.180Z",
+      "source": "assessment",
+      "evidenceStrength": 0.92,
+      "confidence": 0.94,
+      "taskId": "task_486d0de6-527d-4a03-b3a2-130816c128a4",
+      "summary": "Strong clean technical assessment.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:mysql.mvcc",
+      "target": {
+        "type": "competency",
+        "competencyId": "mysql.mvcc"
+      },
+      "masterySignal": 0.86,
+      "strengths": [
+        "Precise MVCC visibility reasoning"
+      ],
+      "weaknesses": [],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_ef2436be-abc7-4a87-8cf6-1ea699fcf4a0",
+        "msg_e8416d0a-7a92-442d-ad94-5267af3ea86f"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "mysql.mvcc",
+    "masterySignal": 0.86,
+    "evidenceStrength": 0.92,
+    "confidence": 0.94,
+    "strengths": [
+      "Precise MVCC visibility reasoning"
+    ],
+    "weaknesses": [],
+    "misconceptions": [],
+    "rationale": "Strong clean technical assessment."
+  }
+}

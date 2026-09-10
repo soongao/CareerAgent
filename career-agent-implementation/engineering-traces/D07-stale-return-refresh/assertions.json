@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "mastery remains high while stale",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "competencyId": "java.concurrency",
+        "mastery": 0.8710996875314989,
+        "baseConfidence": 0.3220469787091505,
+        "freshness": 0.2451291346679808,
+        "effectiveConfidence": 0.0789430972134117,
+        "status": "stale",
+        "evidenceMass": 0.9921,
+        "observationCount": 2,
+        "lastObservedAt": "2025-09-10T00:00:00.000Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      }
+    },
+    {
+      "name": "freshness restored",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "competencyId": "java.concurrency",
+        "mastery": 0.8614444262205457,
+        "baseConfidence": 0.5140305874568564,
+        "freshness": 0.9999999999108607,
+        "effectiveConfidence": 0.514030587411036,
+        "status": "current",
+        "evidenceMass": 1.8291,
+        "observationCount": 3,
+        "lastObservedAt": "2026-09-10T02:37:41.116Z",
+        "strengths": [
+          "Retains strong concurrency model",
+          "Applies overload/backpressure reasoning"
+        ],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      }
+    }
+  ]
+}

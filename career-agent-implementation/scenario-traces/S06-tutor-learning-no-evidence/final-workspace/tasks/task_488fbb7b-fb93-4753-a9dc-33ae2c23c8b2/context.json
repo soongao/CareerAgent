@@ -1,0 +1,31 @@
+{
+  "type": "tutor",
+  "input": {
+    "competencyIds": [
+      "mysql.mvcc"
+    ],
+    "targetJobId": "job_c70e5528-85ab-431c-8afb-6587600e16e9"
+  },
+  "target": {
+    "career": {
+      "schemaVersion": 1,
+      "id": "career_76ac194f-0361-4bd6-8ca7-d54b66b98faf",
+      "name": "Backend Engineer",
+      "createdAt": "2026-09-10T02:37:55.247Z"
+    },
+    "job": {
+      "schemaVersion": 1,
+      "id": "job_c70e5528-85ab-431c-8afb-6587600e16e9",
+      "careerTargetId": "career_76ac194f-0361-4bd6-8ca7-d54b66b98faf",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:55.247Z",
+      "updatedAt": "2026-09-10T02:37:55.247Z"
+    }
+  },
+  "competencyState": {},
+  "recentObservations": [],
+  "preferences": {}
+}

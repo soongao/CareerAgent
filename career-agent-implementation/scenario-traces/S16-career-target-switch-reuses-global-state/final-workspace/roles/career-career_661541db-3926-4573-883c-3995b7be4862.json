@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "role_47c7636c-e1ef-4c7d-beb3-76374c7432a2",
+  "scope": "career",
+  "scopeId": "career_661541db-3926-4573-883c-3995b7be4862",
+  "catalogVersion": "v1",
+  "generatedAt": "2026-09-10T02:37:55.710Z",
+  "requirements": [
+    {
+      "competencyId": "ai-agent.tool-calling",
+      "importance": 0.9,
+      "requiredMastery": 0.78,
+      "authority": "canonical"
+    },
+    {
+      "competencyId": "ai-agent.evaluation",
+      "importance": 0.85,
+      "requiredMastery": 0.72,
+      "authority": "canonical"
+    }
+  ]
+}

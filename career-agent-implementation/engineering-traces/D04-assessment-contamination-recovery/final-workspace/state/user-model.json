@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:40.943Z",
+  "competencies": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.58,
+      "baseConfidence": 0.03520535172186534,
+      "freshness": 0.999999996434428,
+      "effectiveConfidence": 0.03520535159633813,
+      "status": "unknown",
+      "evidenceMass": 0.08960000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.863Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.62,
+      "baseConfidence": 0.05393121390528943,
+      "freshness": 0.999999996434428,
+      "effectiveConfidence": 0.05393121371299381,
+      "status": "unknown",
+      "evidenceMass": 0.1386,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.863Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "mysql.mvcc": {
+      "schemaVersion": 1,
+      "competencyId": "mysql.mvcc",
+      "mastery": 0.7663229513153916,
+      "baseConfidence": 0.4101701051554216,
+      "freshness": 1,
+      "effectiveConfidence": 0.4101701051554216,
+      "status": "current",
+      "evidenceMass": 1.3228,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:40.943Z",
+      "strengths": [
+        "Explains snapshot visibility using transaction/read-view boundaries",
+        "Correct Read View visibility reasoning",
+        "Correctly distinguishes RC and RR timing"
+      ],
+      "weaknesses": [
+        "Still tentative on RC vs RR creation timing",
+        "Minor uncertainty around current read"
+      ],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

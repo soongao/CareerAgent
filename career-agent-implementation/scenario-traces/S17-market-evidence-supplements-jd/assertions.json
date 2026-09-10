@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "java remains jd explicit",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "market redis supplemental",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

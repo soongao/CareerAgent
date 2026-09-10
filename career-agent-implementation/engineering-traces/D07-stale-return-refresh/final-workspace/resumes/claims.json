@@ -1,0 +1,26 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "claim_be637e56-bb3a-4b4f-b256-e0ee5a1bbc5d",
+    "text": "Built order and catalog services",
+    "section": "Experience",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:41.086Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "claim_ab9cef98-678d-456e-9273-6ba2234ecbb8",
+    "text": "Used Redis cache-aside in an e-commerce service",
+    "section": "Project",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:41.086Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "claim_ec4e09bb-e559-437a-afc3-6b1518761ef3",
+    "text": "Improved API latency by 40%",
+    "section": "Project",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:41.086Z"
+  }
+]

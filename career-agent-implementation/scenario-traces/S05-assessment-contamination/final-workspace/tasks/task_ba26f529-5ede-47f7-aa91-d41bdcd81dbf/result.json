@@ -1,0 +1,15 @@
+{
+  "observations": [],
+  "evaluation": {
+    "contaminated": true,
+    "useful": false,
+    "competencyId": "mysql.mvcc",
+    "masterySignal": 0.8,
+    "evidenceStrength": 0,
+    "confidence": 0.98,
+    "strengths": [],
+    "weaknesses": [],
+    "misconceptions": [],
+    "rationale": "The interviewer disclosed the correct RC/RR Read View rule before the later answer, so post-disclosure performance is invalid measurement evidence."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "third assessment suppressed",
+      "ok": true,
+      "details": {
+        "action": "ASSESS",
+        "allowed": false,
+        "targetCompetencyIds": [
+          "java.concurrency",
+          "redis.cache-consistency",
+          "mysql.mvcc",
+          "system-design.scalability"
+        ],
+        "reason": "Suppressed by no-progress loop guard"
+      }
+    }
+  ]
+}

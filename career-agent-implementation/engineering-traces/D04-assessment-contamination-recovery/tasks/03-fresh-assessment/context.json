@@ -1,0 +1,86 @@
+{
+  "type": "assessment",
+  "input": {
+    "competencyId": "mysql.mvcc",
+    "targetJobId": "job_a9bb9d8c-26c6-4a48-b3e2-07bb0f5bc4fc"
+  },
+  "target": {
+    "career": {
+      "schemaVersion": 1,
+      "id": "career_75b42b51-9c47-4963-9ce8-dea69414bd5f",
+      "name": "Backend Engineer",
+      "description": "Prepare for backend roles with durable capability and interview readiness.",
+      "createdAt": "2026-09-10T02:37:40.857Z"
+    },
+    "job": {
+      "schemaVersion": 1,
+      "id": "job_a9bb9d8c-26c6-4a48-b3e2-07bb0f5bc4fc",
+      "careerTargetId": "career_75b42b51-9c47-4963-9ce8-dea69414bd5f",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred. Interview includes project deep-dive and system design.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.859Z",
+      "updatedAt": "2026-09-10T02:37:40.859Z"
+    }
+  },
+  "competencyState": {
+    "mysql.mvcc": {
+      "schemaVersion": 1,
+      "competencyId": "mysql.mvcc",
+      "mastery": 0.73,
+      "baseConfidence": 0.18844246908047324,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.18844246907207443,
+      "status": "current",
+      "evidenceMass": 0.522,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.916Z",
+      "strengths": [
+        "Explains snapshot visibility using transaction/read-view boundaries"
+      ],
+      "weaknesses": [
+        "Still tentative on RC vs RR creation timing"
+      ],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "recentObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_aefb4c29-0883-4ebf-8716-056910bf4955",
+      "evaluationId": "eval_ab51f04f-7f3d-4cf0-a887-cafedf66b7a4",
+      "timestamp": "2026-09-10T02:37:40.916Z",
+      "source": "tutor",
+      "evidenceStrength": 0.6,
+      "confidence": 0.87,
+      "taskId": "task_4032bc07-d693-48cf-b1f4-5fe5735c6594",
+      "summary": "After explanation, the learner independently reasons through a visibility example.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:mysql.mvcc",
+      "target": {
+        "type": "competency",
+        "competencyId": "mysql.mvcc"
+      },
+      "masterySignal": 0.73,
+      "strengths": [
+        "Explains snapshot visibility using transaction/read-view boundaries"
+      ],
+      "weaknesses": [
+        "Still tentative on RC vs RR creation timing"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_07f7afa5-ee4b-415b-8b27-c1ed036b18c8",
+        "msg_a931ab9b-ffc0-412c-b7b8-505873b8b928",
+        "msg_4ff9120a-4cfe-4364-80ce-125eb4e35ff4"
+      ]
+    }
+  ],
+  "preferences": {}
+}

@@ -1,0 +1,397 @@
+{
+  "activeTargets": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-10T02:37:41.052Z",
+    "activeCareerTargetId": "career_97c8a00c-1790-4148-af9d-9e51026fbdca"
+  },
+  "careerTargets": [
+    {
+      "schemaVersion": 1,
+      "id": "career_97c8a00c-1790-4148-af9d-9e51026fbdca",
+      "name": "Backend Engineer",
+      "description": "Prepare for backend roles with durable capability and interview readiness.",
+      "createdAt": "2026-09-10T02:37:41.033Z"
+    }
+  ],
+  "targetJobs": [
+    {
+      "schemaVersion": 1,
+      "id": "job_b2e3122b-3498-4554-aec0-800a440fef2f",
+      "careerTargetId": "career_97c8a00c-1790-4148-af9d-9e51026fbdca",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred. Interview includes project deep-dive and system design.",
+      "status": "rejected",
+      "createdAt": "2026-09-10T02:37:41.034Z",
+      "updatedAt": "2026-09-10T02:37:41.051Z"
+    }
+  ],
+  "userModel": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-10T02:37:41.050Z",
+    "competencies": {
+      "java.concurrency": {
+        "schemaVersion": 1,
+        "competencyId": "java.concurrency",
+        "mastery": 0.58,
+        "baseConfidence": 0.03520535172186534,
+        "freshness": 0.9999999994205946,
+        "effectiveConfidence": 0.03520535170146717,
+        "status": "unknown",
+        "evidenceMass": 0.08960000000000001,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:41.037Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      },
+      "redis.cache-consistency": {
+        "schemaVersion": 1,
+        "competencyId": "redis.cache-consistency",
+        "mastery": 0.62,
+        "baseConfidence": 0.05393121390528943,
+        "freshness": 0.9999999994205946,
+        "effectiveConfidence": 0.053931213874041393,
+        "status": "unknown",
+        "evidenceMass": 0.1386,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:41.037Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      },
+      "system-design.scalability": {
+        "schemaVersion": 1,
+        "competencyId": "system-design.scalability",
+        "mastery": 0.46,
+        "baseConfidence": 0.2507181016615698,
+        "freshness": 0.9999999999108607,
+        "effectiveConfidence": 0.250718101639221,
+        "status": "current",
+        "evidenceMass": 0.7215999999999999,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:41.048Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      }
+    },
+    "interview": {
+      "depth": {
+        "schemaVersion": 1,
+        "dimension": "depth",
+        "value": 0.48,
+        "baseConfidence": 0.21939030158142547,
+        "freshness": 0.9999999999108607,
+        "effectiveConfidence": 0.21939030156186917,
+        "status": "current",
+        "evidenceMass": 0.6192,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:41.048Z"
+      }
+    },
+    "preferences": {}
+  },
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_f7dbdc2d-bff3-4e94-84a7-c5365eb663a7",
+      "evaluationId": "eval_309e38d4-744d-4b3e-9315-df7a42e13ea4",
+      "semanticKey": "competency:java.concurrency",
+      "timestamp": "2026-09-10T02:37:41.037Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.58,
+      "evidenceStrength": 0.16,
+      "confidence": 0.56,
+      "summary": "Java experience is present but concurrency reasoning is not demonstrated in the resume.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_b9030c9e-067e-4b94-8185-757fc3b5d11d",
+      "evaluationId": "eval_309e38d4-744d-4b3e-9315-df7a42e13ea4",
+      "semanticKey": "competency:redis.cache-consistency",
+      "timestamp": "2026-09-10T02:37:41.037Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.62,
+      "evidenceStrength": 0.22,
+      "confidence": 0.63,
+      "summary": "Resume supports Redis cache exposure but not detailed consistency reasoning.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_03f6132c-8fa5-4f8d-b650-83a0a10d1de8",
+      "evaluationId": "eval_608ba2da-e75c-422d-a1b5-e86c6d78918d",
+      "semanticKey": "competency:system-design.scalability",
+      "timestamp": "2026-09-10T02:37:41.048Z",
+      "source": "real_feedback",
+      "target": {
+        "type": "competency",
+        "competencyId": "system-design.scalability"
+      },
+      "masterySignal": 0.46,
+      "evidenceStrength": 0.82,
+      "confidence": 0.88,
+      "summary": "Interviewer feedback specifically says the candidate could not reason through partitioning and hot-key mitigation under scale.",
+      "evaluator": {
+        "name": "outcome-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "outcome-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_43d09cd6-7519-4b5f-bbeb-5790efb69479",
+      "evaluationId": "eval_608ba2da-e75c-422d-a1b5-e86c6d78918d",
+      "semanticKey": "interview:depth",
+      "timestamp": "2026-09-10T02:37:41.048Z",
+      "source": "real_feedback",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "depth"
+      },
+      "signal": 0.48,
+      "evidenceStrength": 0.72,
+      "confidence": 0.86,
+      "summary": "Feedback indicates answers stayed at a high level when pushed into capacity and partition trade-offs.",
+      "evaluator": {
+        "name": "outcome-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "outcome-v1"
+      }
+    }
+  ],
+  "activeObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_f7dbdc2d-bff3-4e94-84a7-c5365eb663a7",
+      "evaluationId": "eval_309e38d4-744d-4b3e-9315-df7a42e13ea4",
+      "semanticKey": "competency:java.concurrency",
+      "timestamp": "2026-09-10T02:37:41.037Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.58,
+      "evidenceStrength": 0.16,
+      "confidence": 0.56,
+      "summary": "Java experience is present but concurrency reasoning is not demonstrated in the resume.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_b9030c9e-067e-4b94-8185-757fc3b5d11d",
+      "evaluationId": "eval_309e38d4-744d-4b3e-9315-df7a42e13ea4",
+      "semanticKey": "competency:redis.cache-consistency",
+      "timestamp": "2026-09-10T02:37:41.037Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.62,
+      "evidenceStrength": 0.22,
+      "confidence": 0.63,
+      "summary": "Resume supports Redis cache exposure but not detailed consistency reasoning.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_03f6132c-8fa5-4f8d-b650-83a0a10d1de8",
+      "evaluationId": "eval_608ba2da-e75c-422d-a1b5-e86c6d78918d",
+      "semanticKey": "competency:system-design.scalability",
+      "timestamp": "2026-09-10T02:37:41.048Z",
+      "source": "real_feedback",
+      "target": {
+        "type": "competency",
+        "competencyId": "system-design.scalability"
+      },
+      "masterySignal": 0.46,
+      "evidenceStrength": 0.82,
+      "confidence": 0.88,
+      "summary": "Interviewer feedback specifically says the candidate could not reason through partitioning and hot-key mitigation under scale.",
+      "evaluator": {
+        "name": "outcome-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "outcome-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_43d09cd6-7519-4b5f-bbeb-5790efb69479",
+      "evaluationId": "eval_608ba2da-e75c-422d-a1b5-e86c6d78918d",
+      "semanticKey": "interview:depth",
+      "timestamp": "2026-09-10T02:37:41.048Z",
+      "source": "real_feedback",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "depth"
+      },
+      "signal": 0.48,
+      "evidenceStrength": 0.72,
+      "confidence": 0.86,
+      "summary": "Feedback indicates answers stayed at a high level when pushed into capacity and partition trade-offs.",
+      "evaluator": {
+        "name": "outcome-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "outcome-v1"
+      }
+    }
+  ],
+  "amendments": [],
+  "evidence": [
+    {
+      "schemaVersion": 1,
+      "id": "evidence_22f5a6f6-10f6-4e29-9c64-7df9cde6a67d",
+      "title": "E-commerce backend project",
+      "type": "project",
+      "description": "Resume describes an e-commerce service using Redis cache-aside.",
+      "confidence": "claimed",
+      "competencyIds": [],
+      "artifactRefs": [],
+      "sourceRefs": [
+        {
+          "id": "src_4d2ad048-fa33-4f99-a9a5-c785a3d12333",
+          "kind": "file",
+          "locator": "sources/resume/normalized.md",
+          "capturedAt": "2026-09-10T02:37:41.037Z"
+        }
+      ],
+      "createdAt": "2026-09-10T02:37:41.037Z",
+      "updatedAt": "2026-09-10T02:37:41.037Z"
+    }
+  ],
+  "resumeClaims": [
+    {
+      "schemaVersion": 1,
+      "id": "claim_2e545b13-f1e7-4f6b-ada0-c8680c5ca4bd",
+      "text": "Built order and catalog services",
+      "section": "Experience",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:41.037Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_7c099a19-82cb-432b-aca2-1c21b29e7ffa",
+      "text": "Used Redis cache-aside in an e-commerce service",
+      "section": "Project",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:41.037Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_2d762ab0-e065-4313-b0a2-10faffd93ebd",
+      "text": "Improved API latency by 40%",
+      "section": "Project",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:41.037Z"
+    }
+  ],
+  "claimSupport": [],
+  "workflow": {
+    "schemaVersion": 1,
+    "pausedTaskIds": [],
+    "recentActions": [],
+    "updatedAt": "2026-09-10T02:37:41.026Z"
+  },
+  "careerExperience": [
+    {
+      "schemaVersion": 1,
+      "id": "career_event_77f89183-6ac0-4443-b038-8143be12f2bc",
+      "targetJobId": "job_b2e3122b-3498-4554-aec0-800a440fef2f",
+      "kind": "rejection",
+      "summary": "Rejected after system design. Interviewer feedback: I stayed too high-level on partitioning and could not give a convincing hot-key mitigation strategy or capacity reasoning.",
+      "timestamp": "2026-09-10T02:37:41.048Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "career_event_3dde198c-0543-4ed0-bfa2-74e61d8bd570",
+      "targetJobId": "job_b2e3122b-3498-4554-aec0-800a440fef2f",
+      "kind": "feedback",
+      "summary": "This real backend interview emphasized capacity estimation, partition strategy and hot-key mitigation more deeply than prior preparation.",
+      "timestamp": "2026-09-10T02:37:41.048Z"
+    }
+  ],
+  "materialChanges": [],
+  "runtimeEvents": [
+    {
+      "schemaVersion": 1,
+      "id": "evt_81e26116-cd87-4842-b458-31cbe6d2f37a",
+      "type": "bootstrap.started",
+      "timestamp": "2026-09-10T02:37:41.031Z",
+      "traceId": "trace_44d86ebf-c1b8-4719-85ec-7081b38cc725",
+      "payload": {
+        "careerTarget": "Backend Engineer"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_f565e660-e981-4fe4-bf9a-1038c4bd1c1b",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:41.040Z",
+      "traceId": "trace_44d86ebf-c1b8-4719-85ec-7081b38cc725",
+      "payload": {
+        "appended": 2,
+        "competencyCount": 2,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_301874ec-67a3-4301-b833-57434b5be532",
+      "type": "bootstrap.completed",
+      "timestamp": "2026-09-10T02:37:41.041Z",
+      "traceId": "trace_44d86ebf-c1b8-4719-85ec-7081b38cc725",
+      "payload": {
+        "careerTargetId": "career_97c8a00c-1790-4148-af9d-9e51026fbdca",
+        "targetJobId": "job_b2e3122b-3498-4554-aec0-800a440fef2f",
+        "roleRequirements": 4,
+        "observations": 2
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_b8ba53b2-9490-412f-b5da-eede65fcbf33",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:41.050Z",
+      "traceId": "trace_88ce8ee1-da6e-4244-9a24-ef290908959c",
+      "payload": {
+        "appended": 2,
+        "competencyCount": 3,
+        "interviewDimensions": 1
+      }
+    }
+  ],
+  "decisionContext": {
+    "unavailable": "Missing role profile for career:career_97c8a00c-1790-4148-af9d-9e51026fbdca"
+  }
+}

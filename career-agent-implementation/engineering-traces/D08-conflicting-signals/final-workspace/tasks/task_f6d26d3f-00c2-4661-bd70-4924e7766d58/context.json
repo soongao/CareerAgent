@@ -1,0 +1,80 @@
+{
+  "type": "interview",
+  "input": {
+    "mode": "technical_focus",
+    "targetJobId": "job_8c9318b1-a22e-4e99-ad8a-cd339a21617f"
+  },
+  "target": {
+    "career": {
+      "schemaVersion": 1,
+      "id": "career_38b5b47e-d44f-4ac9-8194-649df55dc43d",
+      "name": "Backend Engineer",
+      "description": "Prepare for backend roles with durable capability and interview readiness.",
+      "createdAt": "2026-09-10T02:37:41.158Z"
+    },
+    "job": {
+      "schemaVersion": 1,
+      "id": "job_8c9318b1-a22e-4e99-ad8a-cd339a21617f",
+      "careerTargetId": "career_38b5b47e-d44f-4ac9-8194-649df55dc43d",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred. Interview includes project deep-dive and system design.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:41.160Z",
+      "updatedAt": "2026-09-10T02:37:41.160Z"
+    }
+  },
+  "competencyState": {},
+  "recentObservations": [],
+  "preferences": {},
+  "interview": [],
+  "evidence": [
+    {
+      "schemaVersion": 1,
+      "id": "evidence_a4af55dc-f854-45a9-877f-f0ea1a431469",
+      "title": "E-commerce backend project",
+      "type": "project",
+      "description": "Resume describes an e-commerce service using Redis cache-aside.",
+      "confidence": "claimed",
+      "competencyIds": [],
+      "artifactRefs": [],
+      "sourceRefs": [
+        {
+          "id": "src_a868e3c9-ef1e-43f8-935c-0608ecd19523",
+          "kind": "file",
+          "locator": "sources/resume/normalized.md",
+          "capturedAt": "2026-09-10T02:37:41.163Z"
+        }
+      ],
+      "createdAt": "2026-09-10T02:37:41.163Z",
+      "updatedAt": "2026-09-10T02:37:41.163Z"
+    }
+  ],
+  "claims": [
+    {
+      "schemaVersion": 1,
+      "id": "claim_59c877d4-d791-47a0-a79c-234815940f89",
+      "text": "Built order and catalog services",
+      "section": "Experience",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:41.163Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_f6fcc47b-2eaf-43e8-9a41-ba257265df06",
+      "text": "Used Redis cache-aside in an e-commerce service",
+      "section": "Project",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:41.163Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_c39bfc8e-e971-4d67-9136-f2ed2ebb6a6b",
+      "text": "Improved API latency by 40%",
+      "section": "Project",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:41.163Z"
+    }
+  ],
+  "targetResume": "# Candidate\n\nBackend engineer using Java, MySQL and Redis.\n\n## Experience\nBuilt order and catalog services.\n\n## Project\nUsed Redis cache-aside in an e-commerce service. Improved API latency by 40%."
+}

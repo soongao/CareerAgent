@@ -1,0 +1,67 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_05998917-f7f3-48e5-9345-e615daf84256",
+      "evaluationId": "eval_7c6b6f6c-d2d2-4f1b-b16a-28f385e51d00",
+      "timestamp": "2026-09-10T02:37:40.524Z",
+      "source": "tutor",
+      "evidenceStrength": 0.66,
+      "confidence": 0.88,
+      "taskId": "task_cf8c855d-4635-4e5f-8022-52276fd1f732",
+      "summary": "The learner demonstrates materially improved concurrency reasoning in formative problems rather than merely acknowledging explanations.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.76,
+      "strengths": [
+        "Correctly separates visibility from atomicity",
+        "Can explain happens-before with volatile publication",
+        "Can reason about bounded queues and rejection"
+      ],
+      "weaknesses": [
+        "Still slower on compound interleavings"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_cc20e4e3-1c91-4fa8-920c-4d4363c0b232",
+        "msg_17e9e0a9-e41b-498e-b814-04a874b2d9ee",
+        "msg_e6defc15-3547-4518-b546-6bea8b5a9fe5",
+        "msg_7c8f325a-1aa2-414c-a8a3-427c1b44b3af"
+      ]
+    }
+  ],
+  "evaluation": {
+    "observations": [
+      {
+        "competencyId": "java.concurrency",
+        "masterySignal": 0.76,
+        "evidenceStrength": 0.66,
+        "confidence": 0.88,
+        "strengths": [
+          "Correctly separates visibility from atomicity",
+          "Can explain happens-before with volatile publication",
+          "Can reason about bounded queues and rejection"
+        ],
+        "weaknesses": [
+          "Still slower on compound interleavings"
+        ],
+        "misconceptions": [],
+        "summary": "The learner demonstrates materially improved concurrency reasoning in formative problems rather than merely acknowledging explanations."
+      }
+    ],
+    "learningSummary": "Worked through volatile semantics, happens-before, compound atomicity, bounded executor queues, and overload behavior with learner explanations and scenario checks.",
+    "reviewQuestions": [
+      "Why does volatile not make count++ atomic?",
+      "How would you size a bounded executor queue under bursty load?"
+    ]
+  },
+  "learningArtifact": "artifacts/learning/task_cf8c855d-4635-4e5f-8022-52276fd1f732.md"
+}

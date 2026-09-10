@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "role_b3c266d9-4849-4754-9e76-a2763c01295a",
+  "scope": "target_job",
+  "scopeId": "job_14e13cfd-9eda-4188-9415-2d9b11abc985",
+  "catalogVersion": "v1",
+  "generatedAt": "2026-09-10T02:37:55.614Z",
+  "requirements": [
+    {
+      "competencyId": "java.concurrency",
+      "importance": 0.95,
+      "requiredMastery": 0.75,
+      "authority": "jd_explicit",
+      "sourceText": "Strong Java concurrency required"
+    }
+  ]
+}

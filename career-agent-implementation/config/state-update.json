@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "sourceEvidenceCaps": {
+    "self_report": 0.30,
+    "resume": 0.25,
+    "tutor": 0.70,
+    "assessment": 1.00,
+    "interview": 1.00,
+    "evidence": 1.00,
+    "real_feedback": 1.00
+  },
+  "minEvidenceMass": 0.5,
+  "freshnessHalfLifeDays": 180,
+  "staleThreshold": 0.5,
+  "uncertaintyThreshold": 0.45,
+  "weakMasteryThreshold": 0.55
+}

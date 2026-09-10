@@ -1,0 +1,68 @@
+{
+  "type": "assessment",
+  "input": {
+    "competencyId": "java.concurrency",
+    "targetJobId": "job_581a088f-8819-4c5b-9dd9-76ad67a2ce7d"
+  },
+  "target": {
+    "career": {
+      "schemaVersion": 1,
+      "id": "career_ab1b43d6-2763-422c-aa5e-edae5ce207f6",
+      "name": "Backend Engineer",
+      "createdAt": "2026-09-10T02:37:55.062Z"
+    },
+    "job": {
+      "schemaVersion": 1,
+      "id": "job_581a088f-8819-4c5b-9dd9-76ad67a2ce7d",
+      "careerTargetId": "career_ab1b43d6-2763-422c-aa5e-edae5ce207f6",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:55.064Z",
+      "updatedAt": "2026-09-10T02:37:55.064Z"
+    }
+  },
+  "competencyState": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.58,
+      "baseConfidence": 0.03458768551486413,
+      "freshness": 0.9999999999108607,
+      "effectiveConfidence": 0.03458768551178101,
+      "status": "unknown",
+      "evidenceMass": 0.08800000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.067Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "recentObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_7638a7fe-f136-403b-8465-289a338e830c",
+      "evaluationId": "eval_da59dcf7-be33-4715-b6fb-980c90c40bbc",
+      "semanticKey": "competency:java.concurrency",
+      "timestamp": "2026-09-10T02:37:55.067Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.58,
+      "evidenceStrength": 0.16,
+      "confidence": 0.55,
+      "summary": "Java experience is claimed, but concurrency reasoning is not demonstrated by the resume alone.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    }
+  ],
+  "preferences": {}
+}

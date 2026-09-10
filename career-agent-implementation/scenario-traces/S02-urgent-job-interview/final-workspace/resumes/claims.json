@@ -1,0 +1,18 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "claim_2b314870-f528-490d-8963-93adb527da37",
+    "text": "Used Redis cache-aside in an e-commerce service",
+    "section": "Projects",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:55.027Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "claim_85b40609-fb18-4f3b-b074-ec55611e3b9b",
+    "text": "Improved API latency by 40%",
+    "section": "Projects",
+    "competencyIds": [],
+    "createdAt": "2026-09-10T02:37:55.027Z"
+  }
+]

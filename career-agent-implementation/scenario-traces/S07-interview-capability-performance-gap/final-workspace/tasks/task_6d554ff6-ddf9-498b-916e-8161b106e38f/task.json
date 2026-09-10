@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "task_6d554ff6-ddf9-498b-916e-8161b106e38f",
+  "type": "interview",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:55.319Z",
+  "updatedAt": "2026-09-10T02:37:55.319Z",
+  "input": {
+    "mode": "technical_focus",
+    "targetJobId": "job_fbe9505a-1aa3-402f-9f4e-4b2854125cce"
+  },
+  "localState": {
+    "coveredTopics": [],
+    "mode": "technical_focus",
+    "feedbackRequested": false,
+    "measurementStatus": "clean"
+  },
+  "transcriptPath": "tasks/task_6d554ff6-ddf9-498b-916e-8161b106e38f/transcript.jsonl",
+  "resultPath": "tasks/task_6d554ff6-ddf9-498b-916e-8161b106e38f/result.json",
+  "contextSnapshotPath": "tasks/task_6d554ff6-ddf9-498b-916e-8161b106e38f/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_edb925c7-9bf9-413c-ba90-ba720cb877da",
+    "targetJobId": "job_fbe9505a-1aa3-402f-9f4e-4b2854125cce"
+  }
+}

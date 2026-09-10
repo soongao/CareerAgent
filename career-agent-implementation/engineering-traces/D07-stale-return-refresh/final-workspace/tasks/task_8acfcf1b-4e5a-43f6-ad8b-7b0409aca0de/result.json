@@ -1,0 +1,51 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_083b77e2-564e-4f71-873e-d7c72293b48b",
+      "evaluationId": "eval_dbecb0b6-ef5a-41c7-97d0-0de2edf35c5d",
+      "timestamp": "2026-09-10T02:37:41.116Z",
+      "source": "assessment",
+      "evidenceStrength": 0.9,
+      "confidence": 0.93,
+      "taskId": "task_8acfcf1b-4e5a-43f6-ad8b-7b0409aca0de",
+      "summary": "Fresh clean assessment confirms the old strength remains current.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.85,
+      "strengths": [
+        "Retains strong concurrency model",
+        "Applies overload/backpressure reasoning"
+      ],
+      "weaknesses": [],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_aa595573-2bc2-4f06-bf34-eed06aabea53",
+        "msg_7e3b5610-42d1-433a-b483-4feb02652bee"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "java.concurrency",
+    "masterySignal": 0.85,
+    "evidenceStrength": 0.9,
+    "confidence": 0.93,
+    "strengths": [
+      "Retains strong concurrency model",
+      "Applies overload/backpressure reasoning"
+    ],
+    "weaknesses": [],
+    "misconceptions": [],
+    "rationale": "Fresh clean assessment confirms the old strength remains current."
+  }
+}

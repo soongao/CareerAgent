@@ -1,0 +1,56 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_204d256a-8262-422f-9013-ba22871501e5",
+      "evaluationId": "eval_ce5c93ea-65b0-4dbe-a6bd-de3af83aa159",
+      "timestamp": "2026-09-10T02:37:40.943Z",
+      "source": "assessment",
+      "evidenceStrength": 0.88,
+      "confidence": 0.91,
+      "taskId": "task_f3ee789b-a628-49bb-904b-2d3bfc36bcfd",
+      "summary": "Fresh assessment occurs after the contaminated task ended and provides independent, clean evidence.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:mysql.mvcc",
+      "target": {
+        "type": "competency",
+        "competencyId": "mysql.mvcc"
+      },
+      "masterySignal": 0.79,
+      "strengths": [
+        "Correct Read View visibility reasoning",
+        "Correctly distinguishes RC and RR timing"
+      ],
+      "weaknesses": [
+        "Minor uncertainty around current read"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_3c4e24ce-843f-4244-bc9c-fad4a2c72163",
+        "msg_c3cc2004-ab50-4150-981f-9490934234fc",
+        "msg_ff211704-4cb9-4e58-a1c1-13b28e5bb2d3"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "mysql.mvcc",
+    "masterySignal": 0.79,
+    "evidenceStrength": 0.88,
+    "confidence": 0.91,
+    "strengths": [
+      "Correct Read View visibility reasoning",
+      "Correctly distinguishes RC and RR timing"
+    ],
+    "weaknesses": [
+      "Minor uncertainty around current read"
+    ],
+    "misconceptions": [],
+    "rationale": "Fresh assessment occurs after the contaminated task ended and provides independent, clean evidence."
+  }
+}

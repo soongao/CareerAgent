@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:55.350Z",
+  "competencies": {
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.62,
+      "baseConfidence": 0.05309830694821527,
+      "freshness": 0.9999999978160872,
+      "effectiveConfidence": 0.053098306832253195,
+      "status": "unknown",
+      "evidenceMass": 0.1364,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.301Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.8065944622339424,
+      "baseConfidence": 0.5693203716750814,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.569320371649707,
+      "status": "current",
+      "evidenceMass": 2.1236,
+      "observationCount": 4,
+      "lastObservedAt": "2026-09-10T02:37:55.349Z",
+      "strengths": [
+        "Strong concurrency reasoning",
+        "Correctly identifies queue saturation and memory-visibility concerns",
+        "Correctly reasons about bounded overload and visibility"
+      ],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {
+    "clarity": {
+      "schemaVersion": 1,
+      "dimension": "clarity",
+      "value": 0.38,
+      "baseConfidence": 0.4992461131571078,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.49924611313485656,
+      "status": "current",
+      "evidenceMass": 1.7296,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:55.349Z"
+    },
+    "follow_up_stability": {
+      "schemaVersion": 1,
+      "dimension": "follow_up_stability",
+      "value": 0.40499999999999997,
+      "baseConfidence": 0.4956227929622148,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.495622792940125,
+      "status": "current",
+      "evidenceMass": 1.7112,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:55.349Z"
+    },
+    "structure": {
+      "schemaVersion": 1,
+      "dimension": "structure",
+      "value": 0.43500000000000005,
+      "baseConfidence": 0.48436340198828043,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.48436340196669253,
+      "status": "current",
+      "evidenceMass": 1.6560000000000001,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:55.349Z"
+    }
+  },
+  "preferences": {}
+}

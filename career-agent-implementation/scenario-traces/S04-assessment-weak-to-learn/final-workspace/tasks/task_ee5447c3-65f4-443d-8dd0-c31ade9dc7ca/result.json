@@ -1,0 +1,60 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_1d8f9aa8-7dc6-47da-91c3-c91433b29fb4",
+      "evaluationId": "eval_3d34c2b4-a2c9-4902-acce-f19de55998ff",
+      "timestamp": "2026-09-10T02:37:55.155Z",
+      "source": "assessment",
+      "evidenceStrength": 0.91,
+      "confidence": 0.92,
+      "taskId": "task_ee5447c3-65f4-443d-8dd0-c31ade9dc7ca",
+      "summary": "The user attempted several diagnostic probes but repeatedly applied an incorrect RR visibility model.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:mysql.mvcc",
+      "target": {
+        "type": "competency",
+        "competencyId": "mysql.mvcc"
+      },
+      "masterySignal": 0.29,
+      "strengths": [
+        "Knows MVCC uses multiple versions"
+      ],
+      "weaknesses": [
+        "Cannot explain Read View visibility rules",
+        "Cannot distinguish RC and RR Read View creation timing"
+      ],
+      "misconceptions": [
+        "Believes RR creates a new Read View for every consistent read"
+      ],
+      "evidenceRefs": [
+        "task_ee5447c3-65f4-443d-8dd0-c31ade9dc7ca-turn-2",
+        "task_ee5447c3-65f4-443d-8dd0-c31ade9dc7ca-turn-4",
+        "task_ee5447c3-65f4-443d-8dd0-c31ade9dc7ca-turn-6"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "mysql.mvcc",
+    "masterySignal": 0.29,
+    "evidenceStrength": 0.91,
+    "confidence": 0.92,
+    "strengths": [
+      "Knows MVCC uses multiple versions"
+    ],
+    "weaknesses": [
+      "Cannot explain Read View visibility rules",
+      "Cannot distinguish RC and RR Read View creation timing"
+    ],
+    "misconceptions": [
+      "Believes RR creates a new Read View for every consistent read"
+    ],
+    "rationale": "The user attempted several diagnostic probes but repeatedly applied an incorrect RR visibility model."
+  }
+}

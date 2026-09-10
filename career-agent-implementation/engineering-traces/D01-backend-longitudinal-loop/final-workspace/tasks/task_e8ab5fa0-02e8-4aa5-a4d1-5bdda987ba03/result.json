@@ -1,0 +1,58 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_6cefaf2f-87d5-453d-98e2-e8d50d3b3c6d",
+      "evaluationId": "eval_4a2a8239-f2dc-4e72-94c6-760130d552e0",
+      "timestamp": "2026-09-10T02:37:40.553Z",
+      "source": "assessment",
+      "evidenceStrength": 0.92,
+      "confidence": 0.93,
+      "taskId": "task_e8ab5fa0-02e8-4aa5-a4d1-5bdda987ba03",
+      "summary": "Clean assessment with multiple scenario probes demonstrates strong, transferable concurrency reasoning.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.84,
+      "strengths": [
+        "Explains happens-before precisely",
+        "Separates atomicity, visibility and ordering",
+        "Diagnoses executor saturation using queue and worker signals"
+      ],
+      "weaknesses": [
+        "Minor hesitation on lock-free ABA edge cases"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_40be5567-c983-44d0-8cab-af4c0e5592d3",
+        "msg_ec734ee1-b979-4915-9cb3-1d1635d126e9",
+        "msg_2ccbe3a0-16b5-4cac-aa44-78c20a631b5b"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "java.concurrency",
+    "masterySignal": 0.84,
+    "evidenceStrength": 0.92,
+    "confidence": 0.93,
+    "strengths": [
+      "Explains happens-before precisely",
+      "Separates atomicity, visibility and ordering",
+      "Diagnoses executor saturation using queue and worker signals"
+    ],
+    "weaknesses": [
+      "Minor hesitation on lock-free ABA edge cases"
+    ],
+    "misconceptions": [],
+    "rationale": "Clean assessment with multiple scenario probes demonstrates strong, transferable concurrency reasoning."
+  }
+}

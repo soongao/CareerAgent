@@ -1,0 +1,16 @@
+[
+  {
+    "schemaVersion": 1,
+    "claimId": "claim_05c0c28a-7e40-47fc-9ffb-29c5d012acf6",
+    "evidenceIds": [
+      "evidence_c2146ccc-8b86-4843-9345-e8b2d0f08061"
+    ],
+    "level": "partial",
+    "rationale": "The artifact supports use of Redis/cache-aside, but contains no benchmark or measurement supporting the 40% latency claim.",
+    "evaluatedAt": "2026-09-10T02:37:55.405Z",
+    "evaluator": {
+      "model": "GPT-5.6 Sol",
+      "promptVersion": "evidence-v1"
+    }
+  }
+]

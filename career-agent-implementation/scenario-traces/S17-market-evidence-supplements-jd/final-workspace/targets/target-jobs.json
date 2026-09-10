@@ -1,0 +1,13 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "job_5b52d847-f0f7-4154-93e5-88566a83af31",
+    "careerTargetId": "career_bc7c4f41-0280-4c8e-a528-da3d5967c88a",
+    "title": "Backend Engineer",
+    "company": "ExampleCo",
+    "jdText": "Backend Engineer. Strong Java concurrency required.",
+    "status": "preparing",
+    "createdAt": "2026-09-10T02:37:55.738Z",
+    "updatedAt": "2026-09-10T02:37:55.738Z"
+  }
+]

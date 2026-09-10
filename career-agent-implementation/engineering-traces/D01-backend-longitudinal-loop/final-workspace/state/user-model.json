@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:40.586Z",
+  "competencies": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.6995223218784642,
+      "baseConfidence": 0.654414021236654,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.654414021149153,
+      "status": "current",
+      "evidenceMass": 2.9769,
+      "observationCount": 5,
+      "lastObservedAt": "2026-09-10T02:37:40.583Z",
+      "strengths": [
+        "Recognizes thread-pool saturation symptoms",
+        "Correctly separates visibility from atomicity",
+        "Can explain happens-before with volatile publication",
+        "Can reason about bounded queues and rejection",
+        "Explains happens-before precisely",
+        "Separates atomicity, visibility and ordering",
+        "Diagnoses executor saturation using queue and worker signals",
+        "Explains bounded-queue tradeoffs"
+      ],
+      "weaknesses": [
+        "Cannot reason cleanly about happens-before and visibility",
+        "Confuses queueing with execution concurrency",
+        "Still slower on compound interleavings",
+        "Minor hesitation on lock-free ABA edge cases"
+      ],
+      "misconceptions": [
+        "Treats volatile as making compound updates atomic"
+      ],
+      "aggregatorVersion": "v1"
+    },
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.6119390039171796,
+      "baseConfidence": 0.24866950683725206,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.2486695068040027,
+      "status": "current",
+      "evidenceMass": 0.7148000000000001,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:40.583Z",
+      "strengths": [
+        "Identifies stale-cache window"
+      ],
+      "weaknesses": [
+        "Retry/idempotency path not fully structured"
+      ],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {
+    "technical_accuracy": {
+      "schemaVersion": 1,
+      "dimension": "technical_accuracy",
+      "value": 0.78,
+      "baseConfidence": 0.23662050566314685,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.23662050563150858,
+      "status": "current",
+      "evidenceMass": 0.675,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.583Z"
+    },
+    "clarity": {
+      "schemaVersion": 1,
+      "dimension": "clarity",
+      "value": 0.58,
+      "baseConfidence": 0.23386738684302566,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.2338673868117555,
+      "status": "current",
+      "evidenceMass": 0.666,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.583Z"
+    },
+    "structure": {
+      "schemaVersion": 1,
+      "dimension": "structure",
+      "value": 0.52,
+      "baseConfidence": 0.22387368889319625,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.22387368886326234,
+      "status": "current",
+      "evidenceMass": 0.6335999999999999,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.583Z"
+    },
+    "follow_up_stability": {
+      "schemaVersion": 1,
+      "dimension": "follow_up_stability",
+      "value": 0.62,
+      "baseConfidence": 0.20857487262671914,
+      "freshness": 0.9999999998662911,
+      "effectiveConfidence": 0.2085748725988308,
+      "status": "current",
+      "evidenceMass": 0.5848,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:40.583Z"
+    }
+  },
+  "preferences": {}
+}

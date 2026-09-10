@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "role_422512bd-71e5-4d5c-8b91-45775c69313c",
+  "scope": "target_job",
+  "scopeId": "job_725f5b9b-02de-4c3c-8de7-5a293a964ef7",
+  "catalogVersion": "v1",
+  "generatedAt": "2026-09-10T02:37:40.987Z",
+  "requirements": [
+    {
+      "competencyId": "java.concurrency",
+      "importance": 0.94,
+      "requiredMastery": 0.78,
+      "authority": "jd_explicit",
+      "sourceText": "Strong Java concurrency required",
+      "rationale": "Explicit JD requirement."
+    },
+    {
+      "competencyId": "redis.cache-consistency",
+      "importance": 0.9,
+      "requiredMastery": 0.74,
+      "authority": "jd_explicit",
+      "sourceText": "Redis caching and consistency required",
+      "rationale": "Explicit JD requirement."
+    },
+    {
+      "competencyId": "mysql.mvcc",
+      "importance": 0.82,
+      "requiredMastery": 0.7,
+      "authority": "canonical",
+      "rationale": "Canonical transaction-depth expectation for backend interviews."
+    },
+    {
+      "competencyId": "system-design.scalability",
+      "importance": 0.84,
+      "requiredMastery": 0.72,
+      "authority": "jd_explicit",
+      "sourceText": "Interview includes system design",
+      "rationale": "System design is explicitly in the interview process."
+    }
+  ]
+}

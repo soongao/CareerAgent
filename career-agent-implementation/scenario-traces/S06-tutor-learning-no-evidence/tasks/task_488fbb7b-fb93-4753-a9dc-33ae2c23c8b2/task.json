@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2",
+  "type": "tutor",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:55.256Z",
+  "updatedAt": "2026-09-10T02:37:55.256Z",
+  "input": {
+    "competencyIds": [
+      "mysql.mvcc"
+    ],
+    "targetJobId": "job_c70e5528-85ab-431c-8afb-6587600e16e9",
+    "learningGoal": "Understand RC/RR Read View timing"
+  },
+  "localState": {
+    "objectives": [
+      "mysql.mvcc"
+    ],
+    "coveredTopics": [
+      "mysql.mvcc"
+    ]
+  },
+  "transcriptPath": "tasks/task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2/transcript.jsonl",
+  "resultPath": "tasks/task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2/result.json",
+  "contextSnapshotPath": "tasks/task_488fbb7b-fb93-4753-a9dc-33ae2c23c8b2/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_76ac194f-0361-4bd6-8ca7-d54b66b98faf",
+    "targetJobId": "job_c70e5528-85ab-431c-8afb-6587600e16e9"
+  }
+}

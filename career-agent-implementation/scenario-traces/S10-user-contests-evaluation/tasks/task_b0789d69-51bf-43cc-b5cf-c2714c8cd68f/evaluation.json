@@ -1,0 +1,52 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_fc79903d-bd89-48ea-9b35-bf7debc76ce2",
+      "evaluationId": "eval_5d275a0e-b847-4f4e-bde7-b0310dfdc536",
+      "timestamp": "2026-09-10T02:37:55.502Z",
+      "source": "assessment",
+      "evidenceStrength": 0.88,
+      "confidence": 0.9,
+      "taskId": "task_b0789d69-51bf-43cc-b5cf-c2714c8cd68f",
+      "summary": "Assessment indicates a concrete MVCC gap.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:mysql.mvcc",
+      "target": {
+        "type": "competency",
+        "competencyId": "mysql.mvcc"
+      },
+      "masterySignal": 0.35,
+      "strengths": [],
+      "weaknesses": [
+        "Weak Read View reasoning"
+      ],
+      "misconceptions": [
+        "RR snapshot refresh misconception"
+      ],
+      "evidenceRefs": [
+        "task_b0789d69-51bf-43cc-b5cf-c2714c8cd68f-turn-2"
+      ]
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "useful": true,
+    "competencyId": "mysql.mvcc",
+    "masterySignal": 0.35,
+    "evidenceStrength": 0.88,
+    "confidence": 0.9,
+    "strengths": [],
+    "weaknesses": [
+      "Weak Read View reasoning"
+    ],
+    "misconceptions": [
+      "RR snapshot refresh misconception"
+    ],
+    "rationale": "Assessment indicates a concrete MVCC gap."
+  }
+}

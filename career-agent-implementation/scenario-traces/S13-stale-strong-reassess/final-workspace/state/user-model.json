@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:55.615Z",
+  "competencies": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.91,
+      "baseConfidence": 0.30036744277041894,
+      "freshness": 0.24512897599961733,
+      "effectiveConfidence": 0.07362876366993645,
+      "status": "stale",
+      "evidenceMass": 0.8929999999999999,
+      "observationCount": 1,
+      "lastObservedAt": "2025-09-10T00:00:00Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

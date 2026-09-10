@@ -1,0 +1,179 @@
+{
+  "mode": "career",
+  "target": {
+    "schemaVersion": 1,
+    "id": "career_2d68cd24-1a59-41d3-a700-dfd456bbce0a",
+    "name": "AI Agent Engineer",
+    "description": "Long-term transition into agent/application engineering.",
+    "createdAt": "2026-09-10T02:37:54.969Z"
+  },
+  "readiness": {
+    "schemaVersion": 1,
+    "mode": "career",
+    "scopeId": "career_2d68cd24-1a59-41d3-a700-dfd456bbce0a",
+    "generatedAt": "2026-09-10T02:37:54.986Z",
+    "gaps": [
+      {
+        "competencyId": "ai-agent.tool-calling",
+        "importance": 0.9,
+        "requiredMastery": 0.78,
+        "mastery": 0.66,
+        "effectiveConfidence": 0.06229511404005731,
+        "status": "unknown",
+        "gap": 0.12
+      },
+      {
+        "competencyId": "ai-agent.context-engineering",
+        "importance": 0.88,
+        "requiredMastery": 0.76,
+        "mastery": 0.52,
+        "effectiveConfidence": 0.03867236807667098,
+        "status": "unknown",
+        "gap": 0.24
+      },
+      {
+        "competencyId": "ai-agent.evaluation",
+        "importance": 0.84,
+        "requiredMastery": 0.72,
+        "mastery": null,
+        "effectiveConfidence": 0,
+        "status": "unknown",
+        "gap": null
+      }
+    ],
+    "blockers": [
+      {
+        "id": "block_97f7733e-bf52-4552-ba8d-7f58fe3d859f",
+        "type": "uncertainty",
+        "severity": "high",
+        "title": "Uncertain: ai-agent.tool-calling",
+        "rationale": "Important requirement (0.90) lacks fresh, confident evidence.",
+        "competencyId": "ai-agent.tool-calling"
+      },
+      {
+        "id": "block_5ff00d0e-fcd7-475d-ae83-b7f4a825187f",
+        "type": "uncertainty",
+        "severity": "high",
+        "title": "Uncertain: ai-agent.context-engineering",
+        "rationale": "Important requirement (0.88) lacks fresh, confident evidence.",
+        "competencyId": "ai-agent.context-engineering"
+      },
+      {
+        "id": "block_5fdc82fc-abc4-48f7-9746-0c93db7f5778",
+        "type": "uncertainty",
+        "severity": "medium",
+        "title": "Uncertain: ai-agent.evaluation",
+        "rationale": "Important requirement (0.84) lacks fresh, confident evidence.",
+        "competencyId": "ai-agent.evaluation"
+      }
+    ],
+    "ready": false
+  },
+  "topCompetencyGaps": [
+    {
+      "competencyId": "ai-agent.tool-calling",
+      "importance": 0.9,
+      "requiredMastery": 0.78,
+      "mastery": 0.66,
+      "effectiveConfidence": 0.06229511404005731,
+      "status": "unknown",
+      "gap": 0.12
+    },
+    {
+      "competencyId": "ai-agent.context-engineering",
+      "importance": 0.88,
+      "requiredMastery": 0.76,
+      "mastery": 0.52,
+      "effectiveConfidence": 0.03867236807667098,
+      "status": "unknown",
+      "gap": 0.24
+    },
+    {
+      "competencyId": "ai-agent.evaluation",
+      "importance": 0.84,
+      "requiredMastery": 0.72,
+      "mastery": null,
+      "effectiveConfidence": 0,
+      "status": "unknown",
+      "gap": null
+    }
+  ],
+  "interview": [],
+  "evidence": [
+    {
+      "schemaVersion": 1,
+      "id": "evidence_a4be2d91-2b34-4010-bc9c-73ce25a1cda7",
+      "title": "LLM tool-calling prototype",
+      "type": "project",
+      "description": "Prototype described in the resume.",
+      "confidence": "claimed",
+      "competencyIds": [],
+      "artifactRefs": [],
+      "sourceRefs": [
+        {
+          "id": "src_a5e90974-56d5-41ee-83ca-53abe2b94000",
+          "kind": "file",
+          "locator": "sources/resume/normalized.md",
+          "capturedAt": "2026-09-10T02:37:54.973Z"
+        }
+      ],
+      "createdAt": "2026-09-10T02:37:54.973Z",
+      "updatedAt": "2026-09-10T02:37:54.973Z"
+    }
+  ],
+  "claimSupport": [],
+  "recentActions": [],
+  "candidates": [
+    {
+      "action": "ANALYZE_ROLE",
+      "allowed": true
+    },
+    {
+      "action": "ASSESS",
+      "allowed": true,
+      "targetCompetencyIds": [
+        "ai-agent.tool-calling",
+        "ai-agent.context-engineering",
+        "ai-agent.evaluation"
+      ]
+    },
+    {
+      "action": "LEARN",
+      "allowed": true,
+      "targetCompetencyIds": [
+        "ai-agent.tool-calling",
+        "ai-agent.context-engineering",
+        "ai-agent.evaluation"
+      ]
+    },
+    {
+      "action": "REVIEW",
+      "allowed": true,
+      "targetCompetencyIds": [
+        "ai-agent.tool-calling",
+        "ai-agent.context-engineering",
+        "ai-agent.evaluation"
+      ]
+    },
+    {
+      "action": "MOCK_INTERVIEW",
+      "allowed": true
+    },
+    {
+      "action": "ANALYZE_EVIDENCE",
+      "allowed": true
+    },
+    {
+      "action": "UPDATE_RESUME",
+      "allowed": true
+    },
+    {
+      "action": "REFRESH_PROFILE",
+      "allowed": true
+    },
+    {
+      "action": "NO_ACTION",
+      "allowed": true
+    }
+  ]
+}

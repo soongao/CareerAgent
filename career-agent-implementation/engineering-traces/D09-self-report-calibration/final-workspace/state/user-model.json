@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:41.288Z",
+  "competencies": {
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.49645464401879297,
+      "baseConfidence": 0.3272423166025724,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.3272423165879873,
+      "status": "current",
+      "evidenceMass": 1.1068,
+      "observationCount": 3,
+      "lastObservedAt": "2026-09-10T02:37:41.287Z",
+      "strengths": [
+        "Knows API-level synchronized usage"
+      ],
+      "weaknesses": [
+        "Confuses safe publication and atomicity",
+        "Cannot diagnose executor queueing"
+      ],
+      "misconceptions": [
+        "Believes volatile compound updates are atomic"
+      ],
+      "aggregatorVersion": "v1"
+    },
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.62,
+      "baseConfidence": 0.05393121390528943,
+      "freshness": 0.9999999988857587,
+      "effectiveConfidence": 0.05393121384519705,
+      "status": "unknown",
+      "evidenceMass": 0.1386,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:41.263Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

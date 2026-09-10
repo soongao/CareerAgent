@@ -1,0 +1,9 @@
+{
+  "id": "D06-real-interview-outcome-loop",
+  "title": "Real interview rejection feeds attributable evidence only",
+  "description": "Real-world outcome and target lifecycle.",
+  "completedAt": "2026-09-10T02:37:41.056Z",
+  "model": "GPT-5.6 Sol",
+  "provenance": "Authored by GPT-5.6 Sol in the 2026-09-10 engineering trace campaign as the actual model response for this scenario, then replayed deterministically through application/runtime boundaries. Not a production fallback and not an expected-value fake.",
+  "beforeActiveJob": "job_b2e3122b-3498-4554-aec0-800a440fef2f"
+}

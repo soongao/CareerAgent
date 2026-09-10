@@ -1,0 +1,4 @@
+{
+  "note": "Model/provider selection is delegated to Pi. Configure Pi normally (auth/models/settings), or set PI_MODEL if your Pi environment uses it for selection.",
+  "PI_CODING_AGENT_MODULE": "/absolute/path/to/pi/packages/coding-agent/dist/index.js"
+}

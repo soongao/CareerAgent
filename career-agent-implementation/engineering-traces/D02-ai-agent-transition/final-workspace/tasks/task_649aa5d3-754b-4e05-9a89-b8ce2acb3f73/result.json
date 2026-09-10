@@ -1,0 +1,67 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_a0990c72-9874-41b9-b5d3-3cd281e0668d",
+      "evaluationId": "eval_1303c0dc-2ceb-4968-badf-c3f4718aa412",
+      "timestamp": "2026-09-10T02:37:40.700Z",
+      "source": "tutor",
+      "evidenceStrength": 0.7,
+      "confidence": 0.9,
+      "taskId": "task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73",
+      "summary": "The learner can now design a multi-layer agent eval strategy and explain why exact text matching is insufficient.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:ai-agent.evaluation",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.78,
+      "strengths": [
+        "Separates deterministic invariants from semantic model grading",
+        "Understands replay fixtures and self-consistent failure risk",
+        "Can define forbidden side effects"
+      ],
+      "weaknesses": [
+        "Needs more experience calibrating judge disagreement"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_b53cb8c3-1118-459f-a894-9b9960a8e543",
+        "msg_ef80a1ec-550f-4545-9887-5a2009e795e9",
+        "msg_e5a9c095-c375-4ca9-8a34-3d8e148c7ce4",
+        "msg_673a7026-6aa9-48e9-aeb9-8ab9124a4065"
+      ]
+    }
+  ],
+  "evaluation": {
+    "observations": [
+      {
+        "competencyId": "ai-agent.evaluation",
+        "masterySignal": 0.78,
+        "evidenceStrength": 0.7,
+        "confidence": 0.9,
+        "strengths": [
+          "Separates deterministic invariants from semantic model grading",
+          "Understands replay fixtures and self-consistent failure risk",
+          "Can define forbidden side effects"
+        ],
+        "weaknesses": [
+          "Needs more experience calibrating judge disagreement"
+        ],
+        "misconceptions": [],
+        "summary": "The learner can now design a multi-layer agent eval strategy and explain why exact text matching is insufficient."
+      }
+    ],
+    "learningSummary": "Designed L0–L5 evaluation: schemas/invariants, service integration, agent behavior, evaluator calibration, longitudinal journeys, and adversarial/recovery tests.",
+    "reviewQuestions": [
+      "How do you prevent an actor and evaluator from sharing the same failure mode?",
+      "What should be immutable in a golden trajectory fixture?"
+    ]
+  },
+  "learningArtifact": "artifacts/learning/task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73.md"
+}

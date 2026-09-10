@@ -1,0 +1,22 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "evidence_a4be2d91-2b34-4010-bc9c-73ce25a1cda7",
+    "title": "LLM tool-calling prototype",
+    "type": "project",
+    "description": "Prototype described in the resume.",
+    "confidence": "claimed",
+    "competencyIds": [],
+    "artifactRefs": [],
+    "sourceRefs": [
+      {
+        "id": "src_a5e90974-56d5-41ee-83ca-53abe2b94000",
+        "kind": "file",
+        "locator": "sources/resume/normalized.md",
+        "capturedAt": "2026-09-10T02:37:54.973Z"
+      }
+    ],
+    "createdAt": "2026-09-10T02:37:54.973Z",
+    "updatedAt": "2026-09-10T02:37:54.973Z"
+  }
+]

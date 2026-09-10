@@ -1,0 +1,461 @@
+{
+  "activeTargets": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-10T02:37:55.136Z",
+    "activeCareerTargetId": "career_8712f439-1391-4845-a6ce-083cc03ebae3",
+    "activeTargetJobId": "job_2baf31ca-c1ca-485e-b876-76cd7080ae43"
+  },
+  "careerTargets": [
+    {
+      "schemaVersion": 1,
+      "id": "career_8712f439-1391-4845-a6ce-083cc03ebae3",
+      "name": "Backend Engineer",
+      "createdAt": "2026-09-10T02:37:55.134Z"
+    }
+  ],
+  "targetJobs": [
+    {
+      "schemaVersion": 1,
+      "id": "job_2baf31ca-c1ca-485e-b876-76cd7080ae43",
+      "careerTargetId": "career_8712f439-1391-4845-a6ce-083cc03ebae3",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:55.135Z",
+      "updatedAt": "2026-09-10T02:37:55.135Z"
+    }
+  ],
+  "userModel": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-10T02:37:55.141Z",
+    "competencies": {
+      "redis.cache-consistency": {
+        "schemaVersion": 1,
+        "competencyId": "redis.cache-consistency",
+        "mastery": 0.62,
+        "baseConfidence": 0.05309830694821527,
+        "freshness": 0.9999999998662911,
+        "effectiveConfidence": 0.05309830694111555,
+        "status": "unknown",
+        "evidenceMass": 0.1364,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:55.138Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      },
+      "java.concurrency": {
+        "schemaVersion": 1,
+        "competencyId": "java.concurrency",
+        "mastery": 0.58,
+        "baseConfidence": 0.03458768551486413,
+        "freshness": 0.9999999998662911,
+        "effectiveConfidence": 0.03458768551023945,
+        "status": "unknown",
+        "evidenceMass": 0.08800000000000001,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:55.138Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      }
+    },
+    "interview": {},
+    "preferences": {}
+  },
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_373d4790-aa43-4b61-8456-ad5336663596",
+      "evaluationId": "eval_5a503bd3-7edc-4dfd-9385-2182dd63bf67",
+      "semanticKey": "competency:redis.cache-consistency",
+      "timestamp": "2026-09-10T02:37:55.138Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.62,
+      "evidenceStrength": 0.22,
+      "confidence": 0.62,
+      "summary": "Resume suggests practical Redis cache exposure, but not enough detail to establish consistency depth.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_f0269eea-8fcd-4ad8-8564-3513395fc6aa",
+      "evaluationId": "eval_5a503bd3-7edc-4dfd-9385-2182dd63bf67",
+      "semanticKey": "competency:java.concurrency",
+      "timestamp": "2026-09-10T02:37:55.138Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.58,
+      "evidenceStrength": 0.16,
+      "confidence": 0.55,
+      "summary": "Java experience is claimed, but concurrency reasoning is not demonstrated by the resume alone.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    }
+  ],
+  "activeObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_373d4790-aa43-4b61-8456-ad5336663596",
+      "evaluationId": "eval_5a503bd3-7edc-4dfd-9385-2182dd63bf67",
+      "semanticKey": "competency:redis.cache-consistency",
+      "timestamp": "2026-09-10T02:37:55.138Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.62,
+      "evidenceStrength": 0.22,
+      "confidence": 0.62,
+      "summary": "Resume suggests practical Redis cache exposure, but not enough detail to establish consistency depth.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_f0269eea-8fcd-4ad8-8564-3513395fc6aa",
+      "evaluationId": "eval_5a503bd3-7edc-4dfd-9385-2182dd63bf67",
+      "semanticKey": "competency:java.concurrency",
+      "timestamp": "2026-09-10T02:37:55.138Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.58,
+      "evidenceStrength": 0.16,
+      "confidence": 0.55,
+      "summary": "Java experience is claimed, but concurrency reasoning is not demonstrated by the resume alone.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    }
+  ],
+  "amendments": [],
+  "evidence": [
+    {
+      "schemaVersion": 1,
+      "id": "evidence_14d7eb45-fa86-412d-8f36-fd735e7ebafc",
+      "title": "E-commerce backend project",
+      "type": "project",
+      "description": "Resume states Redis cache-aside was used in the project.",
+      "confidence": "claimed",
+      "competencyIds": [],
+      "artifactRefs": [],
+      "sourceRefs": [
+        {
+          "id": "src_63bdb982-ed26-438a-ba23-0c7bf66a7f34",
+          "kind": "file",
+          "locator": "sources/resume/normalized.md",
+          "capturedAt": "2026-09-10T02:37:55.138Z"
+        }
+      ],
+      "createdAt": "2026-09-10T02:37:55.138Z",
+      "updatedAt": "2026-09-10T02:37:55.138Z"
+    }
+  ],
+  "claimSupport": [],
+  "resumeClaims": [
+    {
+      "schemaVersion": 1,
+      "id": "claim_b7489085-c144-4f47-8ff5-a84248143b0e",
+      "text": "Used Redis cache-aside in an e-commerce service",
+      "section": "Projects",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:55.138Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_5ca8c25c-375b-4c4f-a90c-b5faa9a0ce68",
+      "text": "Improved API latency by 40%",
+      "section": "Projects",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:55.138Z"
+    }
+  ],
+  "workflow": {
+    "schemaVersion": 1,
+    "pausedTaskIds": [],
+    "recentActions": [],
+    "updatedAt": "2026-09-10T02:37:55.149Z",
+    "lastCompletedTaskId": "task_ee5447c3-65f4-443d-8dd0-c31ade9dc7ca"
+  },
+  "careerExperience": [],
+  "materialChanges": [],
+  "runtimeEvents": [
+    {
+      "schemaVersion": 1,
+      "id": "evt_c4800db5-4c7a-4211-9ac5-3be6db33d20a",
+      "type": "bootstrap.started",
+      "timestamp": "2026-09-10T02:37:55.133Z",
+      "traceId": "trace_8f009901-b731-48ce-ab29-ee64a65248ca",
+      "payload": {
+        "careerTarget": "Backend Engineer"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_f0531656-d4d0-40ac-a8cf-5a56b4769794",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:55.141Z",
+      "traceId": "trace_8f009901-b731-48ce-ab29-ee64a65248ca",
+      "payload": {
+        "appended": 2,
+        "competencyCount": 2,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_7812b40c-df15-4200-be52-9f8691fc32ae",
+      "type": "bootstrap.completed",
+      "timestamp": "2026-09-10T02:37:55.142Z",
+      "traceId": "trace_8f009901-b731-48ce-ab29-ee64a65248ca",
+      "payload": {
+        "careerTargetId": "career_8712f439-1391-4845-a6ce-083cc03ebae3",
+        "targetJobId": "job_2baf31ca-c1ca-485e-b876-76cd7080ae43",
+        "roleRequirements": 3,
+        "observations": 2
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_1df719a6-1cd5-4032-a64f-e5b76a7ea2af",
+      "type": "workflow.run.started",
+      "timestamp": "2026-09-10T02:37:55.143Z",
+      "traceId": "trace_e2e50548-8cce-4a66-9a14-b05bfa104cf4",
+      "payload": {}
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_a7464643-8227-4fad-a5a0-5a0692e67696",
+      "type": "workflow.decision.created",
+      "timestamp": "2026-09-10T02:37:55.145Z",
+      "traceId": "trace_e2e50548-8cce-4a66-9a14-b05bfa104cf4",
+      "payload": {
+        "schemaVersion": 1,
+        "id": "decision_130fe7d4-2d45-48cd-8fca-28207c0bea79",
+        "action": "ASSESS",
+        "target": {
+          "competencyIds": [
+            "mysql.mvcc"
+          ],
+          "targetJobId": "job_2baf31ca-c1ca-485e-b876-76cd7080ae43"
+        },
+        "reason": "MVCC is important and currently unknown.",
+        "expectedOutcome": "Determine whether the issue is uncertainty or a real gap.",
+        "priority": "high",
+        "generatedAt": "2026-09-10T02:37:55.145Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      },
+      "decisionId": "decision_130fe7d4-2d45-48cd-8fca-28207c0bea79"
+    }
+  ],
+  "decisionContext": {
+    "mode": "target_job",
+    "target": {
+      "schemaVersion": 1,
+      "id": "job_2baf31ca-c1ca-485e-b876-76cd7080ae43",
+      "careerTargetId": "career_8712f439-1391-4845-a6ce-083cc03ebae3",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:55.135Z",
+      "updatedAt": "2026-09-10T02:37:55.135Z"
+    },
+    "readiness": {
+      "schemaVersion": 1,
+      "mode": "target_job",
+      "scopeId": "job_2baf31ca-c1ca-485e-b876-76cd7080ae43",
+      "generatedAt": "2026-09-10T02:37:55.151Z",
+      "gaps": [
+        {
+          "competencyId": "java.concurrency",
+          "importance": 0.92,
+          "requiredMastery": 0.75,
+          "mastery": 0.58,
+          "effectiveConfidence": 0.03458768551023945,
+          "status": "unknown",
+          "gap": 0.17000000000000004
+        },
+        {
+          "competencyId": "redis.cache-consistency",
+          "importance": 0.86,
+          "requiredMastery": 0.72,
+          "mastery": 0.62,
+          "effectiveConfidence": 0.05309830694111555,
+          "status": "unknown",
+          "gap": 0.09999999999999998
+        },
+        {
+          "competencyId": "mysql.mvcc",
+          "importance": 0.82,
+          "requiredMastery": 0.7,
+          "mastery": null,
+          "effectiveConfidence": 0,
+          "status": "unknown",
+          "gap": null
+        }
+      ],
+      "blockers": [
+        {
+          "id": "block_0a7d5e4f-aaad-4035-ad7c-2d74a22c926c",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: java.concurrency",
+          "rationale": "Important requirement (0.92) lacks fresh, confident evidence.",
+          "competencyId": "java.concurrency"
+        },
+        {
+          "id": "block_dc8e1a0b-4c86-4952-93f8-03c7e33cf35a",
+          "type": "uncertainty",
+          "severity": "medium",
+          "title": "Uncertain: mysql.mvcc",
+          "rationale": "Important requirement (0.82) lacks fresh, confident evidence.",
+          "competencyId": "mysql.mvcc"
+        },
+        {
+          "id": "block_6600abb4-89d3-478c-88cb-bd5ce78ace2e",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: redis.cache-consistency",
+          "rationale": "Important requirement (0.86) lacks fresh, confident evidence.",
+          "competencyId": "redis.cache-consistency"
+        }
+      ],
+      "ready": false
+    },
+    "topCompetencyGaps": [
+      {
+        "competencyId": "java.concurrency",
+        "importance": 0.92,
+        "requiredMastery": 0.75,
+        "mastery": 0.58,
+        "effectiveConfidence": 0.03458768551023945,
+        "status": "unknown",
+        "gap": 0.17000000000000004
+      },
+      {
+        "competencyId": "redis.cache-consistency",
+        "importance": 0.86,
+        "requiredMastery": 0.72,
+        "mastery": 0.62,
+        "effectiveConfidence": 0.05309830694111555,
+        "status": "unknown",
+        "gap": 0.09999999999999998
+      },
+      {
+        "competencyId": "mysql.mvcc",
+        "importance": 0.82,
+        "requiredMastery": 0.7,
+        "mastery": null,
+        "effectiveConfidence": 0,
+        "status": "unknown",
+        "gap": null
+      }
+    ],
+    "interview": [],
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "id": "evidence_14d7eb45-fa86-412d-8f36-fd735e7ebafc",
+        "title": "E-commerce backend project",
+        "type": "project",
+        "description": "Resume states Redis cache-aside was used in the project.",
+        "confidence": "claimed",
+        "competencyIds": [],
+        "artifactRefs": [],
+        "sourceRefs": [
+          {
+            "id": "src_63bdb982-ed26-438a-ba23-0c7bf66a7f34",
+            "kind": "file",
+            "locator": "sources/resume/normalized.md",
+            "capturedAt": "2026-09-10T02:37:55.138Z"
+          }
+        ],
+        "createdAt": "2026-09-10T02:37:55.138Z",
+        "updatedAt": "2026-09-10T02:37:55.138Z"
+      }
+    ],
+    "claimSupport": [],
+    "recentActions": [],
+    "candidates": [
+      {
+        "action": "ANALYZE_ROLE",
+        "allowed": true
+      },
+      {
+        "action": "ASSESS",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "java.concurrency",
+          "mysql.mvcc",
+          "redis.cache-consistency"
+        ]
+      },
+      {
+        "action": "LEARN",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "java.concurrency",
+          "mysql.mvcc",
+          "redis.cache-consistency"
+        ]
+      },
+      {
+        "action": "REVIEW",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "java.concurrency",
+          "mysql.mvcc",
+          "redis.cache-consistency"
+        ]
+      },
+      {
+        "action": "MOCK_INTERVIEW",
+        "allowed": true
+      },
+      {
+        "action": "ANALYZE_EVIDENCE",
+        "allowed": true
+      },
+      {
+        "action": "UPDATE_RESUME",
+        "allowed": true
+      },
+      {
+        "action": "REFRESH_PROFILE",
+        "allowed": true
+      },
+      {
+        "action": "NO_ACTION",
+        "allowed": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "career mode is active",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "no active target job",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "assessment recommended",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "target is context engineering",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

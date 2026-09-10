@@ -1,0 +1,13 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "job_97ecb854-570c-410f-a79f-b7490a73977e",
+    "careerTargetId": "career_84e278a4-b4fe-43b3-bfb9-e4357949106d",
+    "title": "Backend Engineer",
+    "company": "ExampleCo",
+    "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred.",
+    "status": "preparing",
+    "createdAt": "2026-09-10T02:37:55.642Z",
+    "updatedAt": "2026-09-10T02:37:55.642Z"
+  }
+]

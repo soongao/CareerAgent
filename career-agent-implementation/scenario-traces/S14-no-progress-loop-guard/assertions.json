@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "assessment suppressed",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "suppression reason recorded",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

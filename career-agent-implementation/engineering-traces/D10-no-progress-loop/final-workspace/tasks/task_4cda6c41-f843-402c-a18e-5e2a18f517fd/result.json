@@ -1,0 +1,15 @@
+{
+  "observations": [],
+  "evaluation": {
+    "contaminated": false,
+    "useful": false,
+    "competencyId": "java.concurrency",
+    "masterySignal": 0.5,
+    "evidenceStrength": 0.04,
+    "confidence": 0.86,
+    "strengths": [],
+    "weaknesses": [],
+    "misconceptions": [],
+    "rationale": "Second attempt is still non-diagnostic; do not infer weakness from non-participation."
+  }
+}

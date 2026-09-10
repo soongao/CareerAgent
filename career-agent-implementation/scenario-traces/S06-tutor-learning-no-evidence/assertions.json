@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "learning observation emitted",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "learning artifact generated",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "no evidence manufactured",
+      "ok": true,
+      "details": {}
+    }
+  ]
+}

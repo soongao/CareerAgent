@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "decision_345d61dd-d4a7-40da-a588-8812a930bd8e",
+  "action": "ASSESS",
+  "target": {
+    "competencyIds": [
+      "ai-agent.context-engineering"
+    ]
+  },
+  "reason": "Context engineering is important to the career target but the current signal is resume-derived and uncertain.",
+  "expectedOutcome": "Reduce uncertainty before deciding whether focused learning is needed.",
+  "priority": "high",
+  "generatedAt": "2026-09-10T02:37:54.987Z",
+  "model": "GPT-5.6 Sol",
+  "promptVersion": "next-action-v1"
+}

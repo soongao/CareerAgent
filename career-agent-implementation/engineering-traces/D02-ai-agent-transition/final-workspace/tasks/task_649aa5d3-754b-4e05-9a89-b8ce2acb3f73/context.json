@@ -1,0 +1,119 @@
+{
+  "type": "tutor",
+  "input": {
+    "competencyIds": [
+      "ai-agent.evaluation"
+    ],
+    "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+    "learningGoal": "Build a layered eval mental model covering invariants, semantic judging, trajectory replay, and failure campaigns.",
+    "review": false
+  },
+  "target": {
+    "career": {
+      "schemaVersion": 1,
+      "id": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "name": "AI Agent Engineer",
+      "description": "Transition from backend engineering to production Agent/AI application engineering.",
+      "createdAt": "2026-09-10T02:37:40.634Z"
+    },
+    "job": {
+      "schemaVersion": 1,
+      "id": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "title": "AI Agent Engineer",
+      "company": "AgentWorks",
+      "jdText": "AI Agent Engineer. Build production agent workflows, tool calling, context engineering, evaluation, reliability, and human-in-the-loop systems. Strong software engineering required.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.635Z",
+      "updatedAt": "2026-09-10T02:37:40.635Z"
+    }
+  },
+  "competencyState": {
+    "ai-agent.evaluation": {
+      "schemaVersion": 1,
+      "competencyId": "ai-agent.evaluation",
+      "mastery": 0.4511191335740072,
+      "baseConfidence": 0.3260575875534399,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.3260575875389076,
+      "status": "current",
+      "evidenceMass": 0.9972000000000001,
+      "observationCount": 2,
+      "lastObservedAt": "2026-09-10T02:37:40.662Z",
+      "strengths": [
+        "Understands deterministic unit tests and basic golden cases"
+      ],
+      "weaknesses": [
+        "Initially conflates exact-output tests with semantic evals",
+        "No clear separation of actor vs judge evaluation",
+        "Limited thinking about longitudinal replay"
+      ],
+      "misconceptions": [
+        "Treats pass/fail tests as sufficient for stochastic agent quality"
+      ],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "recentObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_a641c867-6fc7-4809-87ba-57bb5668bed7",
+      "evaluationId": "eval_32864ae4-4ff1-430b-9c48-14defa98d5bb",
+      "semanticKey": "competency:ai-agent.evaluation",
+      "timestamp": "2026-09-10T02:37:40.638Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.3,
+      "evidenceStrength": 0.2,
+      "confidence": 0.8,
+      "summary": "The resume explicitly states no formal agent evaluation suite has been built.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_df1abc27-527d-43fe-8726-87c7520422d8",
+      "evaluationId": "eval_7ca89eb9-c440-46b1-86f4-f2c4eff41a38",
+      "timestamp": "2026-09-10T02:37:40.662Z",
+      "source": "assessment",
+      "evidenceStrength": 0.91,
+      "confidence": 0.92,
+      "taskId": "task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6",
+      "summary": "The candidate has software-testing intuition but lacks a mature agent-evaluation model.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:ai-agent.evaluation",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.48,
+      "strengths": [
+        "Understands deterministic unit tests and basic golden cases"
+      ],
+      "weaknesses": [
+        "Initially conflates exact-output tests with semantic evals",
+        "No clear separation of actor vs judge evaluation",
+        "Limited thinking about longitudinal replay"
+      ],
+      "misconceptions": [
+        "Treats pass/fail tests as sufficient for stochastic agent quality"
+      ],
+      "evidenceRefs": [
+        "msg_99ba2f31-89b1-4244-899f-ef642661738d",
+        "msg_dfbbd59a-5459-4c7d-a1ed-207505447e33",
+        "msg_7285b4b9-31e6-4f56-bfbf-af91c7263ccc"
+      ]
+    }
+  ],
+  "preferences": {}
+}

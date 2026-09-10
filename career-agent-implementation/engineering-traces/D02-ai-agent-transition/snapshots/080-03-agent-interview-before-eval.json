@@ -1,0 +1,851 @@
+{
+  "activeTargets": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-10T02:37:40.635Z",
+    "activeCareerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+    "activeTargetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+  },
+  "careerTargets": [
+    {
+      "schemaVersion": 1,
+      "id": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "name": "AI Agent Engineer",
+      "description": "Transition from backend engineering to production Agent/AI application engineering.",
+      "createdAt": "2026-09-10T02:37:40.634Z"
+    }
+  ],
+  "targetJobs": [
+    {
+      "schemaVersion": 1,
+      "id": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "title": "AI Agent Engineer",
+      "company": "AgentWorks",
+      "jdText": "AI Agent Engineer. Build production agent workflows, tool calling, context engineering, evaluation, reliability, and human-in-the-loop systems. Strong software engineering required.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.635Z",
+      "updatedAt": "2026-09-10T02:37:40.635Z"
+    }
+  ],
+  "userModel": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-10T02:37:40.701Z",
+    "competencies": {
+      "ai-agent.tool-calling": {
+        "schemaVersion": 1,
+        "competencyId": "ai-agent.tool-calling",
+        "mastery": 0.68,
+        "baseConfidence": 0.06573952642278647,
+        "freshness": 0.9999999971921121,
+        "effectiveConfidence": 0.06573952623819725,
+        "status": "unknown",
+        "evidenceMass": 0.17,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:40.638Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      },
+      "ai-agent.context-engineering": {
+        "schemaVersion": 1,
+        "competencyId": "ai-agent.context-engineering",
+        "mastery": 0.52,
+        "baseConfidence": 0.041590366478063245,
+        "freshness": 0.9999999971921121,
+        "effectiveConfidence": 0.04159036636128216,
+        "status": "unknown",
+        "evidenceMass": 0.10619999999999999,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:40.638Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      },
+      "ai-agent.evaluation": {
+        "schemaVersion": 1,
+        "competencyId": "ai-agent.evaluation",
+        "mastery": 0.5784513274336283,
+        "baseConfidence": 0.451298566159404,
+        "freshness": 0.9999999999554303,
+        "effectiveConfidence": 0.45129856613928976,
+        "status": "current",
+        "evidenceMass": 1.6272000000000002,
+        "observationCount": 3,
+        "lastObservedAt": "2026-09-10T02:37:40.700Z",
+        "strengths": [
+          "Understands deterministic unit tests and basic golden cases",
+          "Separates deterministic invariants from semantic model grading",
+          "Understands replay fixtures and self-consistent failure risk",
+          "Can define forbidden side effects"
+        ],
+        "weaknesses": [
+          "Initially conflates exact-output tests with semantic evals",
+          "No clear separation of actor vs judge evaluation",
+          "Limited thinking about longitudinal replay",
+          "Needs more experience calibrating judge disagreement"
+        ],
+        "misconceptions": [
+          "Treats pass/fail tests as sufficient for stochastic agent quality"
+        ],
+        "aggregatorVersion": "v1"
+      }
+    },
+    "interview": {},
+    "preferences": {}
+  },
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_5d371f09-2d01-4538-9e0c-7a22c6652097",
+      "evaluationId": "eval_32864ae4-4ff1-430b-9c48-14defa98d5bb",
+      "semanticKey": "competency:ai-agent.tool-calling",
+      "timestamp": "2026-09-10T02:37:40.638Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.tool-calling"
+      },
+      "masterySignal": 0.68,
+      "evidenceStrength": 0.25,
+      "confidence": 0.68,
+      "summary": "Hands-on structured tool-calling experience is claimed but depth is not yet independently measured.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_b39211e6-7601-42db-91cd-1048cc2e0998",
+      "evaluationId": "eval_32864ae4-4ff1-430b-9c48-14defa98d5bb",
+      "semanticKey": "competency:ai-agent.context-engineering",
+      "timestamp": "2026-09-10T02:37:40.638Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.context-engineering"
+      },
+      "masterySignal": 0.52,
+      "evidenceStrength": 0.18,
+      "confidence": 0.59,
+      "summary": "Local memory is mentioned, but retrieval and context isolation depth are unclear.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_a641c867-6fc7-4809-87ba-57bb5668bed7",
+      "evaluationId": "eval_32864ae4-4ff1-430b-9c48-14defa98d5bb",
+      "semanticKey": "competency:ai-agent.evaluation",
+      "timestamp": "2026-09-10T02:37:40.638Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.3,
+      "evidenceStrength": 0.2,
+      "confidence": 0.8,
+      "summary": "The resume explicitly states no formal agent evaluation suite has been built.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_df1abc27-527d-43fe-8726-87c7520422d8",
+      "evaluationId": "eval_7ca89eb9-c440-46b1-86f4-f2c4eff41a38",
+      "timestamp": "2026-09-10T02:37:40.662Z",
+      "source": "assessment",
+      "evidenceStrength": 0.91,
+      "confidence": 0.92,
+      "taskId": "task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6",
+      "summary": "The candidate has software-testing intuition but lacks a mature agent-evaluation model.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:ai-agent.evaluation",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.48,
+      "strengths": [
+        "Understands deterministic unit tests and basic golden cases"
+      ],
+      "weaknesses": [
+        "Initially conflates exact-output tests with semantic evals",
+        "No clear separation of actor vs judge evaluation",
+        "Limited thinking about longitudinal replay"
+      ],
+      "misconceptions": [
+        "Treats pass/fail tests as sufficient for stochastic agent quality"
+      ],
+      "evidenceRefs": [
+        "msg_99ba2f31-89b1-4244-899f-ef642661738d",
+        "msg_dfbbd59a-5459-4c7d-a1ed-207505447e33",
+        "msg_7285b4b9-31e6-4f56-bfbf-af91c7263ccc"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_a0990c72-9874-41b9-b5d3-3cd281e0668d",
+      "evaluationId": "eval_1303c0dc-2ceb-4968-badf-c3f4718aa412",
+      "timestamp": "2026-09-10T02:37:40.700Z",
+      "source": "tutor",
+      "evidenceStrength": 0.7,
+      "confidence": 0.9,
+      "taskId": "task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73",
+      "summary": "The learner can now design a multi-layer agent eval strategy and explain why exact text matching is insufficient.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:ai-agent.evaluation",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.78,
+      "strengths": [
+        "Separates deterministic invariants from semantic model grading",
+        "Understands replay fixtures and self-consistent failure risk",
+        "Can define forbidden side effects"
+      ],
+      "weaknesses": [
+        "Needs more experience calibrating judge disagreement"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_b53cb8c3-1118-459f-a894-9b9960a8e543",
+        "msg_ef80a1ec-550f-4545-9887-5a2009e795e9",
+        "msg_e5a9c095-c375-4ca9-8a34-3d8e148c7ce4",
+        "msg_673a7026-6aa9-48e9-aeb9-8ab9124a4065"
+      ]
+    }
+  ],
+  "activeObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_5d371f09-2d01-4538-9e0c-7a22c6652097",
+      "evaluationId": "eval_32864ae4-4ff1-430b-9c48-14defa98d5bb",
+      "semanticKey": "competency:ai-agent.tool-calling",
+      "timestamp": "2026-09-10T02:37:40.638Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.tool-calling"
+      },
+      "masterySignal": 0.68,
+      "evidenceStrength": 0.25,
+      "confidence": 0.68,
+      "summary": "Hands-on structured tool-calling experience is claimed but depth is not yet independently measured.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_b39211e6-7601-42db-91cd-1048cc2e0998",
+      "evaluationId": "eval_32864ae4-4ff1-430b-9c48-14defa98d5bb",
+      "semanticKey": "competency:ai-agent.context-engineering",
+      "timestamp": "2026-09-10T02:37:40.638Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.context-engineering"
+      },
+      "masterySignal": 0.52,
+      "evidenceStrength": 0.18,
+      "confidence": 0.59,
+      "summary": "Local memory is mentioned, but retrieval and context isolation depth are unclear.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_a641c867-6fc7-4809-87ba-57bb5668bed7",
+      "evaluationId": "eval_32864ae4-4ff1-430b-9c48-14defa98d5bb",
+      "semanticKey": "competency:ai-agent.evaluation",
+      "timestamp": "2026-09-10T02:37:40.638Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.3,
+      "evidenceStrength": 0.2,
+      "confidence": 0.8,
+      "summary": "The resume explicitly states no formal agent evaluation suite has been built.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_df1abc27-527d-43fe-8726-87c7520422d8",
+      "evaluationId": "eval_7ca89eb9-c440-46b1-86f4-f2c4eff41a38",
+      "timestamp": "2026-09-10T02:37:40.662Z",
+      "source": "assessment",
+      "evidenceStrength": 0.91,
+      "confidence": 0.92,
+      "taskId": "task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6",
+      "summary": "The candidate has software-testing intuition but lacks a mature agent-evaluation model.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:ai-agent.evaluation",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.48,
+      "strengths": [
+        "Understands deterministic unit tests and basic golden cases"
+      ],
+      "weaknesses": [
+        "Initially conflates exact-output tests with semantic evals",
+        "No clear separation of actor vs judge evaluation",
+        "Limited thinking about longitudinal replay"
+      ],
+      "misconceptions": [
+        "Treats pass/fail tests as sufficient for stochastic agent quality"
+      ],
+      "evidenceRefs": [
+        "msg_99ba2f31-89b1-4244-899f-ef642661738d",
+        "msg_dfbbd59a-5459-4c7d-a1ed-207505447e33",
+        "msg_7285b4b9-31e6-4f56-bfbf-af91c7263ccc"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_a0990c72-9874-41b9-b5d3-3cd281e0668d",
+      "evaluationId": "eval_1303c0dc-2ceb-4968-badf-c3f4718aa412",
+      "timestamp": "2026-09-10T02:37:40.700Z",
+      "source": "tutor",
+      "evidenceStrength": 0.7,
+      "confidence": 0.9,
+      "taskId": "task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73",
+      "summary": "The learner can now design a multi-layer agent eval strategy and explain why exact text matching is insufficient.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:ai-agent.evaluation",
+      "target": {
+        "type": "competency",
+        "competencyId": "ai-agent.evaluation"
+      },
+      "masterySignal": 0.78,
+      "strengths": [
+        "Separates deterministic invariants from semantic model grading",
+        "Understands replay fixtures and self-consistent failure risk",
+        "Can define forbidden side effects"
+      ],
+      "weaknesses": [
+        "Needs more experience calibrating judge disagreement"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_b53cb8c3-1118-459f-a894-9b9960a8e543",
+        "msg_ef80a1ec-550f-4545-9887-5a2009e795e9",
+        "msg_e5a9c095-c375-4ca9-8a34-3d8e148c7ce4",
+        "msg_673a7026-6aa9-48e9-aeb9-8ab9124a4065"
+      ]
+    }
+  ],
+  "amendments": [],
+  "evidence": [
+    {
+      "schemaVersion": 1,
+      "id": "evidence_89adbbe5-fc41-4205-98a3-cb9ae6664316",
+      "title": "LLM tool-calling prototype",
+      "type": "project",
+      "description": "Prototype described in resume with structured tools and local memory.",
+      "confidence": "claimed",
+      "competencyIds": [],
+      "artifactRefs": [],
+      "sourceRefs": [
+        {
+          "id": "src_95834b1f-4e83-4999-9a96-901a7d9d6c6c",
+          "kind": "file",
+          "locator": "sources/resume/normalized.md",
+          "capturedAt": "2026-09-10T02:37:40.638Z"
+        }
+      ],
+      "createdAt": "2026-09-10T02:37:40.638Z",
+      "updatedAt": "2026-09-10T02:37:40.638Z"
+    }
+  ],
+  "resumeClaims": [
+    {
+      "schemaVersion": 1,
+      "id": "claim_3099b730-c6cd-49cd-9ef1-8751a55461b1",
+      "text": "Built schema-driven LLM tool calls",
+      "section": "Projects",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:40.637Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_29969a29-abf0-4db6-afd2-6f43c5f873ff",
+      "text": "Used local conversation memory",
+      "section": "Projects",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:40.637Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_77417038-357a-45b1-83a5-7d62a39f8aa8",
+      "text": "No formal agent evaluation suite yet",
+      "section": "Projects",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:40.637Z"
+    }
+  ],
+  "claimSupport": [],
+  "workflow": {
+    "schemaVersion": 1,
+    "pausedTaskIds": [],
+    "recentActions": [],
+    "updatedAt": "2026-09-10T02:37:40.727Z",
+    "lastCompletedTaskId": "task_a672c370-23b4-4ebb-9c61-baa6fed015c5"
+  },
+  "careerExperience": [],
+  "materialChanges": [],
+  "runtimeEvents": [
+    {
+      "schemaVersion": 1,
+      "id": "evt_13422648-e197-4dc1-ab8e-b43821cbc249",
+      "type": "bootstrap.started",
+      "timestamp": "2026-09-10T02:37:40.633Z",
+      "traceId": "trace_4327c5b1-89bb-4284-aa4e-2b7ae9ba1aae",
+      "payload": {
+        "careerTarget": "AI Agent Engineer"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_9f89e793-97b2-451e-b193-6dbe26b0d968",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:40.641Z",
+      "traceId": "trace_4327c5b1-89bb-4284-aa4e-2b7ae9ba1aae",
+      "payload": {
+        "appended": 3,
+        "competencyCount": 3,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_3264dd7b-f752-4824-a6ae-d830af9dde97",
+      "type": "bootstrap.completed",
+      "timestamp": "2026-09-10T02:37:40.643Z",
+      "traceId": "trace_4327c5b1-89bb-4284-aa4e-2b7ae9ba1aae",
+      "payload": {
+        "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+        "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+        "roleRequirements": 3,
+        "observations": 3
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_01490aeb-59ce-402f-8cd9-3f6b2ba6a7ff",
+      "type": "workflow.run.started",
+      "timestamp": "2026-09-10T02:37:40.643Z",
+      "traceId": "trace_15b10e2a-4703-45e4-96ba-d172f9652a64",
+      "payload": {}
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_34dfd6b1-47ba-474e-83fe-7501d0cb43a1",
+      "type": "workflow.decision.created",
+      "timestamp": "2026-09-10T02:37:40.645Z",
+      "traceId": "trace_15b10e2a-4703-45e4-96ba-d172f9652a64",
+      "payload": {
+        "schemaVersion": 1,
+        "id": "decision_7edbb6f1-4279-48a2-be9e-56d11ae0d2fd",
+        "action": "ASSESS",
+        "target": {
+          "competencyIds": [
+            "ai-agent.evaluation"
+          ],
+          "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+        },
+        "reason": "Evaluation is an explicit high-importance requirement and the resume explicitly admits no formal suite; measure current conceptual depth before prescribing a curriculum.",
+        "expectedOutcome": "Separate true evaluation weakness from missing resume evidence.",
+        "priority": "high",
+        "generatedAt": "2026-09-10T02:37:40.645Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      },
+      "decisionId": "decision_7edbb6f1-4279-48a2-be9e-56d11ae0d2fd"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_e4446921-d365-42e3-b871-cf775541b457",
+      "type": "task.started",
+      "timestamp": "2026-09-10T02:37:40.649Z",
+      "traceId": "trace_34e2a28e-e13c-4b0e-a083-983e667f9432",
+      "payload": {
+        "type": "assessment",
+        "input": {
+          "competencyId": "ai-agent.evaluation",
+          "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+        }
+      },
+      "taskId": "task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_abcde2dc-e245-4eaa-b00e-8c137fb2a10a",
+      "type": "task.completed",
+      "timestamp": "2026-09-10T02:37:40.655Z",
+      "traceId": "trace_2965ba75-d50f-455c-958f-bcc1ebe4fc9d",
+      "payload": {
+        "type": "assessment"
+      },
+      "taskId": "task_9ae8bc98-4db9-4b9e-9275-173b5e6ebdb6"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_164c2763-145b-4483-9177-6d6cc60f8a6a",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:40.663Z",
+      "traceId": "trace_c9caca86-dc53-4f94-88b9-19333dce8f76",
+      "payload": {
+        "appended": 1,
+        "competencyCount": 3,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_331c0e6f-47a6-47c4-a6ea-9ed88445f27e",
+      "type": "workflow.run.started",
+      "timestamp": "2026-09-10T02:37:40.670Z",
+      "traceId": "trace_b684148a-d1a5-4891-a987-6d4c6167ed37",
+      "payload": {}
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_49cc7191-d887-4934-aa3c-a0e1b48413c3",
+      "type": "workflow.decision.created",
+      "timestamp": "2026-09-10T02:37:40.672Z",
+      "traceId": "trace_b684148a-d1a5-4891-a987-6d4c6167ed37",
+      "payload": {
+        "schemaVersion": 1,
+        "id": "decision_7b0b5620-ad98-4fc6-818c-71793003dc96",
+        "action": "LEARN",
+        "target": {
+          "competencyIds": [
+            "ai-agent.evaluation"
+          ],
+          "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+        },
+        "reason": "Assessment converted uncertainty into a specific evaluation-design weakness.",
+        "expectedOutcome": "Build a layered eval mental model covering invariants, semantic judging, trajectory replay, and failure campaigns.",
+        "priority": "high",
+        "generatedAt": "2026-09-10T02:37:40.672Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      },
+      "decisionId": "decision_7b0b5620-ad98-4fc6-818c-71793003dc96"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_47af53f5-bbb9-47b6-8bb4-e07835d693cc",
+      "type": "task.started",
+      "timestamp": "2026-09-10T02:37:40.676Z",
+      "traceId": "trace_d814c97b-bb3f-4d91-a291-478efc4ad4c4",
+      "payload": {
+        "type": "tutor",
+        "input": {
+          "competencyIds": [
+            "ai-agent.evaluation"
+          ],
+          "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+          "learningGoal": "Build a layered eval mental model covering invariants, semantic judging, trajectory replay, and failure campaigns.",
+          "review": false
+        }
+      },
+      "taskId": "task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_2a83ba13-a081-4af5-a93e-0fe716be2e6a",
+      "type": "task.completed",
+      "timestamp": "2026-09-10T02:37:40.694Z",
+      "traceId": "trace_fdc08741-19d0-41b8-9c13-16dba64dc489",
+      "payload": {
+        "type": "tutor"
+      },
+      "taskId": "task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_8822acf2-2e22-42af-83d2-127d986c912e",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:40.701Z",
+      "traceId": "trace_ea10fd2e-009f-4304-b97d-c21594638423",
+      "payload": {
+        "appended": 1,
+        "competencyCount": 3,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_1a86e831-e102-4b49-beec-04507db4246a",
+      "type": "workflow.run.started",
+      "timestamp": "2026-09-10T02:37:40.709Z",
+      "traceId": "trace_a45c6525-f048-46df-8dba-179f7371ef3b",
+      "payload": {}
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_7db2049a-7de1-4a8b-a803-75dde2d99e31",
+      "type": "workflow.decision.created",
+      "timestamp": "2026-09-10T02:37:40.711Z",
+      "traceId": "trace_a45c6525-f048-46df-8dba-179f7371ef3b",
+      "payload": {
+        "schemaVersion": 1,
+        "id": "decision_6d671580-459e-4be2-a577-e44a52f893a0",
+        "action": "MOCK_INTERVIEW",
+        "target": {
+          "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+        },
+        "reason": "The key evaluation concept improved; a mock interview now tests whether the candidate can explain the architecture under pressure and connect eval design to runtime boundaries.",
+        "expectedOutcome": "Measure communication plus practical agent-engineering depth.",
+        "priority": "high",
+        "generatedAt": "2026-09-10T02:37:40.711Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      },
+      "decisionId": "decision_6d671580-459e-4be2-a577-e44a52f893a0"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_f5ba93b7-d47d-43f4-925e-b42937e49fac",
+      "type": "task.started",
+      "timestamp": "2026-09-10T02:37:40.720Z",
+      "traceId": "trace_d4274a39-b168-448d-ad87-526691996b0e",
+      "payload": {
+        "type": "interview",
+        "input": {
+          "mode": "full_mock",
+          "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b"
+        }
+      },
+      "taskId": "task_a672c370-23b4-4ebb-9c61-baa6fed015c5"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_0d5f40e1-4720-4df0-8cda-d5264794df62",
+      "type": "task.completed",
+      "timestamp": "2026-09-10T02:37:40.728Z",
+      "traceId": "trace_ecf70412-b333-4029-9988-6cbdf27702ef",
+      "payload": {
+        "type": "interview"
+      },
+      "taskId": "task_a672c370-23b4-4ebb-9c61-baa6fed015c5"
+    }
+  ],
+  "decisionContext": {
+    "mode": "target_job",
+    "target": {
+      "schemaVersion": 1,
+      "id": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+      "title": "AI Agent Engineer",
+      "company": "AgentWorks",
+      "jdText": "AI Agent Engineer. Build production agent workflows, tool calling, context engineering, evaluation, reliability, and human-in-the-loop systems. Strong software engineering required.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.635Z",
+      "updatedAt": "2026-09-10T02:37:40.635Z"
+    },
+    "readiness": {
+      "schemaVersion": 1,
+      "mode": "target_job",
+      "scopeId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+      "generatedAt": "2026-09-10T02:37:40.730Z",
+      "gaps": [
+        {
+          "competencyId": "ai-agent.tool-calling",
+          "importance": 0.94,
+          "requiredMastery": 0.8,
+          "mastery": 0.68,
+          "effectiveConfidence": 0.06573952623819725,
+          "status": "unknown",
+          "gap": 0.12
+        },
+        {
+          "competencyId": "ai-agent.context-engineering",
+          "importance": 0.92,
+          "requiredMastery": 0.78,
+          "mastery": 0.52,
+          "effectiveConfidence": 0.04159036636128216,
+          "status": "unknown",
+          "gap": 0.26
+        },
+        {
+          "competencyId": "ai-agent.evaluation",
+          "importance": 0.91,
+          "requiredMastery": 0.76,
+          "mastery": 0.5784513274336283,
+          "effectiveConfidence": 0.45129856613928976,
+          "status": "current",
+          "gap": 0.18154867256637175
+        }
+      ],
+      "blockers": [
+        {
+          "id": "block_d800f67a-26e9-48e8-9437-6e9f9f8a3f70",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: ai-agent.tool-calling",
+          "rationale": "Important requirement (0.94) lacks fresh, confident evidence.",
+          "competencyId": "ai-agent.tool-calling"
+        },
+        {
+          "id": "block_9ed975d0-d648-4615-a8f9-167ea178d35c",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: ai-agent.context-engineering",
+          "rationale": "Important requirement (0.92) lacks fresh, confident evidence.",
+          "competencyId": "ai-agent.context-engineering"
+        }
+      ],
+      "ready": false
+    },
+    "topCompetencyGaps": [
+      {
+        "competencyId": "ai-agent.tool-calling",
+        "importance": 0.94,
+        "requiredMastery": 0.8,
+        "mastery": 0.68,
+        "effectiveConfidence": 0.06573952623819725,
+        "status": "unknown",
+        "gap": 0.12
+      },
+      {
+        "competencyId": "ai-agent.context-engineering",
+        "importance": 0.92,
+        "requiredMastery": 0.78,
+        "mastery": 0.52,
+        "effectiveConfidence": 0.04159036636128216,
+        "status": "unknown",
+        "gap": 0.26
+      },
+      {
+        "competencyId": "ai-agent.evaluation",
+        "importance": 0.91,
+        "requiredMastery": 0.76,
+        "mastery": 0.5784513274336283,
+        "effectiveConfidence": 0.45129856613928976,
+        "status": "current",
+        "gap": 0.18154867256637175
+      }
+    ],
+    "interview": [],
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "id": "evidence_89adbbe5-fc41-4205-98a3-cb9ae6664316",
+        "title": "LLM tool-calling prototype",
+        "type": "project",
+        "description": "Prototype described in resume with structured tools and local memory.",
+        "confidence": "claimed",
+        "competencyIds": [],
+        "artifactRefs": [],
+        "sourceRefs": [
+          {
+            "id": "src_95834b1f-4e83-4999-9a96-901a7d9d6c6c",
+            "kind": "file",
+            "locator": "sources/resume/normalized.md",
+            "capturedAt": "2026-09-10T02:37:40.638Z"
+          }
+        ],
+        "createdAt": "2026-09-10T02:37:40.638Z",
+        "updatedAt": "2026-09-10T02:37:40.638Z"
+      }
+    ],
+    "claimSupport": [],
+    "recentActions": [],
+    "candidates": [
+      {
+        "action": "ANALYZE_ROLE",
+        "allowed": true
+      },
+      {
+        "action": "ASSESS",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "LEARN",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "REVIEW",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "ai-agent.tool-calling",
+          "ai-agent.context-engineering",
+          "ai-agent.evaluation"
+        ]
+      },
+      {
+        "action": "MOCK_INTERVIEW",
+        "allowed": true
+      },
+      {
+        "action": "ANALYZE_EVIDENCE",
+        "allowed": true
+      },
+      {
+        "action": "UPDATE_RESUME",
+        "allowed": true
+      },
+      {
+        "action": "REFRESH_PROFILE",
+        "allowed": true
+      },
+      {
+        "action": "NO_ACTION",
+        "allowed": true
+      }
+    ]
+  }
+}

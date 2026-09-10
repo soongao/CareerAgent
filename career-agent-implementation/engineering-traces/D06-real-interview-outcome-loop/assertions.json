@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "assertions": [
+    {
+      "name": "feedback creates observations",
+      "ok": true,
+      "details": {
+        "r": {
+          "observations": 2
+        }
+      }
+    },
+    {
+      "name": "job deactivated",
+      "ok": true,
+      "details": {
+        "schemaVersion": 1,
+        "updatedAt": "2026-09-10T02:37:41.052Z",
+        "activeCareerTargetId": "career_97c8a00c-1790-4148-af9d-9e51026fbdca"
+      }
+    },
+    {
+      "name": "career mode survives",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "attributable system design signal exists",
+      "ok": true,
+      "details": {
+        "sys": {
+          "schemaVersion": 1,
+          "competencyId": "system-design.scalability",
+          "mastery": 0.46,
+          "baseConfidence": 0.2507181016615698,
+          "freshness": 0.9999999999108607,
+          "effectiveConfidence": 0.250718101639221,
+          "status": "current",
+          "evidenceMass": 0.7215999999999999,
+          "observationCount": 1,
+          "lastObservedAt": "2026-09-10T02:37:41.048Z",
+          "strengths": [],
+          "weaknesses": [],
+          "misconceptions": [],
+          "aggregatorVersion": "v1"
+        }
+      }
+    }
+  ]
+}

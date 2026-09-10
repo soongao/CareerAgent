@@ -1,0 +1,28 @@
+[
+  {
+    "schemaVersion": 1,
+    "claimId": "claim_7f7e0591-d1ac-4a1f-add0-89017ea0429a",
+    "evidenceIds": [
+      "evidence_8213f60e-0306-45b6-852d-045d054e1d15"
+    ],
+    "level": "supported",
+    "rationale": "The README explicitly describes Redis cache-aside use.",
+    "evaluatedAt": "2026-09-10T02:37:40.799Z",
+    "evaluator": {
+      "model": "GPT-5.6 Sol",
+      "promptVersion": "evidence-v1"
+    }
+  },
+  {
+    "schemaVersion": 1,
+    "claimId": "claim_470dc268-055b-4c48-b0d1-2d2c984a27f4",
+    "evidenceIds": [],
+    "level": "unsupported",
+    "rationale": "No benchmark or measurement artifact supports a 40% latency improvement.",
+    "evaluatedAt": "2026-09-10T02:37:40.799Z",
+    "evaluator": {
+      "model": "GPT-5.6 Sol",
+      "promptVersion": "evidence-v1"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-10T02:37:55.709Z",
+  "competencies": {
+    "redis.cache-consistency": {
+      "schemaVersion": 1,
+      "competencyId": "redis.cache-consistency",
+      "mastery": 0.62,
+      "baseConfidence": 0.05309830694821527,
+      "freshness": 0.9999999998217214,
+      "effectiveConfidence": 0.05309830693874897,
+      "status": "unknown",
+      "evidenceMass": 0.1364,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.705Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "java.concurrency": {
+      "schemaVersion": 1,
+      "competencyId": "java.concurrency",
+      "mastery": 0.58,
+      "baseConfidence": 0.03458768551486413,
+      "freshness": 0.9999999998217214,
+      "effectiveConfidence": 0.03458768550869788,
+      "status": "unknown",
+      "evidenceMass": 0.08800000000000001,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.705Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    },
+    "ai-agent.tool-calling": {
+      "schemaVersion": 1,
+      "competencyId": "ai-agent.tool-calling",
+      "mastery": 0.72,
+      "baseConfidence": 0.06946910418879426,
+      "freshness": 0.9999999999554303,
+      "effectiveConfidence": 0.06946910418569804,
+      "status": "unknown",
+      "evidenceMass": 0.18,
+      "observationCount": 1,
+      "lastObservedAt": "2026-09-10T02:37:55.708Z",
+      "strengths": [],
+      "weaknesses": [],
+      "misconceptions": [],
+      "aggregatorVersion": "v1"
+    }
+  },
+  "interview": {},
+  "preferences": {}
+}

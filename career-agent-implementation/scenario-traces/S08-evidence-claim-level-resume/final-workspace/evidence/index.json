@@ -1,0 +1,44 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "evidence_85dfb580-0ed6-4ced-8bd3-5459ddc43905",
+    "title": "E-commerce backend project",
+    "type": "project",
+    "description": "Resume states Redis cache-aside was used in the project.",
+    "confidence": "claimed",
+    "competencyIds": [],
+    "artifactRefs": [],
+    "sourceRefs": [
+      {
+        "id": "src_55aecf09-7ce6-4c08-be65-df1013958ebf",
+        "kind": "file",
+        "locator": "sources/resume/normalized.md",
+        "capturedAt": "2026-09-10T02:37:55.400Z"
+      }
+    ],
+    "createdAt": "2026-09-10T02:37:55.400Z",
+    "updatedAt": "2026-09-10T02:37:55.400Z"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "evidence_c2146ccc-8b86-4843-9345-e8b2d0f08061",
+    "title": "Redis cache README",
+    "type": "document",
+    "description": "README documents cache-aside behavior and invalidation after database updates.",
+    "confidence": "supported",
+    "competencyIds": [
+      "redis.cache-consistency"
+    ],
+    "artifactRefs": [],
+    "sourceRefs": [
+      {
+        "id": "src_5a027d0f-189d-4bb2-81e7-7d6507780648",
+        "kind": "file",
+        "locator": "/tmp/career-trace-S08-evidence-claim-level-resume-R12Pg4/redis-readme.md",
+        "capturedAt": "2026-09-10T02:37:55.405Z"
+      }
+    ],
+    "createdAt": "2026-09-10T02:37:55.405Z",
+    "updatedAt": "2026-09-10T02:37:55.405Z"
+  }
+]

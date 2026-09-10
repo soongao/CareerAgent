@@ -1,0 +1,9 @@
+{
+  "id": "D11-ready-stop",
+  "title": "System can stop when no material blocker remains",
+  "description": "Blocker-based stopping semantics.",
+  "completedAt": "2026-09-10T02:37:41.428Z",
+  "model": "GPT-5.6 Sol",
+  "provenance": "Authored by GPT-5.6 Sol in the 2026-09-10 engineering trace campaign as the actual model response for this scenario, then replayed deterministically through application/runtime boundaries. Not a production fallback and not an expected-value fake.",
+  "activeTargetJobId": "job_d7d95f65-000e-4bb5-b7a4-82175fe00b9c"
+}

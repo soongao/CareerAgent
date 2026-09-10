@@ -1,0 +1,15 @@
+{
+  "observations": [],
+  "evaluation": {
+    "contaminated": false,
+    "useful": false,
+    "competencyId": "java.concurrency",
+    "masterySignal": 0.5,
+    "evidenceStrength": 0.05,
+    "confidence": 0.85,
+    "strengths": [],
+    "weaknesses": [],
+    "misconceptions": [],
+    "rationale": "User repeatedly declines to answer; there is insufficient capability evidence."
+  }
+}

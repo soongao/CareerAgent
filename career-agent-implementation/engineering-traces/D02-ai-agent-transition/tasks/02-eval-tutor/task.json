@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73",
+  "type": "tutor",
+  "status": "completed",
+  "createdAt": "2026-09-10T02:37:40.674Z",
+  "updatedAt": "2026-09-10T02:37:40.692Z",
+  "input": {
+    "competencyIds": [
+      "ai-agent.evaluation"
+    ],
+    "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+    "learningGoal": "Build a layered eval mental model covering invariants, semantic judging, trajectory replay, and failure campaigns.",
+    "review": false
+  },
+  "localState": {
+    "objectives": [
+      "ai-agent.evaluation"
+    ],
+    "coveredTopics": []
+  },
+  "transcriptPath": "tasks/task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73/transcript.jsonl",
+  "contextSnapshotPath": "tasks/task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73/context.json",
+  "contextBinding": {
+    "careerTargetId": "career_ef9189a1-cf78-4e1c-844d-531e24576332",
+    "targetJobId": "job_053573e3-2927-47e4-a599-41cc53f6834b",
+    "resumeVersion": "resumev_44b6aa7a-51a5-4ae6-ba64-cc7ec9c9e6d3"
+  },
+  "resultPath": "tasks/task_649aa5d3-754b-4e05-9a89-b8ce2acb3f73/result.json"
+}

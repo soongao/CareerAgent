@@ -1,0 +1,212 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_c0e3b460-6bbd-44bd-88f5-3f263413fb01",
+      "evaluationId": "eval_a9ec0595-168c-4712-872b-85bf7c9751f4",
+      "timestamp": "2026-09-10T02:37:40.583Z",
+      "source": "interview",
+      "evidenceStrength": 0.71,
+      "confidence": 0.89,
+      "taskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7",
+      "summary": "Concurrency reasoning remains technically sound under interview pressure.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.82,
+      "strengths": [
+        "Explains bounded-queue tradeoffs"
+      ],
+      "weaknesses": [],
+      "misconceptions": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_48c832e1-2411-4145-b397-94b3127c5381",
+      "evaluationId": "eval_a9ec0595-168c-4712-872b-85bf7c9751f4",
+      "timestamp": "2026-09-10T02:37:40.583Z",
+      "source": "interview",
+      "evidenceStrength": 0.67,
+      "confidence": 0.86,
+      "taskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7",
+      "summary": "Understands cache-aside but gives incomplete failure recovery for DB-success/cache-delete-failure.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "competency:redis.cache-consistency",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.61,
+      "strengths": [
+        "Identifies stale-cache window"
+      ],
+      "weaknesses": [
+        "Retry/idempotency path not fully structured"
+      ],
+      "misconceptions": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_d2d6bc71-9748-4dd2-92ef-a429f1240af5",
+      "evaluationId": "eval_a9ec0595-168c-4712-872b-85bf7c9751f4",
+      "timestamp": "2026-09-10T02:37:40.583Z",
+      "source": "interview",
+      "evidenceStrength": 0.75,
+      "confidence": 0.9,
+      "taskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7",
+      "summary": "Mostly technically correct.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:technical_accuracy",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "technical_accuracy"
+      },
+      "signal": 0.78
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_c42c73e6-3b46-4508-a0a7-4542c1de0802",
+      "evaluationId": "eval_a9ec0595-168c-4712-872b-85bf7c9751f4",
+      "timestamp": "2026-09-10T02:37:40.583Z",
+      "source": "interview",
+      "evidenceStrength": 0.74,
+      "confidence": 0.9,
+      "taskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7",
+      "summary": "Answers contain correct points but are not prioritized.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:clarity",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "clarity"
+      },
+      "signal": 0.58
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_13be9cc9-5a62-4c28-9153-f38650bf1a6d",
+      "evaluationId": "eval_a9ec0595-168c-4712-872b-85bf7c9751f4",
+      "timestamp": "2026-09-10T02:37:40.583Z",
+      "source": "interview",
+      "evidenceStrength": 0.72,
+      "confidence": 0.88,
+      "taskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7",
+      "summary": "Frequently jumps to implementation before framing constraints.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:structure",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "structure"
+      },
+      "signal": 0.52
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_78550d55-a698-4a2d-919b-ff6b1a4cb8c4",
+      "evaluationId": "eval_a9ec0595-168c-4712-872b-85bf7c9751f4",
+      "timestamp": "2026-09-10T02:37:40.583Z",
+      "source": "interview",
+      "evidenceStrength": 0.68,
+      "confidence": 0.86,
+      "taskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7",
+      "summary": "Handles follow-ups but sometimes loses the original decision thread.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:follow_up_stability",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "follow_up_stability"
+      },
+      "signal": 0.62
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "competencyObservations": [
+      {
+        "competencyId": "java.concurrency",
+        "masterySignal": 0.82,
+        "evidenceStrength": 0.71,
+        "confidence": 0.89,
+        "summary": "Concurrency reasoning remains technically sound under interview pressure.",
+        "strengths": [
+          "Explains bounded-queue tradeoffs"
+        ],
+        "weaknesses": [],
+        "misconceptions": []
+      },
+      {
+        "competencyId": "redis.cache-consistency",
+        "masterySignal": 0.61,
+        "evidenceStrength": 0.67,
+        "confidence": 0.86,
+        "summary": "Understands cache-aside but gives incomplete failure recovery for DB-success/cache-delete-failure.",
+        "strengths": [
+          "Identifies stale-cache window"
+        ],
+        "weaknesses": [
+          "Retry/idempotency path not fully structured"
+        ],
+        "misconceptions": []
+      }
+    ],
+    "interviewObservations": [
+      {
+        "dimension": "technical_accuracy",
+        "signal": 0.78,
+        "evidenceStrength": 0.75,
+        "confidence": 0.9,
+        "summary": "Mostly technically correct."
+      },
+      {
+        "dimension": "clarity",
+        "signal": 0.58,
+        "evidenceStrength": 0.74,
+        "confidence": 0.9,
+        "summary": "Answers contain correct points but are not prioritized."
+      },
+      {
+        "dimension": "structure",
+        "signal": 0.52,
+        "evidenceStrength": 0.72,
+        "confidence": 0.88,
+        "summary": "Frequently jumps to implementation before framing constraints."
+      },
+      {
+        "dimension": "follow_up_stability",
+        "signal": 0.62,
+        "evidenceStrength": 0.68,
+        "confidence": 0.86,
+        "summary": "Handles follow-ups but sometimes loses the original decision thread."
+      }
+    ],
+    "claimFindings": [],
+    "overallFeedback": "Technical capability improved, but answer structure and Redis consistency depth remain the main blockers."
+  },
+  "claimSupport": []
+}

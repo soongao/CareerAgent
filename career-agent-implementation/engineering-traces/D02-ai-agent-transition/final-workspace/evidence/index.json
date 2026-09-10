@@ -1,0 +1,22 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "evidence_89adbbe5-fc41-4205-98a3-cb9ae6664316",
+    "title": "LLM tool-calling prototype",
+    "type": "project",
+    "description": "Prototype described in resume with structured tools and local memory.",
+    "confidence": "claimed",
+    "competencyIds": [],
+    "artifactRefs": [],
+    "sourceRefs": [
+      {
+        "id": "src_95834b1f-4e83-4999-9a96-901a7d9d6c6c",
+        "kind": "file",
+        "locator": "sources/resume/normalized.md",
+        "capturedAt": "2026-09-10T02:37:40.638Z"
+      }
+    ],
+    "createdAt": "2026-09-10T02:37:40.638Z",
+    "updatedAt": "2026-09-10T02:37:40.638Z"
+  }
+]

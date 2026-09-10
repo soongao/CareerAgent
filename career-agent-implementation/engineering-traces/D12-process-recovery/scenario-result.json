@@ -1,0 +1,8 @@
+{
+  "id": "D12-process-recovery",
+  "title": "Paused Tutor reconstructs from persisted transcript after process restart",
+  "description": "File-backed recovery of interactive session metadata and transcript.",
+  "completedAt": "2026-09-10T02:37:41.491Z",
+  "model": "GPT-5.6 Sol",
+  "provenance": "Authored by GPT-5.6 Sol in the 2026-09-10 engineering trace campaign as the actual model response for this scenario, then replayed deterministically through application/runtime boundaries. Not a production fallback and not an expected-value fake."
+}

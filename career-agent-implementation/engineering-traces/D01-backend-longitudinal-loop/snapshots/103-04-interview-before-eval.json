@@ -1,0 +1,966 @@
+{
+  "activeTargets": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-10T02:37:40.457Z",
+    "activeCareerTargetId": "career_18284724-b379-4224-90dd-ae943f9ee593",
+    "activeTargetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+  },
+  "careerTargets": [
+    {
+      "schemaVersion": 1,
+      "id": "career_18284724-b379-4224-90dd-ae943f9ee593",
+      "name": "Backend Engineer",
+      "description": "Prepare for backend roles with durable capability and interview readiness.",
+      "createdAt": "2026-09-10T02:37:40.455Z"
+    }
+  ],
+  "targetJobs": [
+    {
+      "schemaVersion": 1,
+      "id": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a",
+      "careerTargetId": "career_18284724-b379-4224-90dd-ae943f9ee593",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred. Interview includes project deep-dive and system design.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.457Z",
+      "updatedAt": "2026-09-10T02:37:40.457Z"
+    }
+  ],
+  "userModel": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-10T02:37:40.554Z",
+    "competencies": {
+      "java.concurrency": {
+        "schemaVersion": 1,
+        "competencyId": "java.concurrency",
+        "mastery": 0.6670575692963752,
+        "baseConfidence": 0.5684614967609068,
+        "freshness": 0.9999999999554303,
+        "effectiveConfidence": 0.5684614967355707,
+        "status": "current",
+        "evidenceMass": 2.345,
+        "observationCount": 4,
+        "lastObservedAt": "2026-09-10T02:37:40.553Z",
+        "strengths": [
+          "Recognizes thread-pool saturation symptoms",
+          "Correctly separates visibility from atomicity",
+          "Can explain happens-before with volatile publication",
+          "Can reason about bounded queues and rejection",
+          "Explains happens-before precisely",
+          "Separates atomicity, visibility and ordering",
+          "Diagnoses executor saturation using queue and worker signals"
+        ],
+        "weaknesses": [
+          "Cannot reason cleanly about happens-before and visibility",
+          "Confuses queueing with execution concurrency",
+          "Still slower on compound interleavings",
+          "Minor hesitation on lock-free ABA edge cases"
+        ],
+        "misconceptions": [
+          "Treats volatile as making compound updates atomic"
+        ],
+        "aggregatorVersion": "v1"
+      },
+      "redis.cache-consistency": {
+        "schemaVersion": 1,
+        "competencyId": "redis.cache-consistency",
+        "mastery": 0.62,
+        "baseConfidence": 0.05393121390528943,
+        "freshness": 0.9999999958550226,
+        "effectiveConfidence": 0.05393121368174577,
+        "status": "unknown",
+        "evidenceMass": 0.1386,
+        "observationCount": 1,
+        "lastObservedAt": "2026-09-10T02:37:40.461Z",
+        "strengths": [],
+        "weaknesses": [],
+        "misconceptions": [],
+        "aggregatorVersion": "v1"
+      }
+    },
+    "interview": {},
+    "preferences": {}
+  },
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_d46173f5-0df7-401d-b0f5-fd02d803b9af",
+      "evaluationId": "eval_64568594-030d-4c70-9eb6-0788b1047183",
+      "semanticKey": "competency:java.concurrency",
+      "timestamp": "2026-09-10T02:37:40.461Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.58,
+      "evidenceStrength": 0.16,
+      "confidence": 0.56,
+      "summary": "Java experience is present but concurrency reasoning is not demonstrated in the resume.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_7e5e2012-095d-48fb-9409-46656cac6ffe",
+      "evaluationId": "eval_64568594-030d-4c70-9eb6-0788b1047183",
+      "semanticKey": "competency:redis.cache-consistency",
+      "timestamp": "2026-09-10T02:37:40.461Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.62,
+      "evidenceStrength": 0.22,
+      "confidence": 0.63,
+      "summary": "Resume supports Redis cache exposure but not detailed consistency reasoning.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_74f28753-6551-492c-86ff-a1f20f9bddfc",
+      "evaluationId": "eval_13472852-1dea-4b25-a8bd-b413e15c4333",
+      "timestamp": "2026-09-10T02:37:40.495Z",
+      "source": "assessment",
+      "evidenceStrength": 0.9,
+      "confidence": 0.91,
+      "taskId": "task_f85910ce-f52d-44c0-b1e9-4c23745e51c7",
+      "summary": "Multiple non-trivial probes consistently expose concurrency-model gaps; the transcript is clean and diagnostic.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.43,
+      "strengths": [
+        "Recognizes thread-pool saturation symptoms"
+      ],
+      "weaknesses": [
+        "Cannot reason cleanly about happens-before and visibility",
+        "Confuses queueing with execution concurrency"
+      ],
+      "misconceptions": [
+        "Treats volatile as making compound updates atomic"
+      ],
+      "evidenceRefs": [
+        "msg_4a599bd0-122c-4395-bb71-4ff730980042",
+        "msg_f8f3030b-006f-4899-b222-19bb6e2fec8b",
+        "msg_7fed67c2-cffa-4a1b-9065-a458c9e52000"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_05998917-f7f3-48e5-9345-e615daf84256",
+      "evaluationId": "eval_7c6b6f6c-d2d2-4f1b-b16a-28f385e51d00",
+      "timestamp": "2026-09-10T02:37:40.524Z",
+      "source": "tutor",
+      "evidenceStrength": 0.66,
+      "confidence": 0.88,
+      "taskId": "task_cf8c855d-4635-4e5f-8022-52276fd1f732",
+      "summary": "The learner demonstrates materially improved concurrency reasoning in formative problems rather than merely acknowledging explanations.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.76,
+      "strengths": [
+        "Correctly separates visibility from atomicity",
+        "Can explain happens-before with volatile publication",
+        "Can reason about bounded queues and rejection"
+      ],
+      "weaknesses": [
+        "Still slower on compound interleavings"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_cc20e4e3-1c91-4fa8-920c-4d4363c0b232",
+        "msg_17e9e0a9-e41b-498e-b814-04a874b2d9ee",
+        "msg_e6defc15-3547-4518-b546-6bea8b5a9fe5",
+        "msg_7c8f325a-1aa2-414c-a8a3-427c1b44b3af"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_6cefaf2f-87d5-453d-98e2-e8d50d3b3c6d",
+      "evaluationId": "eval_4a2a8239-f2dc-4e72-94c6-760130d552e0",
+      "timestamp": "2026-09-10T02:37:40.553Z",
+      "source": "assessment",
+      "evidenceStrength": 0.92,
+      "confidence": 0.93,
+      "taskId": "task_e8ab5fa0-02e8-4aa5-a4d1-5bdda987ba03",
+      "summary": "Clean assessment with multiple scenario probes demonstrates strong, transferable concurrency reasoning.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.84,
+      "strengths": [
+        "Explains happens-before precisely",
+        "Separates atomicity, visibility and ordering",
+        "Diagnoses executor saturation using queue and worker signals"
+      ],
+      "weaknesses": [
+        "Minor hesitation on lock-free ABA edge cases"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_40be5567-c983-44d0-8cab-af4c0e5592d3",
+        "msg_ec734ee1-b979-4915-9cb3-1d1635d126e9",
+        "msg_2ccbe3a0-16b5-4cac-aa44-78c20a631b5b"
+      ]
+    }
+  ],
+  "activeObservations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_d46173f5-0df7-401d-b0f5-fd02d803b9af",
+      "evaluationId": "eval_64568594-030d-4c70-9eb6-0788b1047183",
+      "semanticKey": "competency:java.concurrency",
+      "timestamp": "2026-09-10T02:37:40.461Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.58,
+      "evidenceStrength": 0.16,
+      "confidence": 0.56,
+      "summary": "Java experience is present but concurrency reasoning is not demonstrated in the resume.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_7e5e2012-095d-48fb-9409-46656cac6ffe",
+      "evaluationId": "eval_64568594-030d-4c70-9eb6-0788b1047183",
+      "semanticKey": "competency:redis.cache-consistency",
+      "timestamp": "2026-09-10T02:37:40.461Z",
+      "source": "resume",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.62,
+      "evidenceStrength": 0.22,
+      "confidence": 0.63,
+      "summary": "Resume supports Redis cache exposure but not detailed consistency reasoning.",
+      "evaluator": {
+        "name": "resume-competency-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "resume-comp-v1"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_74f28753-6551-492c-86ff-a1f20f9bddfc",
+      "evaluationId": "eval_13472852-1dea-4b25-a8bd-b413e15c4333",
+      "timestamp": "2026-09-10T02:37:40.495Z",
+      "source": "assessment",
+      "evidenceStrength": 0.9,
+      "confidence": 0.91,
+      "taskId": "task_f85910ce-f52d-44c0-b1e9-4c23745e51c7",
+      "summary": "Multiple non-trivial probes consistently expose concurrency-model gaps; the transcript is clean and diagnostic.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.43,
+      "strengths": [
+        "Recognizes thread-pool saturation symptoms"
+      ],
+      "weaknesses": [
+        "Cannot reason cleanly about happens-before and visibility",
+        "Confuses queueing with execution concurrency"
+      ],
+      "misconceptions": [
+        "Treats volatile as making compound updates atomic"
+      ],
+      "evidenceRefs": [
+        "msg_4a599bd0-122c-4395-bb71-4ff730980042",
+        "msg_f8f3030b-006f-4899-b222-19bb6e2fec8b",
+        "msg_7fed67c2-cffa-4a1b-9065-a458c9e52000"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_05998917-f7f3-48e5-9345-e615daf84256",
+      "evaluationId": "eval_7c6b6f6c-d2d2-4f1b-b16a-28f385e51d00",
+      "timestamp": "2026-09-10T02:37:40.524Z",
+      "source": "tutor",
+      "evidenceStrength": 0.66,
+      "confidence": 0.88,
+      "taskId": "task_cf8c855d-4635-4e5f-8022-52276fd1f732",
+      "summary": "The learner demonstrates materially improved concurrency reasoning in formative problems rather than merely acknowledging explanations.",
+      "evaluator": {
+        "name": "tutor-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "tutor-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.76,
+      "strengths": [
+        "Correctly separates visibility from atomicity",
+        "Can explain happens-before with volatile publication",
+        "Can reason about bounded queues and rejection"
+      ],
+      "weaknesses": [
+        "Still slower on compound interleavings"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_cc20e4e3-1c91-4fa8-920c-4d4363c0b232",
+        "msg_17e9e0a9-e41b-498e-b814-04a874b2d9ee",
+        "msg_e6defc15-3547-4518-b546-6bea8b5a9fe5",
+        "msg_7c8f325a-1aa2-414c-a8a3-427c1b44b3af"
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_6cefaf2f-87d5-453d-98e2-e8d50d3b3c6d",
+      "evaluationId": "eval_4a2a8239-f2dc-4e72-94c6-760130d552e0",
+      "timestamp": "2026-09-10T02:37:40.553Z",
+      "source": "assessment",
+      "evidenceStrength": 0.92,
+      "confidence": 0.93,
+      "taskId": "task_e8ab5fa0-02e8-4aa5-a4d1-5bdda987ba03",
+      "summary": "Clean assessment with multiple scenario probes demonstrates strong, transferable concurrency reasoning.",
+      "evaluator": {
+        "name": "assessment-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "assessment-eval-v1"
+      },
+      "semanticKey": "competency:java.concurrency",
+      "target": {
+        "type": "competency",
+        "competencyId": "java.concurrency"
+      },
+      "masterySignal": 0.84,
+      "strengths": [
+        "Explains happens-before precisely",
+        "Separates atomicity, visibility and ordering",
+        "Diagnoses executor saturation using queue and worker signals"
+      ],
+      "weaknesses": [
+        "Minor hesitation on lock-free ABA edge cases"
+      ],
+      "misconceptions": [],
+      "evidenceRefs": [
+        "msg_40be5567-c983-44d0-8cab-af4c0e5592d3",
+        "msg_ec734ee1-b979-4915-9cb3-1d1635d126e9",
+        "msg_2ccbe3a0-16b5-4cac-aa44-78c20a631b5b"
+      ]
+    }
+  ],
+  "amendments": [],
+  "evidence": [
+    {
+      "schemaVersion": 1,
+      "id": "evidence_509933e0-8702-4b32-b10c-167fe2889079",
+      "title": "E-commerce backend project",
+      "type": "project",
+      "description": "Resume describes an e-commerce service using Redis cache-aside.",
+      "confidence": "claimed",
+      "competencyIds": [],
+      "artifactRefs": [],
+      "sourceRefs": [
+        {
+          "id": "src_d3b6e488-d425-4e37-9c87-6a13b11f501b",
+          "kind": "file",
+          "locator": "sources/resume/normalized.md",
+          "capturedAt": "2026-09-10T02:37:40.461Z"
+        }
+      ],
+      "createdAt": "2026-09-10T02:37:40.461Z",
+      "updatedAt": "2026-09-10T02:37:40.461Z"
+    }
+  ],
+  "resumeClaims": [
+    {
+      "schemaVersion": 1,
+      "id": "claim_a5bd74f9-65a8-4269-b5c4-64d13c95e7c9",
+      "text": "Built order and catalog services",
+      "section": "Experience",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:40.460Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_3176358d-f457-4eac-8c61-2321f9661a60",
+      "text": "Used Redis cache-aside in an e-commerce service",
+      "section": "Project",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:40.460Z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "claim_0f72c598-4fdb-44e0-819f-8d70755fdd4e",
+      "text": "Improved API latency by 40%",
+      "section": "Project",
+      "competencyIds": [],
+      "createdAt": "2026-09-10T02:37:40.460Z"
+    }
+  ],
+  "claimSupport": [],
+  "workflow": {
+    "schemaVersion": 1,
+    "pausedTaskIds": [],
+    "recentActions": [],
+    "updatedAt": "2026-09-10T02:37:40.576Z",
+    "lastCompletedTaskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7"
+  },
+  "careerExperience": [],
+  "materialChanges": [],
+  "runtimeEvents": [
+    {
+      "schemaVersion": 1,
+      "id": "evt_d124f3c9-0a6d-4f9e-911f-1b3b234bce91",
+      "type": "bootstrap.started",
+      "timestamp": "2026-09-10T02:37:40.452Z",
+      "traceId": "trace_eb586603-6de9-4ff6-8789-a31b45c4093e",
+      "payload": {
+        "careerTarget": "Backend Engineer"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_053d8db8-fa6f-4911-a8f6-a31c7bae704f",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:40.464Z",
+      "traceId": "trace_eb586603-6de9-4ff6-8789-a31b45c4093e",
+      "payload": {
+        "appended": 2,
+        "competencyCount": 2,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_c57f88d1-0f58-43b6-929b-f9db9d1767fd",
+      "type": "bootstrap.completed",
+      "timestamp": "2026-09-10T02:37:40.466Z",
+      "traceId": "trace_eb586603-6de9-4ff6-8789-a31b45c4093e",
+      "payload": {
+        "careerTargetId": "career_18284724-b379-4224-90dd-ae943f9ee593",
+        "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a",
+        "roleRequirements": 4,
+        "observations": 2
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_f5f11506-8b77-4a2e-9a71-02232bf47e35",
+      "type": "workflow.run.started",
+      "timestamp": "2026-09-10T02:37:40.472Z",
+      "traceId": "trace_2d19fe8f-5697-45be-960c-7fd9b7d0beeb",
+      "payload": {}
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_63ec7c03-ecb8-45d5-adb2-afd24c5b8fff",
+      "type": "workflow.decision.created",
+      "timestamp": "2026-09-10T02:37:40.475Z",
+      "traceId": "trace_2d19fe8f-5697-45be-960c-7fd9b7d0beeb",
+      "payload": {
+        "schemaVersion": 1,
+        "id": "decision_34d17b09-de22-4f3a-b36c-0b067fdc1313",
+        "action": "ASSESS",
+        "target": {
+          "competencyIds": [
+            "java.concurrency"
+          ],
+          "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+        },
+        "reason": "Java concurrency is a high-importance explicit requirement, but current evidence is resume-derived and highly uncertain.",
+        "expectedOutcome": "Resolve whether the gap is real before prescribing learning.",
+        "priority": "high",
+        "generatedAt": "2026-09-10T02:37:40.475Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      },
+      "decisionId": "decision_34d17b09-de22-4f3a-b36c-0b067fdc1313"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_7e3b7922-6220-4045-9d3b-ea0a343f696e",
+      "type": "task.started",
+      "timestamp": "2026-09-10T02:37:40.482Z",
+      "traceId": "trace_49a03c9b-8b63-4aff-9e55-3fd74bef6642",
+      "payload": {
+        "type": "assessment",
+        "input": {
+          "competencyId": "java.concurrency",
+          "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+        }
+      },
+      "taskId": "task_f85910ce-f52d-44c0-b1e9-4c23745e51c7"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_4bfb982d-c016-42cb-bc92-9a468cb8c5db",
+      "type": "task.completed",
+      "timestamp": "2026-09-10T02:37:40.488Z",
+      "traceId": "trace_e6ee0273-27f5-443c-8c29-184f83022821",
+      "payload": {
+        "type": "assessment"
+      },
+      "taskId": "task_f85910ce-f52d-44c0-b1e9-4c23745e51c7"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_49712cd5-dbe5-421e-85bf-87da35f1d6e4",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:40.497Z",
+      "traceId": "trace_dff62509-83ce-472a-95b1-6a83b51bf8c8",
+      "payload": {
+        "appended": 1,
+        "competencyCount": 2,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_2c868dcb-06ba-4018-bb4e-c0b6a4df9aa6",
+      "type": "workflow.run.started",
+      "timestamp": "2026-09-10T02:37:40.505Z",
+      "traceId": "trace_b9fab31d-428d-4dea-b142-bfc64496ce07",
+      "payload": {}
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_4c65d728-e56c-4913-ac94-623171bce70d",
+      "type": "workflow.decision.created",
+      "timestamp": "2026-09-10T02:37:40.507Z",
+      "traceId": "trace_b9fab31d-428d-4dea-b142-bfc64496ce07",
+      "payload": {
+        "schemaVersion": 1,
+        "id": "decision_d2e53e12-fdca-4d63-8c3f-90778eefaed1",
+        "action": "LEARN",
+        "target": {
+          "competencyIds": [
+            "java.concurrency"
+          ],
+          "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+        },
+        "reason": "The uncertainty is now resolved into a confirmed high-priority Java concurrency weakness.",
+        "expectedOutcome": "Improve the specific memory-model and executor reasoning gaps identified by assessment.",
+        "priority": "high",
+        "generatedAt": "2026-09-10T02:37:40.507Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      },
+      "decisionId": "decision_d2e53e12-fdca-4d63-8c3f-90778eefaed1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_d268ed28-dd72-4b1c-a60c-1692fd421110",
+      "type": "task.started",
+      "timestamp": "2026-09-10T02:37:40.511Z",
+      "traceId": "trace_9e1304cf-c256-4611-ae2e-8f2ed41fcb66",
+      "payload": {
+        "type": "tutor",
+        "input": {
+          "competencyIds": [
+            "java.concurrency"
+          ],
+          "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a",
+          "learningGoal": "Improve the specific memory-model and executor reasoning gaps identified by assessment.",
+          "review": false
+        }
+      },
+      "taskId": "task_cf8c855d-4635-4e5f-8022-52276fd1f732"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_354fd11a-1c6c-4297-b66d-75965fb899dd",
+      "type": "task.completed",
+      "timestamp": "2026-09-10T02:37:40.517Z",
+      "traceId": "trace_55cdb6fe-67fe-4c2e-b712-f42c80db532c",
+      "payload": {
+        "type": "tutor"
+      },
+      "taskId": "task_cf8c855d-4635-4e5f-8022-52276fd1f732"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_be2cf980-797b-4ce0-85a5-ca4deaeabd1a",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:40.525Z",
+      "traceId": "trace_a650acb9-2ec8-468b-b5b7-9e06a1db7a5f",
+      "payload": {
+        "appended": 1,
+        "competencyCount": 2,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_ab57c86c-2e45-477c-bf76-23dc393f3647",
+      "type": "workflow.run.started",
+      "timestamp": "2026-09-10T02:37:40.532Z",
+      "traceId": "trace_47ef3dce-fab7-46ae-ad14-10143c862ea7",
+      "payload": {}
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_69171e4d-fb23-4847-9381-8cad7344b782",
+      "type": "workflow.decision.created",
+      "timestamp": "2026-09-10T02:37:40.535Z",
+      "traceId": "trace_47ef3dce-fab7-46ae-ad14-10143c862ea7",
+      "payload": {
+        "schemaVersion": 1,
+        "id": "decision_d0df865e-9b47-4d18-bdc2-748a8c85bdbf",
+        "action": "ASSESS",
+        "target": {
+          "competencyIds": [
+            "java.concurrency"
+          ],
+          "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+        },
+        "reason": "Learning produced promising formative evidence, but an independent clean measurement is still needed before treating the competency as current and strong.",
+        "expectedOutcome": "Validate the improvement without tutor support.",
+        "priority": "high",
+        "generatedAt": "2026-09-10T02:37:40.535Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      },
+      "decisionId": "decision_d0df865e-9b47-4d18-bdc2-748a8c85bdbf"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_d61d8091-e320-4dbb-b2ea-34b6b28c5456",
+      "type": "task.started",
+      "timestamp": "2026-09-10T02:37:40.540Z",
+      "traceId": "trace_f04ec446-005b-4354-a10a-6d9110af6d01",
+      "payload": {
+        "type": "assessment",
+        "input": {
+          "competencyId": "java.concurrency",
+          "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+        }
+      },
+      "taskId": "task_e8ab5fa0-02e8-4aa5-a4d1-5bdda987ba03"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_c347204e-1de9-4452-af13-3dc0be21a52b",
+      "type": "task.completed",
+      "timestamp": "2026-09-10T02:37:40.545Z",
+      "traceId": "trace_40422040-9104-427b-a13b-e9455a0d3793",
+      "payload": {
+        "type": "assessment"
+      },
+      "taskId": "task_e8ab5fa0-02e8-4aa5-a4d1-5bdda987ba03"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_77461922-ef25-4e23-8140-c0fe15f0d4e8",
+      "type": "state.updated",
+      "timestamp": "2026-09-10T02:37:40.554Z",
+      "traceId": "trace_5769dcab-063b-457a-bd5e-5f4562ca8510",
+      "payload": {
+        "appended": 1,
+        "competencyCount": 2,
+        "interviewDimensions": 0
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_b00935dd-e48c-49fd-a558-5639a124d221",
+      "type": "workflow.run.started",
+      "timestamp": "2026-09-10T02:37:40.561Z",
+      "traceId": "trace_9e80b87d-c878-408d-9356-6efa609e27d8",
+      "payload": {}
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_8bfc2618-358a-45e5-9b3e-87b3f98c0cf4",
+      "type": "workflow.decision.created",
+      "timestamp": "2026-09-10T02:37:40.564Z",
+      "traceId": "trace_9e80b87d-c878-408d-9356-6efa609e27d8",
+      "payload": {
+        "schemaVersion": 1,
+        "id": "decision_290c01c9-1104-4bd4-8649-7ef105c15a1a",
+        "action": "MOCK_INTERVIEW",
+        "target": {
+          "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+        },
+        "reason": "Java concurrency is now strong enough; the highest remaining value is testing whether knowledge can be retrieved and communicated under realistic mixed interview pressure.",
+        "expectedOutcome": "Measure technical delivery, follow-up stability, resume consistency, and remaining role gaps.",
+        "priority": "high",
+        "generatedAt": "2026-09-10T02:37:40.564Z",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "next-action-v1"
+      },
+      "decisionId": "decision_290c01c9-1104-4bd4-8649-7ef105c15a1a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_c5a24a6f-976d-4d2a-8ace-e3573f9c03ca",
+      "type": "task.started",
+      "timestamp": "2026-09-10T02:37:40.569Z",
+      "traceId": "trace_e31c1643-87f8-4e58-90b4-6bf7fe8d63a0",
+      "payload": {
+        "type": "interview",
+        "input": {
+          "mode": "full_mock",
+          "targetJobId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a"
+        }
+      },
+      "taskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "evt_a11439fd-340b-4da7-bdad-cf2d29f7cac7",
+      "type": "task.completed",
+      "timestamp": "2026-09-10T02:37:40.577Z",
+      "traceId": "trace_3dfe87b3-21d4-4027-8e35-2fa153a47569",
+      "payload": {
+        "type": "interview"
+      },
+      "taskId": "task_2aff0450-5112-4962-8f5f-fcfaff65c4b7"
+    }
+  ],
+  "decisionContext": {
+    "mode": "target_job",
+    "target": {
+      "schemaVersion": 1,
+      "id": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a",
+      "careerTargetId": "career_18284724-b379-4224-90dd-ae943f9ee593",
+      "title": "Backend Engineer",
+      "company": "ExampleCo",
+      "jdText": "Backend Engineer. Strong Java concurrency required. Experience with Redis caching and consistency required. Strong relational database transaction fundamentals preferred. Interview includes project deep-dive and system design.",
+      "status": "preparing",
+      "createdAt": "2026-09-10T02:37:40.457Z",
+      "updatedAt": "2026-09-10T02:37:40.457Z"
+    },
+    "readiness": {
+      "schemaVersion": 1,
+      "mode": "target_job",
+      "scopeId": "job_bf0ec0df-0cf2-4780-b0fa-cb630277254a",
+      "generatedAt": "2026-09-10T02:37:40.579Z",
+      "gaps": [
+        {
+          "competencyId": "java.concurrency",
+          "importance": 0.94,
+          "requiredMastery": 0.78,
+          "mastery": 0.6670575692963752,
+          "effectiveConfidence": 0.5684614967355707,
+          "status": "current",
+          "gap": 0.11294243070362486
+        },
+        {
+          "competencyId": "redis.cache-consistency",
+          "importance": 0.9,
+          "requiredMastery": 0.74,
+          "mastery": 0.62,
+          "effectiveConfidence": 0.05393121368174577,
+          "status": "unknown",
+          "gap": 0.12
+        },
+        {
+          "competencyId": "system-design.scalability",
+          "importance": 0.84,
+          "requiredMastery": 0.72,
+          "mastery": null,
+          "effectiveConfidence": 0,
+          "status": "unknown",
+          "gap": null
+        },
+        {
+          "competencyId": "mysql.mvcc",
+          "importance": 0.82,
+          "requiredMastery": 0.7,
+          "mastery": null,
+          "effectiveConfidence": 0,
+          "status": "unknown",
+          "gap": null
+        }
+      ],
+      "blockers": [
+        {
+          "id": "block_a892d147-3205-4d6c-9322-40e782165382",
+          "type": "uncertainty",
+          "severity": "high",
+          "title": "Uncertain: redis.cache-consistency",
+          "rationale": "Important requirement (0.90) lacks fresh, confident evidence.",
+          "competencyId": "redis.cache-consistency"
+        },
+        {
+          "id": "block_ea0b7652-c274-4f9c-a2e1-631ac1af4b93",
+          "type": "uncertainty",
+          "severity": "medium",
+          "title": "Uncertain: mysql.mvcc",
+          "rationale": "Important requirement (0.82) lacks fresh, confident evidence.",
+          "competencyId": "mysql.mvcc"
+        },
+        {
+          "id": "block_ed592292-558f-4a55-bf2c-fc1203e64365",
+          "type": "uncertainty",
+          "severity": "medium",
+          "title": "Uncertain: system-design.scalability",
+          "rationale": "Important requirement (0.84) lacks fresh, confident evidence.",
+          "competencyId": "system-design.scalability"
+        }
+      ],
+      "ready": false
+    },
+    "topCompetencyGaps": [
+      {
+        "competencyId": "java.concurrency",
+        "importance": 0.94,
+        "requiredMastery": 0.78,
+        "mastery": 0.6670575692963752,
+        "effectiveConfidence": 0.5684614967355707,
+        "status": "current",
+        "gap": 0.11294243070362486
+      },
+      {
+        "competencyId": "redis.cache-consistency",
+        "importance": 0.9,
+        "requiredMastery": 0.74,
+        "mastery": 0.62,
+        "effectiveConfidence": 0.05393121368174577,
+        "status": "unknown",
+        "gap": 0.12
+      },
+      {
+        "competencyId": "system-design.scalability",
+        "importance": 0.84,
+        "requiredMastery": 0.72,
+        "mastery": null,
+        "effectiveConfidence": 0,
+        "status": "unknown",
+        "gap": null
+      },
+      {
+        "competencyId": "mysql.mvcc",
+        "importance": 0.82,
+        "requiredMastery": 0.7,
+        "mastery": null,
+        "effectiveConfidence": 0,
+        "status": "unknown",
+        "gap": null
+      }
+    ],
+    "interview": [],
+    "evidence": [
+      {
+        "schemaVersion": 1,
+        "id": "evidence_509933e0-8702-4b32-b10c-167fe2889079",
+        "title": "E-commerce backend project",
+        "type": "project",
+        "description": "Resume describes an e-commerce service using Redis cache-aside.",
+        "confidence": "claimed",
+        "competencyIds": [],
+        "artifactRefs": [],
+        "sourceRefs": [
+          {
+            "id": "src_d3b6e488-d425-4e37-9c87-6a13b11f501b",
+            "kind": "file",
+            "locator": "sources/resume/normalized.md",
+            "capturedAt": "2026-09-10T02:37:40.461Z"
+          }
+        ],
+        "createdAt": "2026-09-10T02:37:40.461Z",
+        "updatedAt": "2026-09-10T02:37:40.461Z"
+      }
+    ],
+    "claimSupport": [],
+    "recentActions": [],
+    "candidates": [
+      {
+        "action": "ANALYZE_ROLE",
+        "allowed": true
+      },
+      {
+        "action": "ASSESS",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "java.concurrency",
+          "redis.cache-consistency",
+          "mysql.mvcc",
+          "system-design.scalability"
+        ]
+      },
+      {
+        "action": "LEARN",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "java.concurrency",
+          "redis.cache-consistency",
+          "mysql.mvcc",
+          "system-design.scalability"
+        ]
+      },
+      {
+        "action": "REVIEW",
+        "allowed": true,
+        "targetCompetencyIds": [
+          "java.concurrency",
+          "redis.cache-consistency",
+          "mysql.mvcc",
+          "system-design.scalability"
+        ]
+      },
+      {
+        "action": "MOCK_INTERVIEW",
+        "allowed": true
+      },
+      {
+        "action": "ANALYZE_EVIDENCE",
+        "allowed": true
+      },
+      {
+        "action": "UPDATE_RESUME",
+        "allowed": true
+      },
+      {
+        "action": "REFRESH_PROFILE",
+        "allowed": true
+      },
+      {
+        "action": "NO_ACTION",
+        "allowed": true
+      }
+    ]
+  }
+}

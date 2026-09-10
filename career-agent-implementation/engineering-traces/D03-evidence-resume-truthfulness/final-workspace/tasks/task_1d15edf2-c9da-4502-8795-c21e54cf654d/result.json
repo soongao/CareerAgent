@@ -1,0 +1,86 @@
+{
+  "observations": [
+    {
+      "schemaVersion": 1,
+      "id": "obs_af2f227a-b6a4-4f3f-aeb3-c8f8b4cb0be9",
+      "evaluationId": "eval_40b88750-3b11-4e30-9af6-7da365d8787d",
+      "timestamp": "2026-09-10T02:37:40.817Z",
+      "source": "interview",
+      "evidenceStrength": 0.71,
+      "confidence": 0.88,
+      "taskId": "task_1d15edf2-c9da-4502-8795-c21e54cf654d",
+      "summary": "Candidate can explain the documented cache-aside design and its failure modes.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "competency:redis.cache-consistency",
+      "target": {
+        "type": "competency",
+        "competencyId": "redis.cache-consistency"
+      },
+      "masterySignal": 0.73,
+      "strengths": [
+        "Distinguishes cache use from consistency guarantees"
+      ],
+      "weaknesses": [
+        "No quantitative performance evidence"
+      ],
+      "misconceptions": []
+    },
+    {
+      "schemaVersion": 1,
+      "id": "obs_ad76fc4d-3b94-450a-940a-4a48dc6065d4",
+      "evaluationId": "eval_40b88750-3b11-4e30-9af6-7da365d8787d",
+      "timestamp": "2026-09-10T02:37:40.817Z",
+      "source": "interview",
+      "evidenceStrength": 0.65,
+      "confidence": 0.87,
+      "taskId": "task_1d15edf2-c9da-4502-8795-c21e54cf654d",
+      "summary": "Ownership and uncertainty are communicated clearly.",
+      "evaluator": {
+        "name": "interview-evaluator",
+        "model": "GPT-5.6 Sol",
+        "promptVersion": "interview-eval-v1"
+      },
+      "semanticKey": "interview:clarity",
+      "target": {
+        "type": "interview_dimension",
+        "dimension": "clarity"
+      },
+      "signal": 0.76
+    }
+  ],
+  "evaluation": {
+    "contaminated": false,
+    "competencyObservations": [
+      {
+        "competencyId": "redis.cache-consistency",
+        "masterySignal": 0.73,
+        "evidenceStrength": 0.71,
+        "confidence": 0.88,
+        "summary": "Candidate can explain the documented cache-aside design and its failure modes.",
+        "strengths": [
+          "Distinguishes cache use from consistency guarantees"
+        ],
+        "weaknesses": [
+          "No quantitative performance evidence"
+        ],
+        "misconceptions": []
+      }
+    ],
+    "interviewObservations": [
+      {
+        "dimension": "clarity",
+        "signal": 0.76,
+        "evidenceStrength": 0.65,
+        "confidence": 0.87,
+        "summary": "Ownership and uncertainty are communicated clearly."
+      }
+    ],
+    "claimFindings": [],
+    "overallFeedback": "The technical story is credible when restricted to supported facts; performance improvement remains unverified."
+  },
+  "claimSupport": []
+}
